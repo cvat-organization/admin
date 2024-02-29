@@ -38,6 +38,7 @@ function Login() {
           { withCredentials: true }
         );
         if (data && data.token) {
+          localStorage.setItem('jwt', data.token);
           navigate("/");
         }
       } catch (ex: any) {

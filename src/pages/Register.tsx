@@ -12,7 +12,7 @@ function Register() {
     phoneNo: "",
     email: "",
     password: "",
-    userType: "Customer", // Default user type
+    userType: "Superuser", // Default user type
   });
 
   const navigate = useNavigate();

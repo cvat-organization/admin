@@ -8,6 +8,7 @@ import Register from "./pages/Register";
     return (
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Secret />} />
           <Route path="/register" element = {<Register/>}/>
           <Route path="/login" element={<Login />} />
           <Route path="/" element={<Secret />} />
