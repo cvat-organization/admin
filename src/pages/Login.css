@@ -1,0 +1,120 @@
+.Login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:white;
+  border-radius: 0px;
+  border-top:white;
+}
+
+.Picture-Form-container{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 100%;
+}
+
+.form-container,
+.picture-container{
+    flex:1;
+    padding:20px;
+    
+}
+.form-container {
+    background-color: #faecd4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 2.5%; /* Reduce margin between form and picture containers */
+    max-width: calc(40% - 5%); /* Set maximum width for form container */
+}
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.form-container input[type="email"],
+.form-container input[type="password"] {
+    padding: 12px;
+    margin-bottom: 0px;
+    border: 1px solid #d19641;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+
+
+
+.form-container button[type="submit"] {
+    padding: 12px;
+    background-color: #d19641;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: #b1721a;
+
+}
+
+.form-container span {
+    margin-top: 10px;
+    color: #555;
+    font-size: 14px;
+    text-align: center;
+}
+
+.form-container span a {
+    color: #d19641  ;
+    text-decoration: none;
+}
+
+.form-container span a:hover {
+    text-decoration: underline;
+}
+.picture-container {
+    background-color: white; /* Example background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+    margin-left: 2.5%; /* Reduce margin between form and picture containers */
+    max-width: calc(55% - 5%); /* Set maximum width for picture container */
+}
+
+.picture-container img {
+    width: 100%; /* Ensure the image fits the container width */
+    height: auto;    /* Maintain aspect ratio */
+    border-radius: 0px;
+}
+
+@media only screen and (max-width:768px){
+    .Picture-Form-container{
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .form-container,
+    .picture-container{
+        width:100%;
+        margin:0;
+        max-width: 100%;
+
+    }
+}

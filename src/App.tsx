@@ -1,8 +1,8 @@
-  import React from "react";
-  import { BrowserRouter, Routes, Route } from "react-router-dom";
-  import Login from './pages/Login'; // Change the import statement to use the correct casing
-  import Secret from './pages/Secret' ;
-  import "react-toastify/dist/ReactToastify.css";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from './pages/Login'; 
+import Secret from './pages/Secret' ;
+import "react-toastify/dist/ReactToastify.css";
 import Register from "./pages/Register";
   export default function App() {
     return (

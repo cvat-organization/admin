@@ -52,8 +52,9 @@ function Register() {
   };
 
   return (
-    <div className="container">
+    <div className="container1">
       <h2>Register a New User</h2>
+      
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="firstName">First Name</label>
