@@ -11,7 +11,13 @@ type Props = {
   percentage: number;
   chartData: object[];
 };
-
+/*
+create a Variable for dates
+and counter
+30 days 
+then counter+1 until 30
+those should only be the inputs for the chartData
+*/
 const ChartBox = (props: Props) => {
   return (
     <div className="chartBox">
