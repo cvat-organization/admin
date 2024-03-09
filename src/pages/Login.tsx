@@ -4,7 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import "./Login.css";
+import "../Design/Login.scss";
 
 
 //Format for the form values
@@ -100,7 +100,7 @@ function Login() {
             <ToastContainer />
           </div>
     <div className="picture-container">
-      <img src={require("./Images/i.jpg")} alt="Login illustration" />
+      <img src={require("../Images/Admin_page.jpg")} alt="Login illustration" />
     </div>
   </div>
   </div>
