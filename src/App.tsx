@@ -1,13 +1,12 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, redirect } from "react-router-dom";
 import Login from "./pages/Login";
-import Secret from "./pages/Secret";
 import "react-toastify/dist/ReactToastify.css";
 import Register from "./pages/Register";
 import "./App.css";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import Home from "./pages/Home/Home";
+import Home from "./pages/Home";
 import Menu from "./components/menu/Menu";
 import Navbar from "./components/navbar/Navbar";
 const queryClient = new QueryClient();
@@ -62,10 +61,7 @@ function App() {
       path: "/login",
       element: <Login />,
     },
-    {
-      path: "/secret",
-      element: <Secret />,
-    },
+
   ]);
 
   return <RouterProvider router={router} />;
