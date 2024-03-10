@@ -9,12 +9,18 @@ export const menu = [
         url: "/",
         icon: "home.svg",
       },
-      // {
-      //   id: 2,
-      //   title: "Profile",
-      //   url: "/users/1",
-      //   icon: "user.svg",
-      // },
+      {
+        id: 2,
+        title: "Profile",
+        url: "/profile",
+        icon: "user.svg",
+      },
+      {
+        id: 3,
+        title: "Test",
+        url: "/test",
+        icon: "user.svg",
+      },
     ],
   },
   // {

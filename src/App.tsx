@@ -9,6 +9,9 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Home from "./pages/Home";
 import Menu from "./components/menu/Menu";
 import Navbar from "./components/navbar/Navbar";
+import { profile } from "console";
+import Profile from "./pages/Profile";
+import Test from "./pages/Test";
 const queryClient = new QueryClient();
 
 // export default function App() {
@@ -51,6 +54,10 @@ function App() {
           path: "/",
           element: <Home />,
         },
+        {
+          path: "/profile",
+          element: <Profile />,
+        },
       ],
     },
     {
@@ -61,7 +68,10 @@ function App() {
       path: "/login",
       element: <Login />,
     },
-
+    {
+      path: "/test",
+      element: <Test />,
+    },
   ]);
 
   return <RouterProvider router={router} />;
