@@ -2,15 +2,20 @@
 @import "../../styles/responsive.scss";
 
 .menu {
+  // display: flex; /* Use flexbox to align items horizontally */
+  // flex-direction: column; /* Stack items vertically */
+  float: left;
   .item {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-bottom: 20px;
-    float: left;
+    // float: left;
     padding: 20px;
     border-right: 2px solid $soft-bg;
-    
+    .toggle-button {
+      background-color: #faecd4; /* Light peach background */
+    }
 
     .title {
       font-size: 12px;

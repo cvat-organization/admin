@@ -11,21 +11,11 @@ import Menu from "./components/menu/Menu";
 import Navbar from "./components/navbar/Navbar";
 import { profile } from "console";
 import Profile from "./pages/Profile";
-import Test from "./pages/Test";
+import Sample from "./pages/sample";
+import { useState } from "react";
+
 const queryClient = new QueryClient();
 
-// export default function App() {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//         <Route path="/" element={<Layout />} />
-//         <Route path="/register" element = {<Register/>}/>
-//         <Route path="/login" element={<Login />} />
-//         <Route path="/Secret" element={<Secret />} />
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
 function App() {
   const Layout = () => {
     return (
@@ -58,6 +48,10 @@ function App() {
           path: "/profile",
           element: <Profile />,
         },
+        {
+          path: "/sample",
+          element: <Sample />,
+        },
       ],
     },
     {
@@ -67,10 +61,6 @@ function App() {
     {
       path: "/login",
       element: <Login />,
-    },
-    {
-      path: "/test",
-      element: <Test />,
     },
   ]);
 
