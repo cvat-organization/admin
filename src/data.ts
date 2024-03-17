@@ -6,7 +6,7 @@ export const menu = [
       {
         id: 1,
         title: "Homepage",
-        url: "/",
+        url: "/sample",
         icon: "home-2.svg",
       },
       {
@@ -15,12 +15,36 @@ export const menu = [
         url: "/profile",
         icon: "profile-2.svg",
       },
+      // {
+      //   id: 3,
+      //   title: "Sample",
+      //   url: "/",
+      //   icon: "profile-2.svg",
+      // },
       {
-        id: 3,
-        title: "Sample",
-        url: "/sample",
-        icon: "profile-2.svg",
+        id: 4,
+        title: "Vendor",
+        url: "/profile",
+        icon: "vendor.svg",
+      },{
+        id: 5,
+        title: "Activity",
+        url: "/profile",
+        icon: "activity.svg",
+      },{
+        id: 6,
+        title: "Challenge",
+        url: "/profile",
+        icon: "challenge-icon.svg",
       },
+      {
+        id: 7,
+        title: "Settings",
+        url: "/profile",
+        icon: "settings-icon.svg",
+      },
+
+      
     ],
   },
   // {
