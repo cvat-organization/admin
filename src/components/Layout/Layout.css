@@ -1,0 +1,31 @@
+/* Layout.css */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex: 1;
+  }
+  
+  .menuContainer {
+    width: 200px;
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* White text color */
+  }
+  
+  .menuContainer h2 {
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .contentContainer {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+    border-left: 1px solid #dee2e6; /* Border between menu and content */
+  }
+  

@@ -1,0 +1,59 @@
+@import "../../styles/responsive.scss";
+@import "../../styles/variables.scss";
+.navbar {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; // Align items with space between them
+  color: white;
+  background-color: #d19641;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+    margin-right: auto;
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+
+    .icon {
+      border-radius: 5px;
+
+      &:hover {
+        background-color: $soft-bg;
+      }
+
+      @include sm {
+        display: none;
+      }
+    }
+
+    .user {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      img {
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .menu-toggle {
+    background-color: #d19641;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+}
+

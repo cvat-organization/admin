@@ -1,12 +1,19 @@
-import React, { useEffect } from "react";
+import {useEffect} from "react";
+import Menu from "../menu/Menu";
+import Navbar from "../navbar/Navbar";
+import { Outlet } from "react-router-dom";
+import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const Secret: React.FC = () => {
-  const navigate = useNavigate();
 
+const queryClient = new QueryClient();
+
+
+const Layout = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     const fetchHomepageData = async () => {
       try {
@@ -61,14 +68,21 @@ const Secret: React.FC = () => {
       navigate("/login"); // Use navigate for redirection
     }
   };
-
   return (
-    <div className="private">
-      <h1>Secret</h1>
-      <button onClick={logOut}>Log out</button>
-      <ToastContainer />
+    <div className="main">
+      {/* <Navbar /> */}
+      <div className="container">
+        <div className="menuContainer">
+          <Menu />
+        </div>
+        <div className="contentContainer">
+          <QueryClientProvider client={queryClient}>
+            <Outlet />
+          </QueryClientProvider>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Secret;
+export default Layout;
