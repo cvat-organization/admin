@@ -1,40 +1,24 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, redirect } from "react-router-dom";
-import Login from "./pages/Login";
+import Login from "./pages/Login/Login";
+import Register from "./pages/SignUp/SignUp";
+import ForgotPassword from "./pages/ForgotPassword/ForgotPassword";
 import "react-toastify/dist/ReactToastify.css";
-import Register from "./pages/Register";
 import "./App.css";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import Home from "./pages/Home";
-import Menu from "./components/menu/Menu";
-import Navbar from "./components/navbar/Navbar";
+import Home from "./pages/Home/Home";
 import { profile } from "console";
 import Profile from "./pages/Profile";
 import Sample from "./pages/sample";
 import { useState } from "react";
+import Layout from "./components/Layout/Layout";
+import NewPassword from "./pages/ForgotPassword/NewPassword";
+import VendorForm from "./pages/Vendor/VendorOnboarding";
 
 const queryClient = new QueryClient();
 
 function App() {
-  const Layout = () => {
-    return (
-      <div className="main">
-        {/* <Navbar /> */}
-        <div className="container">
-          <div className="menuContainer">
-            <Menu />
-          </div>
-          <div className="contentContainer">
-            <QueryClientProvider client={queryClient}>
-              <Outlet />
-            </QueryClientProvider>
-          </div>
-        </div>
-      </div>
-    );
-  };
-
   const router = createBrowserRouter([
     {
       path: "/",
@@ -52,15 +36,27 @@ function App() {
           path: "/sample",
           element: <Sample />,
         },
+        {
+          path: "/vendor/onboarding",
+          element: <VendorForm/>,
+        },
       ],
     },
     {
-      path: "/register",
+      path: "/signup",
       element: <Register />,
     },
     {
       path: "/login",
       element: <Login />,
+    },
+    {
+      path: "/forgotPassword",
+      element: <ForgotPassword />,
+    },
+    {
+      path: "/newpassword",
+      element: <NewPassword/>,
     },
   ]);
 
