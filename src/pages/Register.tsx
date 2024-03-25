@@ -16,12 +16,12 @@ function Register() {
   });
 
   const navigate = useNavigate();
-  const generateError = (error:string) =>
+  const generateError = (error: string) =>
     toast.error(error, {
       position: "bottom-right",
     });
 
-  const handleSubmit = async (event:React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     try {
       const { data } = await axios.post(
@@ -33,11 +33,11 @@ function Register() {
         toast.success(data.message, {
           position: "bottom-right",
         });
-        navigate("/login")
+        navigate("/login");
         // Optionally, redirect user to login page after successful registration
         // history.push("/login");
       }
-    } catch (ex:any) {
+    } catch (ex: any) {
       if (ex.response && ex.response.data && ex.response.data.message) {
         generateError(ex.response.data.message);
       } else {
@@ -46,7 +46,7 @@ function Register() {
     }
   };
 
-  const handleChange = (e:React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setValues({ ...values, [name]: value });
   };
@@ -54,7 +54,7 @@ function Register() {
   return (
     <div className="container1">
       <h2>Register a New User</h2>
-      
+
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="fullName">First Name</label>
@@ -113,8 +113,8 @@ function Register() {
         <button type="submit">Register</button>
       </form>
       <span>
-          Already have an account ?<Link to="/login"> Login</Link>
-     </span>
+        Already have an account ?<Link to="/login"> Login</Link>
+      </span>
       <ToastContainer />
     </div>
   );

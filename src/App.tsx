@@ -20,7 +20,7 @@ function App() {
   const Layout = () => {
     return (
       <div className="main">
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="container">
           <div className="menuContainer">
             <Menu />

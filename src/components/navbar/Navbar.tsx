@@ -1,25 +1,81 @@
+// import "./navbar.scss";
+
+// const Navbar = () => {
+//   return (
+//     <div className="navbar">
+//       <div className="logo">
+//         <img src="logo.svg" alt="" />
+//         <span>a c t i v o</span>
+//       </div>
+//       <div className="icons">
+//         <div className="user">
+//           <span>Sathish</span>
+//           <img src="profile-2.svg" alt="" className="icon" />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Navbar;
+
+// import React, { useState } from "react";
+// import "./navbar.scss";
+// import DropDown from "../dropdown/dropdown";
+
+// const Navbar: React.FC = () => {
+//   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+//   const toggleDropdown = () => {
+//     setIsDropdownOpen(!isDropdownOpen);
+//   };
+
+//   return (
+//     <div className="navbar">
+//       <div className="logo">
+//         <img src="logo.svg" alt="" />
+//         <span>CareVigil</span>
+//       </div>
+//       <div className="icons">
+//         <div className="user">
+//           <span>Sathish</span>
+//           <img
+//             src="profile-2.svg"
+//             alt=""
+//             className="icon"
+//             onClick={toggleDropdown}
+//           />
+//           <DropDown showDropDown={isDropdownOpen} />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Navbar;
+
+import React from "react";
 import "./navbar.scss";
 
-const Navbar = () => {
+interface NavbarProps {
+  toggleMenu: () => void;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ toggleMenu }) => {
   return (
     <div className="navbar">
+      <button onClick={toggleMenu} className="menu-toggle">
+        <img src="/toggle-menu.svg" alt="Toggle Menu" />
+      </button>
       <div className="logo">
         <img src="logo.svg" alt="" />
-        <span>CareVigil</span>
+        <span>a c t i v o</span>
       </div>
       <div className="icons">
-        <img src="/search.svg" alt="" className="icon" />
-        <img src="/app.svg" alt="" className="icon" />
-        <img src="/expand.svg" alt="" className="icon" />
-        <div className="notification">
-          <img src="/notifications.svg" alt="" />
-          {/* <span>1</span> */}
-        </div>
         <div className="user">
-          <img src="tekken icon.ico" alt="" />
-          <span>Bois</span>
+          <span>Sathish</span>
+          <img src="profile-2.svg" alt="" className="icon" />
         </div>
-        <img src="/settings.svg" alt="" className="icon" />
       </div>
     </div>
   );
