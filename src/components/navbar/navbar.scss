@@ -1,11 +1,12 @@
 @import "../../styles/responsive.scss";
 @import "../../styles/variables.scss";
+
 .navbar {
   width: 100%;
   padding: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between; // Align items with space between them
+  justify-content: space-between;
   color: white;
   background-color: #d19641;
 
@@ -24,10 +25,12 @@
     padding-right: 20px;
 
     .icon {
-      border-radius: 5px;
+      border-radius: 50%;
+      padding: 8px; /* Add padding to make icons clickable */
+      transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
 
       &:hover {
-        background-color: $soft-bg;
+        background-color: rgba(255, 255, 255, 0.1); /* Add subtle hover effect */
       }
 
       @include sm {
@@ -55,5 +58,41 @@
     cursor: pointer;
     outline: none;
   }
-}
 
+  .profile-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .profile-dropdown {
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    right: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 100;
+    min-width: 120px;
+
+    a,
+    button {
+      display: block;
+      padding: 8px 12px;
+      text-decoration: none;
+      color: #333;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #f5f5f5;
+      }
+    }
+
+    button {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+  }
+}

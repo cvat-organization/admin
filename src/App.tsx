@@ -14,7 +14,7 @@ import Sample from "./pages/sample";
 import { useState } from "react";
 import Layout from "./components/Layout/Layout";
 import NewPassword from "./pages/ForgotPassword/NewPassword";
-import VendorForm from "./pages/Vendor/VendorOnboarding";
+import VendorForm from "./pages/Vendor/VendorRegistration";
 
 const queryClient = new QueryClient();
 
