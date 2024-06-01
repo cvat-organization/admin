@@ -1,155 +1,127 @@
-/* VendorRegistration.css */
+.LargerVendorFormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f4f8;
 
-.contentContainer{
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Set height to fill the viewport */
 }
-/* Container for the form */
+
+.SmallerVendorFormContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 70%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.vertical-progress-bar {
+  width: 10px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.vertical-progress-bar::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, #4caf50, #4caf50);
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: height 0.3s ease-in-out;
+}
+
+.progress-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  padding-left: 10px;
+}
+
 .VendorFormContainer {
-    width: 100%;
-    max-width: 700px;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: white;
-  }
-  
-  /* Form heading */
-  .VendorFormContainer h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  
-  /* Form input fields */
-  .VendorFormContainer input[type="text"],
-  .VendorFormContainer input[type="email"],
-  .VendorFormContainer select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    background-color: white;
-    color: black;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: medium;
-  }
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
 
-  .VendorFormContainer textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    color: black;
-    background-color: white;
-    font-family: inherit;
-    font-size: medium; /* Adjust the font size as needed */
-  }
+.input-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
 
-  /* Submit button */
-  .VendorFormContainer button[type="submit"],
-  .VendorFormContainer button[type="button"] {
-    width: 100%;
-    background-color: #d19641;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .VendorFormContainer button[type="submit"]:hover,
-  .VendorFormContainer button[type="button"]:hover {
-    background-color: #d19641;
-  }
-  
-  /* Progress bar */
-  .ProgressContainer {
-    width: 100%;
-    background-color: #ddd;
-  }
-  
-/* Progress bar */
-.ProgressContainer {
-    width: 100%;
-    background-color: #ddd;
-    color :#d19641;
-    margin-bottom: 20px; /* Adjust the value as needed */
-  }
-
-  .VendorFormContainer div {
-    margin-bottom: 20px; /* Adjust the value as needed */
-  }
-  /* Add this to VendorRegistration.css */
-
-.registered-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .tick-icon {
-    font-size: 60px; /* Adjust size as needed */
-    color: #d19641; /* Green color */
-  }
-  
-  .tick-icon i {
-    border-radius: 50%;
-    background-color: #fff;
-    padding: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  }
-  .input-wrapper {
-    position: relative;
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 .placeholder-label {
-    position: absolute;
-    left: 10px; /* Adjust to match the placeholder's left padding */
-    top: 10px; /* Adjust to match the placeholder's top padding */
-    color: #999;
-    pointer-events: none;
-    transition: 0.2s ease-out;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  background: white;
+  padding: 0 5px;
+  color: #888;
+  pointer-events: none;
+  transition: top 0.2s, color 0.2s;
 }
 
-input {
-    padding: 10px; /* Match the padding of the placeholder */
+.input-wrapper input:focus + .placeholder-label,
+.input-wrapper input:not(:placeholder-shown) + .placeholder-label,
+.input-wrapper textarea:focus + .placeholder-label,
+.input-wrapper textarea:not(:placeholder-shown) + .placeholder-label,
+.input-wrapper select:focus + .placeholder-label,
+.input-wrapper select:not(:placeholder-shown) + .placeholder-label {
+  top: -10px;
+  color: #4caf50;
 }
 
-input:focus + .placeholder-label,
-input:not(:placeholder-shown) + .placeholder-label {
-    top: -20px; /* Move label up to overlap with placeholder */
-    font-size: 12px;
-    color: #333;
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
 }
 
-textarea {
-    padding: 10px; /* Match the padding of the placeholder */
+button:hover {
+  background-color: #45a049;
 }
 
-textarea:focus + .placeholder-label,
-textarea:not(:placeholder-shown) + .placeholder-label {
-    top: -20px; /* Move label up to overlap with placeholder */
-    font-size: 12px;
-    color: #333;
+.registered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
 
-select {
-    padding: 10px; /* Match the padding of the placeholder */
+.tick-icon {
+  font-size: 50px;
+  color: #4caf50;
 }
 
-select:focus + .placeholder-label,
-select:not(:placeholder-shown) + .placeholder-label {
-    top: -20px; /* Move label up to overlap with placeholder */
-    font-size: 12px;
-    color: #333;
+.tick-icon .fas {
+  font-size: 50px;
+  color: #4caf50;
 }
 
+p {
+  font-size: 18px;
+  color: #333;
+}

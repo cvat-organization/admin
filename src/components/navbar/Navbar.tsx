@@ -56,6 +56,10 @@ const Navbar: React.FC<NavbarProps> = ({ toggleMenu }) => {
     setIsProfileDropdownOpen(!isProfileDropdownOpen);
   };
 
+  const viewProfile = () => {
+    navigate("/profile");
+  };
+
   const logOut = async () => {
     try {
       await axios.post(
@@ -67,7 +71,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggleMenu }) => {
       );
       localStorage.removeItem("jwt");
       navigate("/login"); // Use navigate for redirection
-    } catch (error:any) {
+    } catch (error: any) {
       if (error.response) {
         if (error.response.status === 401) {
           toast.error("Unauthenticated token / Session not found");
@@ -80,7 +84,6 @@ const Navbar: React.FC<NavbarProps> = ({ toggleMenu }) => {
       navigate("/login"); // Use navigate for redirection
     }
   };
-
 
   return (
     <div className="navbar">
@@ -97,11 +100,11 @@ const Navbar: React.FC<NavbarProps> = ({ toggleMenu }) => {
             <>
               <span>{userProfile.fullName}</span>
               <button onClick={handleProfileClick} className="profile-button">
-                <img src={`data:image/jpeg;base64,${userProfile.profilePicture}`} alt="Profile" className="icon" />
+                <img src={`data:image/jpeg;base64,${userProfile.profilePicture}`} alt="" className="icon" />
               </button>
               {isProfileDropdownOpen && (
                 <div className="profile-dropdown">
-                  <a href="/profile">View Profile</a>
+                  <button onClick={viewProfile}>View Profile</button>
                   <button onClick={logOut}>Logout</button>
                 </div>
               )}

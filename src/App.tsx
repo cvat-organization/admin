@@ -15,6 +15,7 @@ import { useState } from "react";
 import Layout from "./components/Layout/Layout";
 import NewPassword from "./pages/ForgotPassword/NewPassword";
 import VendorForm from "./pages/Vendor/VendorRegistration";
+import ProfilePage from "./pages/Profile/Profile";
 
 const queryClient = new QueryClient();
 
@@ -30,7 +31,7 @@ function App() {
         },
         {
           path: "/profile",
-          element: <Profile />,
+          element: <ProfilePage />,
         },
         {
           path: "/sample",

@@ -1,12 +1,13 @@
 import {useEffect} from "react";
 import Menu from "../menu/Menu";
-import Navbar from "../navbar/Navbar";
 import { Outlet } from "react-router-dom";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "./Layout.css";
+import Sidebar from "../sidebar/sidebar";
 
 
 const queryClient = new QueryClient();
@@ -76,9 +77,16 @@ const Layout = () => {
           <Menu />
         </div>
         <div className="contentContainer">
-          <QueryClientProvider client={queryClient}>
-            <Outlet />
-          </QueryClientProvider>
+          <div className="container1">
+            <Sidebar />
+            {/* Content for container 1 */}
+          </div>
+          <div className="container2">
+            <QueryClientProvider client={queryClient}>
+              {/* Content for container 2 */}
+              <Outlet />
+            </QueryClientProvider>
+          </div>
         </div>
       </div>
     </div>
