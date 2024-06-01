@@ -1,0 +1,5507 @@
+[
+  {
+    "date": "2023-03-15",
+    "city": "Chennai",
+    "users": 125
+  },
+  {
+    "date": "2023-03-15",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2023-03-15",
+    "city": "Moscow",
+    "users": 121
+  },
+  {
+    "date": "2023-03-16",
+    "city": "Chennai",
+    "users": 136
+  },
+  {
+    "date": "2023-03-16",
+    "city": "New York",
+    "users": 112
+  },
+  {
+    "date": "2023-03-16",
+    "city": "Moscow",
+    "users": 145
+  },
+  {
+    "date": "2023-03-17",
+    "city": "Chennai",
+    "users": 120
+  },
+  {
+    "date": "2023-03-17",
+    "city": "New York",
+    "users": 125
+  },
+  {
+    "date": "2023-03-17",
+    "city": "Moscow",
+    "users": 126
+  },
+  {
+    "date": "2023-03-18",
+    "city": "Chennai",
+    "users": 120
+  },
+  {
+    "date": "2023-03-18",
+    "city": "New York",
+    "users": 124
+  },
+  {
+    "date": "2023-03-18",
+    "city": "Moscow",
+    "users": 138
+  },
+  {
+    "date": "2023-03-19",
+    "city": "Chennai",
+    "users": 122
+  },
+  {
+    "date": "2023-03-19",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2023-03-19",
+    "city": "Moscow",
+    "users": 150
+  },
+  {
+    "date": "2023-03-20",
+    "city": "Chennai",
+    "users": 137
+  },
+  {
+    "date": "2023-03-20",
+    "city": "New York",
+    "users": 115
+  },
+  {
+    "date": "2023-03-20",
+    "city": "Moscow",
+    "users": 114
+  },
+  {
+    "date": "2023-03-21",
+    "city": "Chennai",
+    "users": 104
+  },
+  {
+    "date": "2023-03-21",
+    "city": "New York",
+    "users": 119
+  },
+  {
+    "date": "2023-03-21",
+    "city": "Moscow",
+    "users": 135
+  },
+  {
+    "date": "2023-03-22",
+    "city": "Chennai",
+    "users": 136
+  },
+  {
+    "date": "2023-03-22",
+    "city": "New York",
+    "users": 126
+  },
+  {
+    "date": "2023-03-22",
+    "city": "Moscow",
+    "users": 121
+  },
+  {
+    "date": "2023-03-23",
+    "city": "Chennai",
+    "users": 104
+  },
+  {
+    "date": "2023-03-23",
+    "city": "New York",
+    "users": 107
+  },
+  {
+    "date": "2023-03-23",
+    "city": "Moscow",
+    "users": 125
+  },
+  {
+    "date": "2023-03-24",
+    "city": "Chennai",
+    "users": 121
+  },
+  {
+    "date": "2023-03-24",
+    "city": "New York",
+    "users": 117
+  },
+  {
+    "date": "2023-03-24",
+    "city": "Moscow",
+    "users": 111
+  },
+  {
+    "date": "2023-03-25",
+    "city": "Chennai",
+    "users": 109
+  },
+  {
+    "date": "2023-03-25",
+    "city": "New York",
+    "users": 132
+  },
+  {
+    "date": "2023-03-25",
+    "city": "Moscow",
+    "users": 143
+  },
+  {
+    "date": "2023-03-26",
+    "city": "Chennai",
+    "users": 124
+  },
+  {
+    "date": "2023-03-26",
+    "city": "New York",
+    "users": 149
+  },
+  {
+    "date": "2023-03-26",
+    "city": "Moscow",
+    "users": 135
+  },
+  {
+    "date": "2023-03-27",
+    "city": "Chennai",
+    "users": 138
+  },
+  {
+    "date": "2023-03-27",
+    "city": "New York",
+    "users": 128
+  },
+  {
+    "date": "2023-03-27",
+    "city": "Moscow",
+    "users": 107
+  },
+  {
+    "date": "2023-03-28",
+    "city": "Chennai",
+    "users": 124
+  },
+  {
+    "date": "2023-03-28",
+    "city": "New York",
+    "users": 145
+  },
+  {
+    "date": "2023-03-28",
+    "city": "Moscow",
+    "users": 135
+  },
+  {
+    "date": "2023-03-29",
+    "city": "Chennai",
+    "users": 101
+  },
+  {
+    "date": "2023-03-29",
+    "city": "New York",
+    "users": 139
+  },
+  {
+    "date": "2023-03-29",
+    "city": "Moscow",
+    "users": 125
+  },
+  {
+    "date": "2023-03-30",
+    "city": "Chennai",
+    "users": 113
+  },
+  {
+    "date": "2023-03-30",
+    "city": "New York",
+    "users": 124
+  },
+  {
+    "date": "2023-03-30",
+    "city": "Moscow",
+    "users": 100
+  },
+  {
+    "date": "2023-03-31",
+    "city": "Chennai",
+    "users": 138
+  },
+  {
+    "date": "2023-03-31",
+    "city": "New York",
+    "users": 147
+  },
+  {
+    "date": "2023-03-31",
+    "city": "Moscow",
+    "users": 140
+  },
+  {
+    "date": "2023-04-01",
+    "city": "Chennai",
+    "users": 127
+  },
+  {
+    "date": "2023-04-01",
+    "city": "New York",
+    "users": 138
+  },
+  {
+    "date": "2023-04-01",
+    "city": "Moscow",
+    "users": 125
+  },
+  {
+    "date": "2023-04-02",
+    "city": "Chennai",
+    "users": 110
+  },
+  {
+    "date": "2023-04-02",
+    "city": "New York",
+    "users": 120
+  },
+  {
+    "date": "2023-04-02",
+    "city": "Moscow",
+    "users": 108
+  },
+  {
+    "date": "2023-04-03",
+    "city": "Chennai",
+    "users": 129
+  },
+  {
+    "date": "2023-04-03",
+    "city": "New York",
+    "users": 141
+  },
+  {
+    "date": "2023-04-03",
+    "city": "Moscow",
+    "users": 121
+  },
+  {
+    "date": "2023-04-04",
+    "city": "Chennai",
+    "users": 129
+  },
+  {
+    "date": "2023-04-04",
+    "city": "New York",
+    "users": 121
+  },
+  {
+    "date": "2023-04-04",
+    "city": "Moscow",
+    "users": 141
+  },
+  {
+    "date": "2023-04-05",
+    "city": "Chennai",
+    "users": 125
+  },
+  {
+    "date": "2023-04-05",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2023-04-05",
+    "city": "Moscow",
+    "users": 150
+  },
+  {
+    "date": "2023-04-06",
+    "city": "Chennai",
+    "users": 127
+  },
+  {
+    "date": "2023-04-06",
+    "city": "New York",
+    "users": 111
+  },
+  {
+    "date": "2023-04-06",
+    "city": "Moscow",
+    "users": 143
+  },
+  {
+    "date": "2023-04-07",
+    "city": "Chennai",
+    "users": 128
+  },
+  {
+    "date": "2023-04-07",
+    "city": "New York",
+    "users": 100
+  },
+  {
+    "date": "2023-04-07",
+    "city": "Moscow",
+    "users": 140
+  },
+  {
+    "date": "2023-04-08",
+    "city": "Chennai",
+    "users": 144
+  },
+  {
+    "date": "2023-04-08",
+    "city": "New York",
+    "users": 107
+  },
+  {
+    "date": "2023-04-08",
+    "city": "Moscow",
+    "users": 134
+  },
+  {
+    "date": "2023-04-09",
+    "city": "Chennai",
+    "users": 143
+  },
+  {
+    "date": "2023-04-09",
+    "city": "New York",
+    "users": 105
+  },
+  {
+    "date": "2023-04-09",
+    "city": "Moscow",
+    "users": 114
+  },
+  {
+    "date": "2023-04-10",
+    "city": "Chennai",
+    "users": 150
+  },
+  {
+    "date": "2023-04-10",
+    "city": "New York",
+    "users": 126
+  },
+  {
+    "date": "2023-04-10",
+    "city": "Moscow",
+    "users": 149
+  },
+  {
+    "date": "2023-04-11",
+    "city": "Chennai",
+    "users": 115
+  },
+  {
+    "date": "2023-04-11",
+    "city": "New York",
+    "users": 147
+  },
+  {
+    "date": "2023-04-11",
+    "city": "Moscow",
+    "users": 102
+  },
+  {
+    "date": "2023-04-12",
+    "city": "Chennai",
+    "users": 114
+  },
+  {
+    "date": "2023-04-12",
+    "city": "New York",
+    "users": 120
+  },
+  {
+    "date": "2023-04-12",
+    "city": "Moscow",
+    "users": 146
+  },
+  {
+    "date": "2023-04-13",
+    "city": "Chennai",
+    "users": 120
+  },
+  {
+    "date": "2023-04-13",
+    "city": "New York",
+    "users": 118
+  },
+  {
+    "date": "2023-04-13",
+    "city": "Moscow",
+    "users": 111
+  },
+  {
+    "date": "2023-04-14",
+    "city": "Chennai",
+    "users": 119
+  },
+  {
+    "date": "2023-04-14",
+    "city": "New York",
+    "users": 108
+  },
+  {
+    "date": "2023-04-14",
+    "city": "Moscow",
+    "users": 141
+  },
+  {
+    "date": "2023-04-15",
+    "city": "Chennai",
+    "users": 129
+  },
+  {
+    "date": "2023-04-15",
+    "city": "New York",
+    "users": 124
+  },
+  {
+    "date": "2023-04-15",
+    "city": "Moscow",
+    "users": 126
+  },
+  {
+    "date": "2023-04-16",
+    "city": "Chennai",
+    "users": 130
+  },
+  {
+    "date": "2023-04-16",
+    "city": "New York",
+    "users": 120
+  },
+  {
+    "date": "2023-04-16",
+    "city": "Moscow",
+    "users": 111
+  },
+  {
+    "date": "2023-04-17",
+    "city": "Chennai",
+    "users": 106
+  },
+  {
+    "date": "2023-04-17",
+    "city": "New York",
+    "users": 117
+  },
+  {
+    "date": "2023-04-17",
+    "city": "Moscow",
+    "users": 150
+  },
+  {
+    "date": "2023-04-18",
+    "city": "Chennai",
+    "users": 106
+  },
+  {
+    "date": "2023-04-18",
+    "city": "New York",
+    "users": 111
+  },
+  {
+    "date": "2023-04-18",
+    "city": "Moscow",
+    "users": 112
+  },
+  {
+    "date": "2023-04-19",
+    "city": "Chennai",
+    "users": 122
+  },
+  {
+    "date": "2023-04-19",
+    "city": "New York",
+    "users": 102
+  },
+  {
+    "date": "2023-04-19",
+    "city": "Moscow",
+    "users": 105
+  },
+  {
+    "date": "2023-04-20",
+    "city": "Chennai",
+    "users": 142
+  },
+  {
+    "date": "2023-04-20",
+    "city": "New York",
+    "users": 126
+  },
+  {
+    "date": "2023-04-20",
+    "city": "Moscow",
+    "users": 109
+  },
+  {
+    "date": "2023-04-21",
+    "city": "Chennai",
+    "users": 140
+  },
+  {
+    "date": "2023-04-21",
+    "city": "New York",
+    "users": 142
+  },
+  {
+    "date": "2023-04-21",
+    "city": "Moscow",
+    "users": 113
+  },
+  {
+    "date": "2023-04-22",
+    "city": "Chennai",
+    "users": 126
+  },
+  {
+    "date": "2023-04-22",
+    "city": "New York",
+    "users": 141
+  },
+  {
+    "date": "2023-04-22",
+    "city": "Moscow",
+    "users": 110
+  },
+  {
+    "date": "2023-04-23",
+    "city": "Chennai",
+    "users": 105
+  },
+  {
+    "date": "2023-04-23",
+    "city": "New York",
+    "users": 117
+  },
+  {
+    "date": "2023-04-23",
+    "city": "Moscow",
+    "users": 144
+  },
+  {
+    "date": "2023-04-24",
+    "city": "Chennai",
+    "users": 103
+  },
+  {
+    "date": "2023-04-24",
+    "city": "New York",
+    "users": 136
+  },
+  {
+    "date": "2023-04-24",
+    "city": "Moscow",
+    "users": 149
+  },
+  {
+    "date": "2023-04-25",
+    "city": "Chennai",
+    "users": 124
+  },
+  {
+    "date": "2023-04-25",
+    "city": "New York",
+    "users": 109
+  },
+  {
+    "date": "2023-04-25",
+    "city": "Moscow",
+    "users": 104
+  },
+  {
+    "date": "2023-04-26",
+    "city": "Chennai",
+    "users": 104
+  },
+  {
+    "date": "2023-04-26",
+    "city": "New York",
+    "users": 149
+  },
+  {
+    "date": "2023-04-26",
+    "city": "Moscow",
+    "users": 141
+  },
+  {
+    "date": "2023-04-27",
+    "city": "Chennai",
+    "users": 109
+  },
+  {
+    "date": "2023-04-27",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2023-04-27",
+    "city": "Moscow",
+    "users": 126
+  },
+  {
+    "date": "2023-04-28",
+    "city": "Chennai",
+    "users": 121
+  },
+  {
+    "date": "2023-04-28",
+    "city": "New York",
+    "users": 115
+  },
+  {
+    "date": "2023-04-28",
+    "city": "Moscow",
+    "users": 135
+  },
+  {
+    "date": "2023-04-29",
+    "city": "Chennai",
+    "users": 107
+  },
+  {
+    "date": "2023-04-29",
+    "city": "New York",
+    "users": 134
+  },
+  {
+    "date": "2023-04-29",
+    "city": "Moscow",
+    "users": 121
+  },
+  {
+    "date": "2023-04-30",
+    "city": "Chennai",
+    "users": 146
+  },
+  {
+    "date": "2023-04-30",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2023-04-30",
+    "city": "Moscow",
+    "users": 136
+  },
+  {
+    "date": "2023-05-01",
+    "city": "Chennai",
+    "users": 103
+  },
+  {
+    "date": "2023-05-01",
+    "city": "New York",
+    "users": 138
+  },
+  {
+    "date": "2023-05-01",
+    "city": "Moscow",
+    "users": 121
+  },
+  {
+    "date": "2023-05-02",
+    "city": "Chennai",
+    "users": 104
+  },
+  {
+    "date": "2023-05-02",
+    "city": "New York",
+    "users": 144
+  },
+  {
+    "date": "2023-05-02",
+    "city": "Moscow",
+    "users": 110
+  },
+  {
+    "date": "2023-05-03",
+    "city": "Chennai",
+    "users": 109
+  },
+  {
+    "date": "2023-05-03",
+    "city": "New York",
+    "users": 140
+  },
+  {
+    "date": "2023-05-03",
+    "city": "Moscow",
+    "users": 134
+  },
+  {
+    "date": "2023-05-04",
+    "city": "Chennai",
+    "users": 145
+  },
+  {
+    "date": "2023-05-04",
+    "city": "New York",
+    "users": 145
+  },
+  {
+    "date": "2023-05-04",
+    "city": "Moscow",
+    "users": 136
+  },
+  {
+    "date": "2023-05-05",
+    "city": "Chennai",
+    "users": 138
+  },
+  {
+    "date": "2023-05-05",
+    "city": "New York",
+    "users": 124
+  },
+  {
+    "date": "2023-05-05",
+    "city": "Moscow",
+    "users": 106
+  },
+  {
+    "date": "2023-05-06",
+    "city": "Chennai",
+    "users": 120
+  },
+  {
+    "date": "2023-05-06",
+    "city": "New York",
+    "users": 114
+  },
+  {
+    "date": "2023-05-06",
+    "city": "Moscow",
+    "users": 137
+  },
+  {
+    "date": "2023-05-07",
+    "city": "Chennai",
+    "users": 108
+  },
+  {
+    "date": "2023-05-07",
+    "city": "New York",
+    "users": 102
+  },
+  {
+    "date": "2023-05-07",
+    "city": "Moscow",
+    "users": 125
+  },
+  {
+    "date": "2023-05-08",
+    "city": "Chennai",
+    "users": 120
+  },
+  {
+    "date": "2023-05-08",
+    "city": "New York",
+    "users": 149
+  },
+  {
+    "date": "2023-05-08",
+    "city": "Moscow",
+    "users": 103
+  },
+  {
+    "date": "2023-05-09",
+    "city": "Chennai",
+    "users": 122
+  },
+  {
+    "date": "2023-05-09",
+    "city": "New York",
+    "users": 120
+  },
+  {
+    "date": "2023-05-09",
+    "city": "Moscow",
+    "users": 121
+  },
+  {
+    "date": "2023-05-10",
+    "city": "Chennai",
+    "users": 134
+  },
+  {
+    "date": "2023-05-10",
+    "city": "New York",
+    "users": 126
+  },
+  {
+    "date": "2023-05-10",
+    "city": "Moscow",
+    "users": 132
+  },
+  {
+    "date": "2023-05-11",
+    "city": "Chennai",
+    "users": 136
+  },
+  {
+    "date": "2023-05-11",
+    "city": "New York",
+    "users": 102
+  },
+  {
+    "date": "2023-05-11",
+    "city": "Moscow",
+    "users": 137
+  },
+  {
+    "date": "2023-05-12",
+    "city": "Chennai",
+    "users": 114
+  },
+  {
+    "date": "2023-05-12",
+    "city": "New York",
+    "users": 121
+  },
+  {
+    "date": "2023-05-12",
+    "city": "Moscow",
+    "users": 140
+  },
+  {
+    "date": "2023-05-13",
+    "city": "Chennai",
+    "users": 137
+  },
+  {
+    "date": "2023-05-13",
+    "city": "New York",
+    "users": 134
+  },
+  {
+    "date": "2023-05-13",
+    "city": "Moscow",
+    "users": 106
+  },
+  {
+    "date": "2023-05-14",
+    "city": "Chennai",
+    "users": 109
+  },
+  {
+    "date": "2023-05-14",
+    "city": "New York",
+    "users": 117
+  },
+  {
+    "date": "2023-05-14",
+    "city": "Moscow",
+    "users": 140
+  },
+  {
+    "date": "2023-05-15",
+    "city": "Chennai",
+    "users": 133
+  },
+  {
+    "date": "2023-05-15",
+    "city": "New York",
+    "users": 139
+  },
+  {
+    "date": "2023-05-15",
+    "city": "Moscow",
+    "users": 106
+  },
+  {
+    "date": "2023-05-16",
+    "city": "Chennai",
+    "users": 147
+  },
+  {
+    "date": "2023-05-16",
+    "city": "New York",
+    "users": 118
+  },
+  {
+    "date": "2023-05-16",
+    "city": "Moscow",
+    "users": 107
+  },
+  {
+    "date": "2023-05-17",
+    "city": "Chennai",
+    "users": 140
+  },
+  {
+    "date": "2023-05-17",
+    "city": "New York",
+    "users": 111
+  },
+  {
+    "date": "2023-05-17",
+    "city": "Moscow",
+    "users": 136
+  },
+  {
+    "date": "2023-05-18",
+    "city": "Chennai",
+    "users": 111
+  },
+  {
+    "date": "2023-05-18",
+    "city": "New York",
+    "users": 135
+  },
+  {
+    "date": "2023-05-18",
+    "city": "Moscow",
+    "users": 115
+  },
+  {
+    "date": "2023-05-19",
+    "city": "Chennai",
+    "users": 140
+  },
+  {
+    "date": "2023-05-19",
+    "city": "New York",
+    "users": 123
+  },
+  {
+    "date": "2023-05-19",
+    "city": "Moscow",
+    "users": 136
+  },
+  {
+    "date": "2023-05-20",
+    "city": "Chennai",
+    "users": 107
+  },
+  {
+    "date": "2023-05-20",
+    "city": "New York",
+    "users": 132
+  },
+  {
+    "date": "2023-05-20",
+    "city": "Moscow",
+    "users": 141
+  },
+  {
+    "date": "2023-05-21",
+    "city": "Chennai",
+    "users": 117
+  },
+  {
+    "date": "2023-05-21",
+    "city": "New York",
+    "users": 133
+  },
+  {
+    "date": "2023-05-21",
+    "city": "Moscow",
+    "users": 104
+  },
+  {
+    "date": "2023-05-22",
+    "city": "Chennai",
+    "users": 108
+  },
+  {
+    "date": "2023-05-22",
+    "city": "New York",
+    "users": 142
+  },
+  {
+    "date": "2023-05-22",
+    "city": "Moscow",
+    "users": 144
+  },
+  {
+    "date": "2023-05-23",
+    "city": "Chennai",
+    "users": 124
+  },
+  {
+    "date": "2023-05-23",
+    "city": "New York",
+    "users": 132
+  },
+  {
+    "date": "2023-05-23",
+    "city": "Moscow",
+    "users": 141
+  },
+  {
+    "date": "2023-05-24",
+    "city": "Chennai",
+    "users": 150
+  },
+  {
+    "date": "2023-05-24",
+    "city": "New York",
+    "users": 100
+  },
+  {
+    "date": "2023-05-24",
+    "city": "Moscow",
+    "users": 127
+  },
+  {
+    "date": "2023-05-25",
+    "city": "Chennai",
+    "users": 149
+  },
+  {
+    "date": "2023-05-25",
+    "city": "New York",
+    "users": 103
+  },
+  {
+    "date": "2023-05-25",
+    "city": "Moscow",
+    "users": 134
+  },
+  {
+    "date": "2023-05-26",
+    "city": "Chennai",
+    "users": 132
+  },
+  {
+    "date": "2023-05-26",
+    "city": "New York",
+    "users": 106
+  },
+  {
+    "date": "2023-05-26",
+    "city": "Moscow",
+    "users": 148
+  },
+  {
+    "date": "2023-05-27",
+    "city": "Chennai",
+    "users": 136
+  },
+  {
+    "date": "2023-05-27",
+    "city": "New York",
+    "users": 117
+  },
+  {
+    "date": "2023-05-27",
+    "city": "Moscow",
+    "users": 136
+  },
+  {
+    "date": "2023-05-28",
+    "city": "Chennai",
+    "users": 101
+  },
+  {
+    "date": "2023-05-28",
+    "city": "New York",
+    "users": 113
+  },
+  {
+    "date": "2023-05-28",
+    "city": "Moscow",
+    "users": 137
+  },
+  {
+    "date": "2023-05-29",
+    "city": "Chennai",
+    "users": 108
+  },
+  {
+    "date": "2023-05-29",
+    "city": "New York",
+    "users": 133
+  },
+  {
+    "date": "2023-05-29",
+    "city": "Moscow",
+    "users": 138
+  },
+  {
+    "date": "2023-05-30",
+    "city": "Chennai",
+    "users": 148
+  },
+  {
+    "date": "2023-05-30",
+    "city": "New York",
+    "users": 107
+  },
+  {
+    "date": "2023-05-30",
+    "city": "Moscow",
+    "users": 150
+  },
+  {
+    "date": "2023-05-31",
+    "city": "Chennai",
+    "users": 119
+  },
+  {
+    "date": "2023-05-31",
+    "city": "New York",
+    "users": 118
+  },
+  {
+    "date": "2023-05-31",
+    "city": "Moscow",
+    "users": 135
+  },
+  {
+    "date": "2023-06-01",
+    "city": "Chennai",
+    "users": 124
+  },
+  {
+    "date": "2023-06-01",
+    "city": "New York",
+    "users": 115
+  },
+  {
+    "date": "2023-06-01",
+    "city": "Moscow",
+    "users": 115
+  },
+  {
+    "date": "2023-06-02",
+    "city": "Chennai",
+    "users": 130
+  },
+  {
+    "date": "2023-06-02",
+    "city": "New York",
+    "users": 128
+  },
+  {
+    "date": "2023-06-02",
+    "city": "Moscow",
+    "users": 137
+  },
+  {
+    "date": "2023-06-03",
+    "city": "Chennai",
+    "users": 102
+  },
+  {
+    "date": "2023-06-03",
+    "city": "New York",
+    "users": 128
+  },
+  {
+    "date": "2023-06-03",
+    "city": "Moscow",
+    "users": 111
+  },
+  {
+    "date": "2023-06-04",
+    "city": "Chennai",
+    "users": 144
+  },
+  {
+    "date": "2023-06-04",
+    "city": "New York",
+    "users": 133
+  },
+  {
+    "date": "2023-06-04",
+    "city": "Moscow",
+    "users": 141
+  },
+  {
+    "date": "2023-06-05",
+    "city": "Chennai",
+    "users": 107
+  },
+  {
+    "date": "2023-06-05",
+    "city": "New York",
+    "users": 144
+  },
+  {
+    "date": "2023-06-05",
+    "city": "Moscow",
+    "users": 103
+  },
+  {
+    "date": "2023-06-06",
+    "city": "Chennai",
+    "users": 109
+  },
+  {
+    "date": "2023-06-06",
+    "city": "New York",
+    "users": 126
+  },
+  {
+    "date": "2023-06-06",
+    "city": "Moscow",
+    "users": 147
+  },
+  {
+    "date": "2023-06-07",
+    "city": "Chennai",
+    "users": 148
+  },
+  {
+    "date": "2023-06-07",
+    "city": "New York",
+    "users": 120
+  },
+  {
+    "date": "2023-06-07",
+    "city": "Moscow",
+    "users": 111
+  },
+  {
+    "date": "2023-06-08",
+    "city": "Chennai",
+    "users": 145
+  },
+  {
+    "date": "2023-06-08",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2023-06-08",
+    "city": "Moscow",
+    "users": 111
+  },
+  {
+    "date": "2023-06-09",
+    "city": "Chennai",
+    "users": 121
+  },
+  {
+    "date": "2023-06-09",
+    "city": "New York",
+    "users": 142
+  },
+  {
+    "date": "2023-06-09",
+    "city": "Moscow",
+    "users": 120
+  },
+  {
+    "date": "2023-06-10",
+    "city": "Chennai",
+    "users": 144
+  },
+  {
+    "date": "2023-06-10",
+    "city": "New York",
+    "users": 132
+  },
+  {
+    "date": "2023-06-10",
+    "city": "Moscow",
+    "users": 118
+  },
+  {
+    "date": "2023-06-11",
+    "city": "Chennai",
+    "users": 128
+  },
+  {
+    "date": "2023-06-11",
+    "city": "New York",
+    "users": 147
+  },
+  {
+    "date": "2023-06-11",
+    "city": "Moscow",
+    "users": 137
+  },
+  {
+    "date": "2023-06-12",
+    "city": "Chennai",
+    "users": 111
+  },
+  {
+    "date": "2023-06-12",
+    "city": "New York",
+    "users": 144
+  },
+  {
+    "date": "2023-06-12",
+    "city": "Moscow",
+    "users": 139
+  },
+  {
+    "date": "2023-06-13",
+    "city": "Chennai",
+    "users": 120
+  },
+  {
+    "date": "2023-06-13",
+    "city": "New York",
+    "users": 103
+  },
+  {
+    "date": "2023-06-13",
+    "city": "Moscow",
+    "users": 127
+  },
+  {
+    "date": "2023-06-14",
+    "city": "Chennai",
+    "users": 134
+  },
+  {
+    "date": "2023-06-14",
+    "city": "New York",
+    "users": 115
+  },
+  {
+    "date": "2023-06-14",
+    "city": "Moscow",
+    "users": 139
+  },
+  {
+    "date": "2023-06-15",
+    "city": "Chennai",
+    "users": 110
+  },
+  {
+    "date": "2023-06-15",
+    "city": "New York",
+    "users": 101
+  },
+  {
+    "date": "2023-06-15",
+    "city": "Moscow",
+    "users": 134
+  },
+  {
+    "date": "2023-06-16",
+    "city": "Chennai",
+    "users": 103
+  },
+  {
+    "date": "2023-06-16",
+    "city": "New York",
+    "users": 125
+  },
+  {
+    "date": "2023-06-16",
+    "city": "Moscow",
+    "users": 101
+  },
+  {
+    "date": "2023-06-17",
+    "city": "Chennai",
+    "users": 121
+  },
+  {
+    "date": "2023-06-17",
+    "city": "New York",
+    "users": 150
+  },
+  {
+    "date": "2023-06-17",
+    "city": "Moscow",
+    "users": 137
+  },
+  {
+    "date": "2023-06-18",
+    "city": "Chennai",
+    "users": 145
+  },
+  {
+    "date": "2023-06-18",
+    "city": "New York",
+    "users": 147
+  },
+  {
+    "date": "2023-06-18",
+    "city": "Moscow",
+    "users": 116
+  },
+  {
+    "date": "2023-06-19",
+    "city": "Chennai",
+    "users": 124
+  },
+  {
+    "date": "2023-06-19",
+    "city": "New York",
+    "users": 111
+  },
+  {
+    "date": "2023-06-19",
+    "city": "Moscow",
+    "users": 135
+  },
+  {
+    "date": "2023-06-20",
+    "city": "Chennai",
+    "users": 121
+  },
+  {
+    "date": "2023-06-20",
+    "city": "New York",
+    "users": 143
+  },
+  {
+    "date": "2023-06-20",
+    "city": "Moscow",
+    "users": 122
+  },
+  {
+    "date": "2023-06-21",
+    "city": "Chennai",
+    "users": 124
+  },
+  {
+    "date": "2023-06-21",
+    "city": "New York",
+    "users": 137
+  },
+  {
+    "date": "2023-06-21",
+    "city": "Moscow",
+    "users": 117
+  },
+  {
+    "date": "2023-06-22",
+    "city": "Chennai",
+    "users": 148
+  },
+  {
+    "date": "2023-06-22",
+    "city": "New York",
+    "users": 120
+  },
+  {
+    "date": "2023-06-22",
+    "city": "Moscow",
+    "users": 128
+  },
+  {
+    "date": "2023-06-23",
+    "city": "Chennai",
+    "users": 132
+  },
+  {
+    "date": "2023-06-23",
+    "city": "New York",
+    "users": 103
+  },
+  {
+    "date": "2023-06-23",
+    "city": "Moscow",
+    "users": 108
+  },
+  {
+    "date": "2023-06-24",
+    "city": "Chennai",
+    "users": 111
+  },
+  {
+    "date": "2023-06-24",
+    "city": "New York",
+    "users": 111
+  },
+  {
+    "date": "2023-06-24",
+    "city": "Moscow",
+    "users": 139
+  },
+  {
+    "date": "2023-06-25",
+    "city": "Chennai",
+    "users": 110
+  },
+  {
+    "date": "2023-06-25",
+    "city": "New York",
+    "users": 146
+  },
+  {
+    "date": "2023-06-25",
+    "city": "Moscow",
+    "users": 126
+  },
+  {
+    "date": "2023-06-26",
+    "city": "Chennai",
+    "users": 132
+  },
+  {
+    "date": "2023-06-26",
+    "city": "New York",
+    "users": 121
+  },
+  {
+    "date": "2023-06-26",
+    "city": "Moscow",
+    "users": 124
+  },
+  {
+    "date": "2023-06-27",
+    "city": "Chennai",
+    "users": 109
+  },
+  {
+    "date": "2023-06-27",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2023-06-27",
+    "city": "Moscow",
+    "users": 142
+  },
+  {
+    "date": "2023-06-28",
+    "city": "Chennai",
+    "users": 148
+  },
+  {
+    "date": "2023-06-28",
+    "city": "New York",
+    "users": 131
+  },
+  {
+    "date": "2023-06-28",
+    "city": "Moscow",
+    "users": 113
+  },
+  {
+    "date": "2023-06-29",
+    "city": "Chennai",
+    "users": 135
+  },
+  {
+    "date": "2023-06-29",
+    "city": "New York",
+    "users": 148
+  },
+  {
+    "date": "2023-06-29",
+    "city": "Moscow",
+    "users": 117
+  },
+  {
+    "date": "2023-06-30",
+    "city": "Chennai",
+    "users": 150
+  },
+  {
+    "date": "2023-06-30",
+    "city": "New York",
+    "users": 144
+  },
+  {
+    "date": "2023-06-30",
+    "city": "Moscow",
+    "users": 101
+  },
+  {
+    "date": "2023-07-01",
+    "city": "Chennai",
+    "users": 108
+  },
+  {
+    "date": "2023-07-01",
+    "city": "New York",
+    "users": 114
+  },
+  {
+    "date": "2023-07-01",
+    "city": "Moscow",
+    "users": 143
+  },
+  {
+    "date": "2023-07-02",
+    "city": "Chennai",
+    "users": 148
+  },
+  {
+    "date": "2023-07-02",
+    "city": "New York",
+    "users": 127
+  },
+  {
+    "date": "2023-07-02",
+    "city": "Moscow",
+    "users": 107
+  },
+  {
+    "date": "2023-07-03",
+    "city": "Chennai",
+    "users": 123
+  },
+  {
+    "date": "2023-07-03",
+    "city": "New York",
+    "users": 118
+  },
+  {
+    "date": "2023-07-03",
+    "city": "Moscow",
+    "users": 136
+  },
+  {
+    "date": "2023-07-04",
+    "city": "Chennai",
+    "users": 138
+  },
+  {
+    "date": "2023-07-04",
+    "city": "New York",
+    "users": 141
+  },
+  {
+    "date": "2023-07-04",
+    "city": "Moscow",
+    "users": 135
+  },
+  {
+    "date": "2023-07-05",
+    "city": "Chennai",
+    "users": 137
+  },
+  {
+    "date": "2023-07-05",
+    "city": "New York",
+    "users": 126
+  },
+  {
+    "date": "2023-07-05",
+    "city": "Moscow",
+    "users": 112
+  },
+  {
+    "date": "2023-07-06",
+    "city": "Chennai",
+    "users": 139
+  },
+  {
+    "date": "2023-07-06",
+    "city": "New York",
+    "users": 116
+  },
+  {
+    "date": "2023-07-06",
+    "city": "Moscow",
+    "users": 107
+  },
+  {
+    "date": "2023-07-07",
+    "city": "Chennai",
+    "users": 144
+  },
+  {
+    "date": "2023-07-07",
+    "city": "New York",
+    "users": 132
+  },
+  {
+    "date": "2023-07-07",
+    "city": "Moscow",
+    "users": 147
+  },
+  {
+    "date": "2023-07-08",
+    "city": "Chennai",
+    "users": 149
+  },
+  {
+    "date": "2023-07-08",
+    "city": "New York",
+    "users": 131
+  },
+  {
+    "date": "2023-07-08",
+    "city": "Moscow",
+    "users": 144
+  },
+  {
+    "date": "2023-07-09",
+    "city": "Chennai",
+    "users": 147
+  },
+  {
+    "date": "2023-07-09",
+    "city": "New York",
+    "users": 128
+  },
+  {
+    "date": "2023-07-09",
+    "city": "Moscow",
+    "users": 107
+  },
+  {
+    "date": "2023-07-10",
+    "city": "Chennai",
+    "users": 119
+  },
+  {
+    "date": "2023-07-10",
+    "city": "New York",
+    "users": 149
+  },
+  {
+    "date": "2023-07-10",
+    "city": "Moscow",
+    "users": 105
+  },
+  {
+    "date": "2023-07-11",
+    "city": "Chennai",
+    "users": 122
+  },
+  {
+    "date": "2023-07-11",
+    "city": "New York",
+    "users": 116
+  },
+  {
+    "date": "2023-07-11",
+    "city": "Moscow",
+    "users": 132
+  },
+  {
+    "date": "2023-07-12",
+    "city": "Chennai",
+    "users": 116
+  },
+  {
+    "date": "2023-07-12",
+    "city": "New York",
+    "users": 110
+  },
+  {
+    "date": "2023-07-12",
+    "city": "Moscow",
+    "users": 146
+  },
+  {
+    "date": "2023-07-13",
+    "city": "Chennai",
+    "users": 102
+  },
+  {
+    "date": "2023-07-13",
+    "city": "New York",
+    "users": 108
+  },
+  {
+    "date": "2023-07-13",
+    "city": "Moscow",
+    "users": 149
+  },
+  {
+    "date": "2023-07-14",
+    "city": "Chennai",
+    "users": 110
+  },
+  {
+    "date": "2023-07-14",
+    "city": "New York",
+    "users": 108
+  },
+  {
+    "date": "2023-07-14",
+    "city": "Moscow",
+    "users": 106
+  },
+  {
+    "date": "2023-07-15",
+    "city": "Chennai",
+    "users": 113
+  },
+  {
+    "date": "2023-07-15",
+    "city": "New York",
+    "users": 148
+  },
+  {
+    "date": "2023-07-15",
+    "city": "Moscow",
+    "users": 136
+  },
+  {
+    "date": "2023-07-16",
+    "city": "Chennai",
+    "users": 120
+  },
+  {
+    "date": "2023-07-16",
+    "city": "New York",
+    "users": 107
+  },
+  {
+    "date": "2023-07-16",
+    "city": "Moscow",
+    "users": 133
+  },
+  {
+    "date": "2023-07-17",
+    "city": "Chennai",
+    "users": 140
+  },
+  {
+    "date": "2023-07-17",
+    "city": "New York",
+    "users": 101
+  },
+  {
+    "date": "2023-07-17",
+    "city": "Moscow",
+    "users": 141
+  },
+  {
+    "date": "2023-07-18",
+    "city": "Chennai",
+    "users": 131
+  },
+  {
+    "date": "2023-07-18",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2023-07-18",
+    "city": "Moscow",
+    "users": 137
+  },
+  {
+    "date": "2023-07-19",
+    "city": "Chennai",
+    "users": 102
+  },
+  {
+    "date": "2023-07-19",
+    "city": "New York",
+    "users": 132
+  },
+  {
+    "date": "2023-07-19",
+    "city": "Moscow",
+    "users": 138
+  },
+  {
+    "date": "2023-07-20",
+    "city": "Chennai",
+    "users": 103
+  },
+  {
+    "date": "2023-07-20",
+    "city": "New York",
+    "users": 150
+  },
+  {
+    "date": "2023-07-20",
+    "city": "Moscow",
+    "users": 121
+  },
+  {
+    "date": "2023-07-21",
+    "city": "Chennai",
+    "users": 131
+  },
+  {
+    "date": "2023-07-21",
+    "city": "New York",
+    "users": 135
+  },
+  {
+    "date": "2023-07-21",
+    "city": "Moscow",
+    "users": 139
+  },
+  {
+    "date": "2023-07-22",
+    "city": "Chennai",
+    "users": 137
+  },
+  {
+    "date": "2023-07-22",
+    "city": "New York",
+    "users": 137
+  },
+  {
+    "date": "2023-07-22",
+    "city": "Moscow",
+    "users": 136
+  },
+  {
+    "date": "2023-07-23",
+    "city": "Chennai",
+    "users": 127
+  },
+  {
+    "date": "2023-07-23",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2023-07-23",
+    "city": "Moscow",
+    "users": 128
+  },
+  {
+    "date": "2023-07-24",
+    "city": "Chennai",
+    "users": 129
+  },
+  {
+    "date": "2023-07-24",
+    "city": "New York",
+    "users": 114
+  },
+  {
+    "date": "2023-07-24",
+    "city": "Moscow",
+    "users": 150
+  },
+  {
+    "date": "2023-07-25",
+    "city": "Chennai",
+    "users": 148
+  },
+  {
+    "date": "2023-07-25",
+    "city": "New York",
+    "users": 148
+  },
+  {
+    "date": "2023-07-25",
+    "city": "Moscow",
+    "users": 109
+  },
+  {
+    "date": "2023-07-26",
+    "city": "Chennai",
+    "users": 102
+  },
+  {
+    "date": "2023-07-26",
+    "city": "New York",
+    "users": 143
+  },
+  {
+    "date": "2023-07-26",
+    "city": "Moscow",
+    "users": 100
+  },
+  {
+    "date": "2023-07-27",
+    "city": "Chennai",
+    "users": 112
+  },
+  {
+    "date": "2023-07-27",
+    "city": "New York",
+    "users": 115
+  },
+  {
+    "date": "2023-07-27",
+    "city": "Moscow",
+    "users": 118
+  },
+  {
+    "date": "2023-07-28",
+    "city": "Chennai",
+    "users": 125
+  },
+  {
+    "date": "2023-07-28",
+    "city": "New York",
+    "users": 126
+  },
+  {
+    "date": "2023-07-28",
+    "city": "Moscow",
+    "users": 107
+  },
+  {
+    "date": "2023-07-29",
+    "city": "Chennai",
+    "users": 132
+  },
+  {
+    "date": "2023-07-29",
+    "city": "New York",
+    "users": 131
+  },
+  {
+    "date": "2023-07-29",
+    "city": "Moscow",
+    "users": 150
+  },
+  {
+    "date": "2023-07-30",
+    "city": "Chennai",
+    "users": 123
+  },
+  {
+    "date": "2023-07-30",
+    "city": "New York",
+    "users": 141
+  },
+  {
+    "date": "2023-07-30",
+    "city": "Moscow",
+    "users": 130
+  },
+  {
+    "date": "2023-07-31",
+    "city": "Chennai",
+    "users": 100
+  },
+  {
+    "date": "2023-07-31",
+    "city": "New York",
+    "users": 127
+  },
+  {
+    "date": "2023-07-31",
+    "city": "Moscow",
+    "users": 141
+  },
+  {
+    "date": "2023-08-01",
+    "city": "Chennai",
+    "users": 123
+  },
+  {
+    "date": "2023-08-01",
+    "city": "New York",
+    "users": 145
+  },
+  {
+    "date": "2023-08-01",
+    "city": "Moscow",
+    "users": 119
+  },
+  {
+    "date": "2023-08-02",
+    "city": "Chennai",
+    "users": 106
+  },
+  {
+    "date": "2023-08-02",
+    "city": "New York",
+    "users": 127
+  },
+  {
+    "date": "2023-08-02",
+    "city": "Moscow",
+    "users": 148
+  },
+  {
+    "date": "2023-08-03",
+    "city": "Chennai",
+    "users": 112
+  },
+  {
+    "date": "2023-08-03",
+    "city": "New York",
+    "users": 100
+  },
+  {
+    "date": "2023-08-03",
+    "city": "Moscow",
+    "users": 110
+  },
+  {
+    "date": "2023-08-04",
+    "city": "Chennai",
+    "users": 135
+  },
+  {
+    "date": "2023-08-04",
+    "city": "New York",
+    "users": 121
+  },
+  {
+    "date": "2023-08-04",
+    "city": "Moscow",
+    "users": 147
+  },
+  {
+    "date": "2023-08-05",
+    "city": "Chennai",
+    "users": 116
+  },
+  {
+    "date": "2023-08-05",
+    "city": "New York",
+    "users": 105
+  },
+  {
+    "date": "2023-08-05",
+    "city": "Moscow",
+    "users": 122
+  },
+  {
+    "date": "2023-08-06",
+    "city": "Chennai",
+    "users": 148
+  },
+  {
+    "date": "2023-08-06",
+    "city": "New York",
+    "users": 149
+  },
+  {
+    "date": "2023-08-06",
+    "city": "Moscow",
+    "users": 145
+  },
+  {
+    "date": "2023-08-07",
+    "city": "Chennai",
+    "users": 113
+  },
+  {
+    "date": "2023-08-07",
+    "city": "New York",
+    "users": 133
+  },
+  {
+    "date": "2023-08-07",
+    "city": "Moscow",
+    "users": 112
+  },
+  {
+    "date": "2023-08-08",
+    "city": "Chennai",
+    "users": 132
+  },
+  {
+    "date": "2023-08-08",
+    "city": "New York",
+    "users": 100
+  },
+  {
+    "date": "2023-08-08",
+    "city": "Moscow",
+    "users": 117
+  },
+  {
+    "date": "2023-08-09",
+    "city": "Chennai",
+    "users": 114
+  },
+  {
+    "date": "2023-08-09",
+    "city": "New York",
+    "users": 106
+  },
+  {
+    "date": "2023-08-09",
+    "city": "Moscow",
+    "users": 110
+  },
+  {
+    "date": "2023-08-10",
+    "city": "Chennai",
+    "users": 120
+  },
+  {
+    "date": "2023-08-10",
+    "city": "New York",
+    "users": 140
+  },
+  {
+    "date": "2023-08-10",
+    "city": "Moscow",
+    "users": 105
+  },
+  {
+    "date": "2023-08-11",
+    "city": "Chennai",
+    "users": 131
+  },
+  {
+    "date": "2023-08-11",
+    "city": "New York",
+    "users": 150
+  },
+  {
+    "date": "2023-08-11",
+    "city": "Moscow",
+    "users": 123
+  },
+  {
+    "date": "2023-08-12",
+    "city": "Chennai",
+    "users": 138
+  },
+  {
+    "date": "2023-08-12",
+    "city": "New York",
+    "users": 149
+  },
+  {
+    "date": "2023-08-12",
+    "city": "Moscow",
+    "users": 121
+  },
+  {
+    "date": "2023-08-13",
+    "city": "Chennai",
+    "users": 123
+  },
+  {
+    "date": "2023-08-13",
+    "city": "New York",
+    "users": 143
+  },
+  {
+    "date": "2023-08-13",
+    "city": "Moscow",
+    "users": 110
+  },
+  {
+    "date": "2023-08-14",
+    "city": "Chennai",
+    "users": 147
+  },
+  {
+    "date": "2023-08-14",
+    "city": "New York",
+    "users": 130
+  },
+  {
+    "date": "2023-08-14",
+    "city": "Moscow",
+    "users": 150
+  },
+  {
+    "date": "2023-08-15",
+    "city": "Chennai",
+    "users": 145
+  },
+  {
+    "date": "2023-08-15",
+    "city": "New York",
+    "users": 134
+  },
+  {
+    "date": "2023-08-15",
+    "city": "Moscow",
+    "users": 146
+  },
+  {
+    "date": "2023-08-16",
+    "city": "Chennai",
+    "users": 106
+  },
+  {
+    "date": "2023-08-16",
+    "city": "New York",
+    "users": 141
+  },
+  {
+    "date": "2023-08-16",
+    "city": "Moscow",
+    "users": 140
+  },
+  {
+    "date": "2023-08-17",
+    "city": "Chennai",
+    "users": 125
+  },
+  {
+    "date": "2023-08-17",
+    "city": "New York",
+    "users": 106
+  },
+  {
+    "date": "2023-08-17",
+    "city": "Moscow",
+    "users": 121
+  },
+  {
+    "date": "2023-08-18",
+    "city": "Chennai",
+    "users": 109
+  },
+  {
+    "date": "2023-08-18",
+    "city": "New York",
+    "users": 108
+  },
+  {
+    "date": "2023-08-18",
+    "city": "Moscow",
+    "users": 137
+  },
+  {
+    "date": "2023-08-19",
+    "city": "Chennai",
+    "users": 146
+  },
+  {
+    "date": "2023-08-19",
+    "city": "New York",
+    "users": 107
+  },
+  {
+    "date": "2023-08-19",
+    "city": "Moscow",
+    "users": 146
+  },
+  {
+    "date": "2023-08-20",
+    "city": "Chennai",
+    "users": 133
+  },
+  {
+    "date": "2023-08-20",
+    "city": "New York",
+    "users": 129
+  },
+  {
+    "date": "2023-08-20",
+    "city": "Moscow",
+    "users": 148
+  },
+  {
+    "date": "2023-08-21",
+    "city": "Chennai",
+    "users": 121
+  },
+  {
+    "date": "2023-08-21",
+    "city": "New York",
+    "users": 135
+  },
+  {
+    "date": "2023-08-21",
+    "city": "Moscow",
+    "users": 116
+  },
+  {
+    "date": "2023-08-22",
+    "city": "Chennai",
+    "users": 112
+  },
+  {
+    "date": "2023-08-22",
+    "city": "New York",
+    "users": 101
+  },
+  {
+    "date": "2023-08-22",
+    "city": "Moscow",
+    "users": 139
+  },
+  {
+    "date": "2023-08-23",
+    "city": "Chennai",
+    "users": 148
+  },
+  {
+    "date": "2023-08-23",
+    "city": "New York",
+    "users": 145
+  },
+  {
+    "date": "2023-08-23",
+    "city": "Moscow",
+    "users": 126
+  },
+  {
+    "date": "2023-08-24",
+    "city": "Chennai",
+    "users": 102
+  },
+  {
+    "date": "2023-08-24",
+    "city": "New York",
+    "users": 148
+  },
+  {
+    "date": "2023-08-24",
+    "city": "Moscow",
+    "users": 123
+  },
+  {
+    "date": "2023-08-25",
+    "city": "Chennai",
+    "users": 140
+  },
+  {
+    "date": "2023-08-25",
+    "city": "New York",
+    "users": 104
+  },
+  {
+    "date": "2023-08-25",
+    "city": "Moscow",
+    "users": 106
+  },
+  {
+    "date": "2023-08-26",
+    "city": "Chennai",
+    "users": 111
+  },
+  {
+    "date": "2023-08-26",
+    "city": "New York",
+    "users": 118
+  },
+  {
+    "date": "2023-08-26",
+    "city": "Moscow",
+    "users": 149
+  },
+  {
+    "date": "2023-08-27",
+    "city": "Chennai",
+    "users": 139
+  },
+  {
+    "date": "2023-08-27",
+    "city": "New York",
+    "users": 100
+  },
+  {
+    "date": "2023-08-27",
+    "city": "Moscow",
+    "users": 127
+  },
+  {
+    "date": "2023-08-28",
+    "city": "Chennai",
+    "users": 119
+  },
+  {
+    "date": "2023-08-28",
+    "city": "New York",
+    "users": 137
+  },
+  {
+    "date": "2023-08-28",
+    "city": "Moscow",
+    "users": 119
+  },
+  {
+    "date": "2023-08-29",
+    "city": "Chennai",
+    "users": 118
+  },
+  {
+    "date": "2023-08-29",
+    "city": "New York",
+    "users": 141
+  },
+  {
+    "date": "2023-08-29",
+    "city": "Moscow",
+    "users": 128
+  },
+  {
+    "date": "2023-08-30",
+    "city": "Chennai",
+    "users": 136
+  },
+  {
+    "date": "2023-08-30",
+    "city": "New York",
+    "users": 149
+  },
+  {
+    "date": "2023-08-30",
+    "city": "Moscow",
+    "users": 150
+  },
+  {
+    "date": "2023-08-31",
+    "city": "Chennai",
+    "users": 149
+  },
+  {
+    "date": "2023-08-31",
+    "city": "New York",
+    "users": 116
+  },
+  {
+    "date": "2023-08-31",
+    "city": "Moscow",
+    "users": 146
+  },
+  {
+    "date": "2023-09-01",
+    "city": "Chennai",
+    "users": 146
+  },
+  {
+    "date": "2023-09-01",
+    "city": "New York",
+    "users": 134
+  },
+  {
+    "date": "2023-09-01",
+    "city": "Moscow",
+    "users": 138
+  },
+  {
+    "date": "2023-09-02",
+    "city": "Chennai",
+    "users": 103
+  },
+  {
+    "date": "2023-09-02",
+    "city": "New York",
+    "users": 105
+  },
+  {
+    "date": "2023-09-02",
+    "city": "Moscow",
+    "users": 133
+  },
+  {
+    "date": "2023-09-03",
+    "city": "Chennai",
+    "users": 137
+  },
+  {
+    "date": "2023-09-03",
+    "city": "New York",
+    "users": 124
+  },
+  {
+    "date": "2023-09-03",
+    "city": "Moscow",
+    "users": 103
+  },
+  {
+    "date": "2023-09-04",
+    "city": "Chennai",
+    "users": 103
+  },
+  {
+    "date": "2023-09-04",
+    "city": "New York",
+    "users": 118
+  },
+  {
+    "date": "2023-09-04",
+    "city": "Moscow",
+    "users": 133
+  },
+  {
+    "date": "2023-09-05",
+    "city": "Chennai",
+    "users": 104
+  },
+  {
+    "date": "2023-09-05",
+    "city": "New York",
+    "users": 134
+  },
+  {
+    "date": "2023-09-05",
+    "city": "Moscow",
+    "users": 111
+  },
+  {
+    "date": "2023-09-06",
+    "city": "Chennai",
+    "users": 114
+  },
+  {
+    "date": "2023-09-06",
+    "city": "New York",
+    "users": 124
+  },
+  {
+    "date": "2023-09-06",
+    "city": "Moscow",
+    "users": 139
+  },
+  {
+    "date": "2023-09-07",
+    "city": "Chennai",
+    "users": 126
+  },
+  {
+    "date": "2023-09-07",
+    "city": "New York",
+    "users": 113
+  },
+  {
+    "date": "2023-09-07",
+    "city": "Moscow",
+    "users": 124
+  },
+  {
+    "date": "2023-09-08",
+    "city": "Chennai",
+    "users": 115
+  },
+  {
+    "date": "2023-09-08",
+    "city": "New York",
+    "users": 129
+  },
+  {
+    "date": "2023-09-08",
+    "city": "Moscow",
+    "users": 113
+  },
+  {
+    "date": "2023-09-09",
+    "city": "Chennai",
+    "users": 133
+  },
+  {
+    "date": "2023-09-09",
+    "city": "New York",
+    "users": 126
+  },
+  {
+    "date": "2023-09-09",
+    "city": "Moscow",
+    "users": 105
+  },
+  {
+    "date": "2023-09-10",
+    "city": "Chennai",
+    "users": 129
+  },
+  {
+    "date": "2023-09-10",
+    "city": "New York",
+    "users": 106
+  },
+  {
+    "date": "2023-09-10",
+    "city": "Moscow",
+    "users": 102
+  },
+  {
+    "date": "2023-09-11",
+    "city": "Chennai",
+    "users": 132
+  },
+  {
+    "date": "2023-09-11",
+    "city": "New York",
+    "users": 123
+  },
+  {
+    "date": "2023-09-11",
+    "city": "Moscow",
+    "users": 127
+  },
+  {
+    "date": "2023-09-12",
+    "city": "Chennai",
+    "users": 129
+  },
+  {
+    "date": "2023-09-12",
+    "city": "New York",
+    "users": 132
+  },
+  {
+    "date": "2023-09-12",
+    "city": "Moscow",
+    "users": 100
+  },
+  {
+    "date": "2023-09-13",
+    "city": "Chennai",
+    "users": 125
+  },
+  {
+    "date": "2023-09-13",
+    "city": "New York",
+    "users": 101
+  },
+  {
+    "date": "2023-09-13",
+    "city": "Moscow",
+    "users": 146
+  },
+  {
+    "date": "2023-09-14",
+    "city": "Chennai",
+    "users": 125
+  },
+  {
+    "date": "2023-09-14",
+    "city": "New York",
+    "users": 113
+  },
+  {
+    "date": "2023-09-14",
+    "city": "Moscow",
+    "users": 129
+  },
+  {
+    "date": "2023-09-15",
+    "city": "Chennai",
+    "users": 114
+  },
+  {
+    "date": "2023-09-15",
+    "city": "New York",
+    "users": 106
+  },
+  {
+    "date": "2023-09-15",
+    "city": "Moscow",
+    "users": 104
+  },
+  {
+    "date": "2023-09-16",
+    "city": "Chennai",
+    "users": 122
+  },
+  {
+    "date": "2023-09-16",
+    "city": "New York",
+    "users": 116
+  },
+  {
+    "date": "2023-09-16",
+    "city": "Moscow",
+    "users": 142
+  },
+  {
+    "date": "2023-09-17",
+    "city": "Chennai",
+    "users": 104
+  },
+  {
+    "date": "2023-09-17",
+    "city": "New York",
+    "users": 112
+  },
+  {
+    "date": "2023-09-17",
+    "city": "Moscow",
+    "users": 109
+  },
+  {
+    "date": "2023-09-18",
+    "city": "Chennai",
+    "users": 111
+  },
+  {
+    "date": "2023-09-18",
+    "city": "New York",
+    "users": 118
+  },
+  {
+    "date": "2023-09-18",
+    "city": "Moscow",
+    "users": 135
+  },
+  {
+    "date": "2023-09-19",
+    "city": "Chennai",
+    "users": 135
+  },
+  {
+    "date": "2023-09-19",
+    "city": "New York",
+    "users": 138
+  },
+  {
+    "date": "2023-09-19",
+    "city": "Moscow",
+    "users": 114
+  },
+  {
+    "date": "2023-09-20",
+    "city": "Chennai",
+    "users": 132
+  },
+  {
+    "date": "2023-09-20",
+    "city": "New York",
+    "users": 136
+  },
+  {
+    "date": "2023-09-20",
+    "city": "Moscow",
+    "users": 133
+  },
+  {
+    "date": "2023-09-21",
+    "city": "Chennai",
+    "users": 124
+  },
+  {
+    "date": "2023-09-21",
+    "city": "New York",
+    "users": 133
+  },
+  {
+    "date": "2023-09-21",
+    "city": "Moscow",
+    "users": 108
+  },
+  {
+    "date": "2023-09-22",
+    "city": "Chennai",
+    "users": 132
+  },
+  {
+    "date": "2023-09-22",
+    "city": "New York",
+    "users": 112
+  },
+  {
+    "date": "2023-09-22",
+    "city": "Moscow",
+    "users": 147
+  },
+  {
+    "date": "2023-09-23",
+    "city": "Chennai",
+    "users": 147
+  },
+  {
+    "date": "2023-09-23",
+    "city": "New York",
+    "users": 146
+  },
+  {
+    "date": "2023-09-23",
+    "city": "Moscow",
+    "users": 148
+  },
+  {
+    "date": "2023-09-24",
+    "city": "Chennai",
+    "users": 124
+  },
+  {
+    "date": "2023-09-24",
+    "city": "New York",
+    "users": 119
+  },
+  {
+    "date": "2023-09-24",
+    "city": "Moscow",
+    "users": 131
+  },
+  {
+    "date": "2023-09-25",
+    "city": "Chennai",
+    "users": 126
+  },
+  {
+    "date": "2023-09-25",
+    "city": "New York",
+    "users": 110
+  },
+  {
+    "date": "2023-09-25",
+    "city": "Moscow",
+    "users": 145
+  },
+  {
+    "date": "2023-09-26",
+    "city": "Chennai",
+    "users": 111
+  },
+  {
+    "date": "2023-09-26",
+    "city": "New York",
+    "users": 136
+  },
+  {
+    "date": "2023-09-26",
+    "city": "Moscow",
+    "users": 120
+  },
+  {
+    "date": "2023-09-27",
+    "city": "Chennai",
+    "users": 131
+  },
+  {
+    "date": "2023-09-27",
+    "city": "New York",
+    "users": 116
+  },
+  {
+    "date": "2023-09-27",
+    "city": "Moscow",
+    "users": 126
+  },
+  {
+    "date": "2023-09-28",
+    "city": "Chennai",
+    "users": 145
+  },
+  {
+    "date": "2023-09-28",
+    "city": "New York",
+    "users": 143
+  },
+  {
+    "date": "2023-09-28",
+    "city": "Moscow",
+    "users": 106
+  },
+  {
+    "date": "2023-09-29",
+    "city": "Chennai",
+    "users": 144
+  },
+  {
+    "date": "2023-09-29",
+    "city": "New York",
+    "users": 105
+  },
+  {
+    "date": "2023-09-29",
+    "city": "Moscow",
+    "users": 133
+  },
+  {
+    "date": "2023-09-30",
+    "city": "Chennai",
+    "users": 140
+  },
+  {
+    "date": "2023-09-30",
+    "city": "New York",
+    "users": 119
+  },
+  {
+    "date": "2023-09-30",
+    "city": "Moscow",
+    "users": 130
+  },
+  {
+    "date": "2023-10-01",
+    "city": "Chennai",
+    "users": 110
+  },
+  {
+    "date": "2023-10-01",
+    "city": "New York",
+    "users": 112
+  },
+  {
+    "date": "2023-10-01",
+    "city": "Moscow",
+    "users": 108
+  },
+  {
+    "date": "2023-10-02",
+    "city": "Chennai",
+    "users": 133
+  },
+  {
+    "date": "2023-10-02",
+    "city": "New York",
+    "users": 137
+  },
+  {
+    "date": "2023-10-02",
+    "city": "Moscow",
+    "users": 128
+  },
+  {
+    "date": "2023-10-03",
+    "city": "Chennai",
+    "users": 131
+  },
+  {
+    "date": "2023-10-03",
+    "city": "New York",
+    "users": 104
+  },
+  {
+    "date": "2023-10-03",
+    "city": "Moscow",
+    "users": 146
+  },
+  {
+    "date": "2023-10-04",
+    "city": "Chennai",
+    "users": 134
+  },
+  {
+    "date": "2023-10-04",
+    "city": "New York",
+    "users": 128
+  },
+  {
+    "date": "2023-10-04",
+    "city": "Moscow",
+    "users": 123
+  },
+  {
+    "date": "2023-10-05",
+    "city": "Chennai",
+    "users": 100
+  },
+  {
+    "date": "2023-10-05",
+    "city": "New York",
+    "users": 150
+  },
+  {
+    "date": "2023-10-05",
+    "city": "Moscow",
+    "users": 103
+  },
+  {
+    "date": "2023-10-06",
+    "city": "Chennai",
+    "users": 148
+  },
+  {
+    "date": "2023-10-06",
+    "city": "New York",
+    "users": 100
+  },
+  {
+    "date": "2023-10-06",
+    "city": "Moscow",
+    "users": 134
+  },
+  {
+    "date": "2023-10-07",
+    "city": "Chennai",
+    "users": 137
+  },
+  {
+    "date": "2023-10-07",
+    "city": "New York",
+    "users": 100
+  },
+  {
+    "date": "2023-10-07",
+    "city": "Moscow",
+    "users": 139
+  },
+  {
+    "date": "2023-10-08",
+    "city": "Chennai",
+    "users": 131
+  },
+  {
+    "date": "2023-10-08",
+    "city": "New York",
+    "users": 139
+  },
+  {
+    "date": "2023-10-08",
+    "city": "Moscow",
+    "users": 108
+  },
+  {
+    "date": "2023-10-09",
+    "city": "Chennai",
+    "users": 104
+  },
+  {
+    "date": "2023-10-09",
+    "city": "New York",
+    "users": 127
+  },
+  {
+    "date": "2023-10-09",
+    "city": "Moscow",
+    "users": 126
+  },
+  {
+    "date": "2023-10-10",
+    "city": "Chennai",
+    "users": 140
+  },
+  {
+    "date": "2023-10-10",
+    "city": "New York",
+    "users": 103
+  },
+  {
+    "date": "2023-10-10",
+    "city": "Moscow",
+    "users": 118
+  },
+  {
+    "date": "2023-10-11",
+    "city": "Chennai",
+    "users": 150
+  },
+  {
+    "date": "2023-10-11",
+    "city": "New York",
+    "users": 132
+  },
+  {
+    "date": "2023-10-11",
+    "city": "Moscow",
+    "users": 122
+  },
+  {
+    "date": "2023-10-12",
+    "city": "Chennai",
+    "users": 109
+  },
+  {
+    "date": "2023-10-12",
+    "city": "New York",
+    "users": 120
+  },
+  {
+    "date": "2023-10-12",
+    "city": "Moscow",
+    "users": 117
+  },
+  {
+    "date": "2023-10-13",
+    "city": "Chennai",
+    "users": 108
+  },
+  {
+    "date": "2023-10-13",
+    "city": "New York",
+    "users": 140
+  },
+  {
+    "date": "2023-10-13",
+    "city": "Moscow",
+    "users": 103
+  },
+  {
+    "date": "2023-10-14",
+    "city": "Chennai",
+    "users": 114
+  },
+  {
+    "date": "2023-10-14",
+    "city": "New York",
+    "users": 144
+  },
+  {
+    "date": "2023-10-14",
+    "city": "Moscow",
+    "users": 131
+  },
+  {
+    "date": "2023-10-15",
+    "city": "Chennai",
+    "users": 117
+  },
+  {
+    "date": "2023-10-15",
+    "city": "New York",
+    "users": 135
+  },
+  {
+    "date": "2023-10-15",
+    "city": "Moscow",
+    "users": 141
+  },
+  {
+    "date": "2023-10-16",
+    "city": "Chennai",
+    "users": 105
+  },
+  {
+    "date": "2023-10-16",
+    "city": "New York",
+    "users": 130
+  },
+  {
+    "date": "2023-10-16",
+    "city": "Moscow",
+    "users": 144
+  },
+  {
+    "date": "2023-10-17",
+    "city": "Chennai",
+    "users": 133
+  },
+  {
+    "date": "2023-10-17",
+    "city": "New York",
+    "users": 128
+  },
+  {
+    "date": "2023-10-17",
+    "city": "Moscow",
+    "users": 128
+  },
+  {
+    "date": "2023-10-18",
+    "city": "Chennai",
+    "users": 138
+  },
+  {
+    "date": "2023-10-18",
+    "city": "New York",
+    "users": 128
+  },
+  {
+    "date": "2023-10-18",
+    "city": "Moscow",
+    "users": 138
+  },
+  {
+    "date": "2023-10-19",
+    "city": "Chennai",
+    "users": 105
+  },
+  {
+    "date": "2023-10-19",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2023-10-19",
+    "city": "Moscow",
+    "users": 133
+  },
+  {
+    "date": "2023-10-20",
+    "city": "Chennai",
+    "users": 108
+  },
+  {
+    "date": "2023-10-20",
+    "city": "New York",
+    "users": 144
+  },
+  {
+    "date": "2023-10-20",
+    "city": "Moscow",
+    "users": 114
+  },
+  {
+    "date": "2023-10-21",
+    "city": "Chennai",
+    "users": 131
+  },
+  {
+    "date": "2023-10-21",
+    "city": "New York",
+    "users": 144
+  },
+  {
+    "date": "2023-10-21",
+    "city": "Moscow",
+    "users": 145
+  },
+  {
+    "date": "2023-10-22",
+    "city": "Chennai",
+    "users": 135
+  },
+  {
+    "date": "2023-10-22",
+    "city": "New York",
+    "users": 132
+  },
+  {
+    "date": "2023-10-22",
+    "city": "Moscow",
+    "users": 107
+  },
+  {
+    "date": "2023-10-23",
+    "city": "Chennai",
+    "users": 113
+  },
+  {
+    "date": "2023-10-23",
+    "city": "New York",
+    "users": 111
+  },
+  {
+    "date": "2023-10-23",
+    "city": "Moscow",
+    "users": 109
+  },
+  {
+    "date": "2023-10-24",
+    "city": "Chennai",
+    "users": 137
+  },
+  {
+    "date": "2023-10-24",
+    "city": "New York",
+    "users": 110
+  },
+  {
+    "date": "2023-10-24",
+    "city": "Moscow",
+    "users": 109
+  },
+  {
+    "date": "2023-10-25",
+    "city": "Chennai",
+    "users": 100
+  },
+  {
+    "date": "2023-10-25",
+    "city": "New York",
+    "users": 118
+  },
+  {
+    "date": "2023-10-25",
+    "city": "Moscow",
+    "users": 141
+  },
+  {
+    "date": "2023-10-26",
+    "city": "Chennai",
+    "users": 148
+  },
+  {
+    "date": "2023-10-26",
+    "city": "New York",
+    "users": 136
+  },
+  {
+    "date": "2023-10-26",
+    "city": "Moscow",
+    "users": 120
+  },
+  {
+    "date": "2023-10-27",
+    "city": "Chennai",
+    "users": 112
+  },
+  {
+    "date": "2023-10-27",
+    "city": "New York",
+    "users": 125
+  },
+  {
+    "date": "2023-10-27",
+    "city": "Moscow",
+    "users": 105
+  },
+  {
+    "date": "2023-10-28",
+    "city": "Chennai",
+    "users": 128
+  },
+  {
+    "date": "2023-10-28",
+    "city": "New York",
+    "users": 130
+  },
+  {
+    "date": "2023-10-28",
+    "city": "Moscow",
+    "users": 119
+  },
+  {
+    "date": "2023-10-29",
+    "city": "Chennai",
+    "users": 134
+  },
+  {
+    "date": "2023-10-29",
+    "city": "New York",
+    "users": 123
+  },
+  {
+    "date": "2023-10-29",
+    "city": "Moscow",
+    "users": 106
+  },
+  {
+    "date": "2023-10-30",
+    "city": "Chennai",
+    "users": 149
+  },
+  {
+    "date": "2023-10-30",
+    "city": "New York",
+    "users": 144
+  },
+  {
+    "date": "2023-10-30",
+    "city": "Moscow",
+    "users": 104
+  },
+  {
+    "date": "2023-10-31",
+    "city": "Chennai",
+    "users": 125
+  },
+  {
+    "date": "2023-10-31",
+    "city": "New York",
+    "users": 132
+  },
+  {
+    "date": "2023-10-31",
+    "city": "Moscow",
+    "users": 118
+  },
+  {
+    "date": "2023-11-01",
+    "city": "Chennai",
+    "users": 147
+  },
+  {
+    "date": "2023-11-01",
+    "city": "New York",
+    "users": 143
+  },
+  {
+    "date": "2023-11-01",
+    "city": "Moscow",
+    "users": 112
+  },
+  {
+    "date": "2023-11-02",
+    "city": "Chennai",
+    "users": 100
+  },
+  {
+    "date": "2023-11-02",
+    "city": "New York",
+    "users": 117
+  },
+  {
+    "date": "2023-11-02",
+    "city": "Moscow",
+    "users": 147
+  },
+  {
+    "date": "2023-11-03",
+    "city": "Chennai",
+    "users": 109
+  },
+  {
+    "date": "2023-11-03",
+    "city": "New York",
+    "users": 130
+  },
+  {
+    "date": "2023-11-03",
+    "city": "Moscow",
+    "users": 119
+  },
+  {
+    "date": "2023-11-04",
+    "city": "Chennai",
+    "users": 132
+  },
+  {
+    "date": "2023-11-04",
+    "city": "New York",
+    "users": 109
+  },
+  {
+    "date": "2023-11-04",
+    "city": "Moscow",
+    "users": 115
+  },
+  {
+    "date": "2023-11-05",
+    "city": "Chennai",
+    "users": 150
+  },
+  {
+    "date": "2023-11-05",
+    "city": "New York",
+    "users": 147
+  },
+  {
+    "date": "2023-11-05",
+    "city": "Moscow",
+    "users": 112
+  },
+  {
+    "date": "2023-11-06",
+    "city": "Chennai",
+    "users": 117
+  },
+  {
+    "date": "2023-11-06",
+    "city": "New York",
+    "users": 101
+  },
+  {
+    "date": "2023-11-06",
+    "city": "Moscow",
+    "users": 118
+  },
+  {
+    "date": "2023-11-07",
+    "city": "Chennai",
+    "users": 124
+  },
+  {
+    "date": "2023-11-07",
+    "city": "New York",
+    "users": 134
+  },
+  {
+    "date": "2023-11-07",
+    "city": "Moscow",
+    "users": 124
+  },
+  {
+    "date": "2023-11-08",
+    "city": "Chennai",
+    "users": 111
+  },
+  {
+    "date": "2023-11-08",
+    "city": "New York",
+    "users": 142
+  },
+  {
+    "date": "2023-11-08",
+    "city": "Moscow",
+    "users": 130
+  },
+  {
+    "date": "2023-11-09",
+    "city": "Chennai",
+    "users": 111
+  },
+  {
+    "date": "2023-11-09",
+    "city": "New York",
+    "users": 106
+  },
+  {
+    "date": "2023-11-09",
+    "city": "Moscow",
+    "users": 100
+  },
+  {
+    "date": "2023-11-10",
+    "city": "Chennai",
+    "users": 115
+  },
+  {
+    "date": "2023-11-10",
+    "city": "New York",
+    "users": 127
+  },
+  {
+    "date": "2023-11-10",
+    "city": "Moscow",
+    "users": 109
+  },
+  {
+    "date": "2023-11-11",
+    "city": "Chennai",
+    "users": 106
+  },
+  {
+    "date": "2023-11-11",
+    "city": "New York",
+    "users": 145
+  },
+  {
+    "date": "2023-11-11",
+    "city": "Moscow",
+    "users": 106
+  },
+  {
+    "date": "2023-11-12",
+    "city": "Chennai",
+    "users": 135
+  },
+  {
+    "date": "2023-11-12",
+    "city": "New York",
+    "users": 133
+  },
+  {
+    "date": "2023-11-12",
+    "city": "Moscow",
+    "users": 117
+  },
+  {
+    "date": "2023-11-13",
+    "city": "Chennai",
+    "users": 134
+  },
+  {
+    "date": "2023-11-13",
+    "city": "New York",
+    "users": 113
+  },
+  {
+    "date": "2023-11-13",
+    "city": "Moscow",
+    "users": 112
+  },
+  {
+    "date": "2023-11-14",
+    "city": "Chennai",
+    "users": 143
+  },
+  {
+    "date": "2023-11-14",
+    "city": "New York",
+    "users": 147
+  },
+  {
+    "date": "2023-11-14",
+    "city": "Moscow",
+    "users": 138
+  },
+  {
+    "date": "2023-11-15",
+    "city": "Chennai",
+    "users": 137
+  },
+  {
+    "date": "2023-11-15",
+    "city": "New York",
+    "users": 105
+  },
+  {
+    "date": "2023-11-15",
+    "city": "Moscow",
+    "users": 127
+  },
+  {
+    "date": "2023-11-16",
+    "city": "Chennai",
+    "users": 138
+  },
+  {
+    "date": "2023-11-16",
+    "city": "New York",
+    "users": 114
+  },
+  {
+    "date": "2023-11-16",
+    "city": "Moscow",
+    "users": 150
+  },
+  {
+    "date": "2023-11-17",
+    "city": "Chennai",
+    "users": 113
+  },
+  {
+    "date": "2023-11-17",
+    "city": "New York",
+    "users": 115
+  },
+  {
+    "date": "2023-11-17",
+    "city": "Moscow",
+    "users": 145
+  },
+  {
+    "date": "2023-11-18",
+    "city": "Chennai",
+    "users": 135
+  },
+  {
+    "date": "2023-11-18",
+    "city": "New York",
+    "users": 129
+  },
+  {
+    "date": "2023-11-18",
+    "city": "Moscow",
+    "users": 131
+  },
+  {
+    "date": "2023-11-19",
+    "city": "Chennai",
+    "users": 143
+  },
+  {
+    "date": "2023-11-19",
+    "city": "New York",
+    "users": 104
+  },
+  {
+    "date": "2023-11-19",
+    "city": "Moscow",
+    "users": 123
+  },
+  {
+    "date": "2023-11-20",
+    "city": "Chennai",
+    "users": 105
+  },
+  {
+    "date": "2023-11-20",
+    "city": "New York",
+    "users": 134
+  },
+  {
+    "date": "2023-11-20",
+    "city": "Moscow",
+    "users": 122
+  },
+  {
+    "date": "2023-11-21",
+    "city": "Chennai",
+    "users": 139
+  },
+  {
+    "date": "2023-11-21",
+    "city": "New York",
+    "users": 104
+  },
+  {
+    "date": "2023-11-21",
+    "city": "Moscow",
+    "users": 126
+  },
+  {
+    "date": "2023-11-22",
+    "city": "Chennai",
+    "users": 100
+  },
+  {
+    "date": "2023-11-22",
+    "city": "New York",
+    "users": 132
+  },
+  {
+    "date": "2023-11-22",
+    "city": "Moscow",
+    "users": 122
+  },
+  {
+    "date": "2023-11-23",
+    "city": "Chennai",
+    "users": 149
+  },
+  {
+    "date": "2023-11-23",
+    "city": "New York",
+    "users": 139
+  },
+  {
+    "date": "2023-11-23",
+    "city": "Moscow",
+    "users": 130
+  },
+  {
+    "date": "2023-11-24",
+    "city": "Chennai",
+    "users": 123
+  },
+  {
+    "date": "2023-11-24",
+    "city": "New York",
+    "users": 144
+  },
+  {
+    "date": "2023-11-24",
+    "city": "Moscow",
+    "users": 115
+  },
+  {
+    "date": "2023-11-25",
+    "city": "Chennai",
+    "users": 128
+  },
+  {
+    "date": "2023-11-25",
+    "city": "New York",
+    "users": 147
+  },
+  {
+    "date": "2023-11-25",
+    "city": "Moscow",
+    "users": 105
+  },
+  {
+    "date": "2023-11-26",
+    "city": "Chennai",
+    "users": 120
+  },
+  {
+    "date": "2023-11-26",
+    "city": "New York",
+    "users": 141
+  },
+  {
+    "date": "2023-11-26",
+    "city": "Moscow",
+    "users": 108
+  },
+  {
+    "date": "2023-11-27",
+    "city": "Chennai",
+    "users": 116
+  },
+  {
+    "date": "2023-11-27",
+    "city": "New York",
+    "users": 104
+  },
+  {
+    "date": "2023-11-27",
+    "city": "Moscow",
+    "users": 123
+  },
+  {
+    "date": "2023-11-28",
+    "city": "Chennai",
+    "users": 129
+  },
+  {
+    "date": "2023-11-28",
+    "city": "New York",
+    "users": 150
+  },
+  {
+    "date": "2023-11-28",
+    "city": "Moscow",
+    "users": 150
+  },
+  {
+    "date": "2023-11-29",
+    "city": "Chennai",
+    "users": 119
+  },
+  {
+    "date": "2023-11-29",
+    "city": "New York",
+    "users": 138
+  },
+  {
+    "date": "2023-11-29",
+    "city": "Moscow",
+    "users": 124
+  },
+  {
+    "date": "2023-11-30",
+    "city": "Chennai",
+    "users": 101
+  },
+  {
+    "date": "2023-11-30",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2023-11-30",
+    "city": "Moscow",
+    "users": 133
+  },
+  {
+    "date": "2023-12-01",
+    "city": "Chennai",
+    "users": 125
+  },
+  {
+    "date": "2023-12-01",
+    "city": "New York",
+    "users": 116
+  },
+  {
+    "date": "2023-12-01",
+    "city": "Moscow",
+    "users": 123
+  },
+  {
+    "date": "2023-12-02",
+    "city": "Chennai",
+    "users": 138
+  },
+  {
+    "date": "2023-12-02",
+    "city": "New York",
+    "users": 142
+  },
+  {
+    "date": "2023-12-02",
+    "city": "Moscow",
+    "users": 146
+  },
+  {
+    "date": "2023-12-03",
+    "city": "Chennai",
+    "users": 130
+  },
+  {
+    "date": "2023-12-03",
+    "city": "New York",
+    "users": 115
+  },
+  {
+    "date": "2023-12-03",
+    "city": "Moscow",
+    "users": 101
+  },
+  {
+    "date": "2023-12-04",
+    "city": "Chennai",
+    "users": 114
+  },
+  {
+    "date": "2023-12-04",
+    "city": "New York",
+    "users": 146
+  },
+  {
+    "date": "2023-12-04",
+    "city": "Moscow",
+    "users": 115
+  },
+  {
+    "date": "2023-12-05",
+    "city": "Chennai",
+    "users": 107
+  },
+  {
+    "date": "2023-12-05",
+    "city": "New York",
+    "users": 137
+  },
+  {
+    "date": "2023-12-05",
+    "city": "Moscow",
+    "users": 115
+  },
+  {
+    "date": "2023-12-06",
+    "city": "Chennai",
+    "users": 140
+  },
+  {
+    "date": "2023-12-06",
+    "city": "New York",
+    "users": 147
+  },
+  {
+    "date": "2023-12-06",
+    "city": "Moscow",
+    "users": 114
+  },
+  {
+    "date": "2023-12-07",
+    "city": "Chennai",
+    "users": 148
+  },
+  {
+    "date": "2023-12-07",
+    "city": "New York",
+    "users": 120
+  },
+  {
+    "date": "2023-12-07",
+    "city": "Moscow",
+    "users": 122
+  },
+  {
+    "date": "2023-12-08",
+    "city": "Chennai",
+    "users": 134
+  },
+  {
+    "date": "2023-12-08",
+    "city": "New York",
+    "users": 113
+  },
+  {
+    "date": "2023-12-08",
+    "city": "Moscow",
+    "users": 134
+  },
+  {
+    "date": "2023-12-09",
+    "city": "Chennai",
+    "users": 123
+  },
+  {
+    "date": "2023-12-09",
+    "city": "New York",
+    "users": 109
+  },
+  {
+    "date": "2023-12-09",
+    "city": "Moscow",
+    "users": 112
+  },
+  {
+    "date": "2023-12-10",
+    "city": "Chennai",
+    "users": 135
+  },
+  {
+    "date": "2023-12-10",
+    "city": "New York",
+    "users": 130
+  },
+  {
+    "date": "2023-12-10",
+    "city": "Moscow",
+    "users": 133
+  },
+  {
+    "date": "2023-12-11",
+    "city": "Chennai",
+    "users": 143
+  },
+  {
+    "date": "2023-12-11",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2023-12-11",
+    "city": "Moscow",
+    "users": 103
+  },
+  {
+    "date": "2023-12-12",
+    "city": "Chennai",
+    "users": 114
+  },
+  {
+    "date": "2023-12-12",
+    "city": "New York",
+    "users": 102
+  },
+  {
+    "date": "2023-12-12",
+    "city": "Moscow",
+    "users": 146
+  },
+  {
+    "date": "2023-12-13",
+    "city": "Chennai",
+    "users": 128
+  },
+  {
+    "date": "2023-12-13",
+    "city": "New York",
+    "users": 148
+  },
+  {
+    "date": "2023-12-13",
+    "city": "Moscow",
+    "users": 127
+  },
+  {
+    "date": "2023-12-14",
+    "city": "Chennai",
+    "users": 128
+  },
+  {
+    "date": "2023-12-14",
+    "city": "New York",
+    "users": 144
+  },
+  {
+    "date": "2023-12-14",
+    "city": "Moscow",
+    "users": 149
+  },
+  {
+    "date": "2023-12-15",
+    "city": "Chennai",
+    "users": 145
+  },
+  {
+    "date": "2023-12-15",
+    "city": "New York",
+    "users": 148
+  },
+  {
+    "date": "2023-12-15",
+    "city": "Moscow",
+    "users": 130
+  },
+  {
+    "date": "2023-12-16",
+    "city": "Chennai",
+    "users": 130
+  },
+  {
+    "date": "2023-12-16",
+    "city": "New York",
+    "users": 133
+  },
+  {
+    "date": "2023-12-16",
+    "city": "Moscow",
+    "users": 107
+  },
+  {
+    "date": "2023-12-17",
+    "city": "Chennai",
+    "users": 114
+  },
+  {
+    "date": "2023-12-17",
+    "city": "New York",
+    "users": 114
+  },
+  {
+    "date": "2023-12-17",
+    "city": "Moscow",
+    "users": 103
+  },
+  {
+    "date": "2023-12-18",
+    "city": "Chennai",
+    "users": 139
+  },
+  {
+    "date": "2023-12-18",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2023-12-18",
+    "city": "Moscow",
+    "users": 135
+  },
+  {
+    "date": "2023-12-19",
+    "city": "Chennai",
+    "users": 100
+  },
+  {
+    "date": "2023-12-19",
+    "city": "New York",
+    "users": 107
+  },
+  {
+    "date": "2023-12-19",
+    "city": "Moscow",
+    "users": 110
+  },
+  {
+    "date": "2023-12-20",
+    "city": "Chennai",
+    "users": 128
+  },
+  {
+    "date": "2023-12-20",
+    "city": "New York",
+    "users": 113
+  },
+  {
+    "date": "2023-12-20",
+    "city": "Moscow",
+    "users": 108
+  },
+  {
+    "date": "2023-12-21",
+    "city": "Chennai",
+    "users": 108
+  },
+  {
+    "date": "2023-12-21",
+    "city": "New York",
+    "users": 141
+  },
+  {
+    "date": "2023-12-21",
+    "city": "Moscow",
+    "users": 141
+  },
+  {
+    "date": "2023-12-22",
+    "city": "Chennai",
+    "users": 124
+  },
+  {
+    "date": "2023-12-22",
+    "city": "New York",
+    "users": 109
+  },
+  {
+    "date": "2023-12-22",
+    "city": "Moscow",
+    "users": 140
+  },
+  {
+    "date": "2023-12-23",
+    "city": "Chennai",
+    "users": 138
+  },
+  {
+    "date": "2023-12-23",
+    "city": "New York",
+    "users": 150
+  },
+  {
+    "date": "2023-12-23",
+    "city": "Moscow",
+    "users": 100
+  },
+  {
+    "date": "2023-12-24",
+    "city": "Chennai",
+    "users": 143
+  },
+  {
+    "date": "2023-12-24",
+    "city": "New York",
+    "users": 125
+  },
+  {
+    "date": "2023-12-24",
+    "city": "Moscow",
+    "users": 147
+  },
+  {
+    "date": "2023-12-25",
+    "city": "Chennai",
+    "users": 102
+  },
+  {
+    "date": "2023-12-25",
+    "city": "New York",
+    "users": 125
+  },
+  {
+    "date": "2023-12-25",
+    "city": "Moscow",
+    "users": 128
+  },
+  {
+    "date": "2023-12-26",
+    "city": "Chennai",
+    "users": 115
+  },
+  {
+    "date": "2023-12-26",
+    "city": "New York",
+    "users": 143
+  },
+  {
+    "date": "2023-12-26",
+    "city": "Moscow",
+    "users": 100
+  },
+  {
+    "date": "2023-12-27",
+    "city": "Chennai",
+    "users": 107
+  },
+  {
+    "date": "2023-12-27",
+    "city": "New York",
+    "users": 142
+  },
+  {
+    "date": "2023-12-27",
+    "city": "Moscow",
+    "users": 116
+  },
+  {
+    "date": "2023-12-28",
+    "city": "Chennai",
+    "users": 114
+  },
+  {
+    "date": "2023-12-28",
+    "city": "New York",
+    "users": 126
+  },
+  {
+    "date": "2023-12-28",
+    "city": "Moscow",
+    "users": 109
+  },
+  {
+    "date": "2023-12-29",
+    "city": "Chennai",
+    "users": 133
+  },
+  {
+    "date": "2023-12-29",
+    "city": "New York",
+    "users": 105
+  },
+  {
+    "date": "2023-12-29",
+    "city": "Moscow",
+    "users": 128
+  },
+  {
+    "date": "2023-12-30",
+    "city": "Chennai",
+    "users": 110
+  },
+  {
+    "date": "2023-12-30",
+    "city": "New York",
+    "users": 123
+  },
+  {
+    "date": "2023-12-30",
+    "city": "Moscow",
+    "users": 143
+  },
+  {
+    "date": "2023-12-31",
+    "city": "Chennai",
+    "users": 133
+  },
+  {
+    "date": "2023-12-31",
+    "city": "New York",
+    "users": 110
+  },
+  {
+    "date": "2023-12-31",
+    "city": "Moscow",
+    "users": 103
+  },
+  {
+    "date": "2024-01-01",
+    "city": "Chennai",
+    "users": 106
+  },
+  {
+    "date": "2024-01-01",
+    "city": "New York",
+    "users": 118
+  },
+  {
+    "date": "2024-01-01",
+    "city": "Moscow",
+    "users": 146
+  },
+  {
+    "date": "2024-01-02",
+    "city": "Chennai",
+    "users": 107
+  },
+  {
+    "date": "2024-01-02",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2024-01-02",
+    "city": "Moscow",
+    "users": 146
+  },
+  {
+    "date": "2024-01-03",
+    "city": "Chennai",
+    "users": 128
+  },
+  {
+    "date": "2024-01-03",
+    "city": "New York",
+    "users": 117
+  },
+  {
+    "date": "2024-01-03",
+    "city": "Moscow",
+    "users": 108
+  },
+  {
+    "date": "2024-01-04",
+    "city": "Chennai",
+    "users": 139
+  },
+  {
+    "date": "2024-01-04",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2024-01-04",
+    "city": "Moscow",
+    "users": 117
+  },
+  {
+    "date": "2024-01-05",
+    "city": "Chennai",
+    "users": 114
+  },
+  {
+    "date": "2024-01-05",
+    "city": "New York",
+    "users": 123
+  },
+  {
+    "date": "2024-01-05",
+    "city": "Moscow",
+    "users": 129
+  },
+  {
+    "date": "2024-01-06",
+    "city": "Chennai",
+    "users": 115
+  },
+  {
+    "date": "2024-01-06",
+    "city": "New York",
+    "users": 120
+  },
+  {
+    "date": "2024-01-06",
+    "city": "Moscow",
+    "users": 129
+  },
+  {
+    "date": "2024-01-07",
+    "city": "Chennai",
+    "users": 122
+  },
+  {
+    "date": "2024-01-07",
+    "city": "New York",
+    "users": 145
+  },
+  {
+    "date": "2024-01-07",
+    "city": "Moscow",
+    "users": 143
+  },
+  {
+    "date": "2024-01-08",
+    "city": "Chennai",
+    "users": 135
+  },
+  {
+    "date": "2024-01-08",
+    "city": "New York",
+    "users": 133
+  },
+  {
+    "date": "2024-01-08",
+    "city": "Moscow",
+    "users": 145
+  },
+  {
+    "date": "2024-01-09",
+    "city": "Chennai",
+    "users": 149
+  },
+  {
+    "date": "2024-01-09",
+    "city": "New York",
+    "users": 127
+  },
+  {
+    "date": "2024-01-09",
+    "city": "Moscow",
+    "users": 127
+  },
+  {
+    "date": "2024-01-10",
+    "city": "Chennai",
+    "users": 135
+  },
+  {
+    "date": "2024-01-10",
+    "city": "New York",
+    "users": 150
+  },
+  {
+    "date": "2024-01-10",
+    "city": "Moscow",
+    "users": 149
+  },
+  {
+    "date": "2024-01-11",
+    "city": "Chennai",
+    "users": 108
+  },
+  {
+    "date": "2024-01-11",
+    "city": "New York",
+    "users": 133
+  },
+  {
+    "date": "2024-01-11",
+    "city": "Moscow",
+    "users": 150
+  },
+  {
+    "date": "2024-01-12",
+    "city": "Chennai",
+    "users": 100
+  },
+  {
+    "date": "2024-01-12",
+    "city": "New York",
+    "users": 121
+  },
+  {
+    "date": "2024-01-12",
+    "city": "Moscow",
+    "users": 100
+  },
+  {
+    "date": "2024-01-13",
+    "city": "Chennai",
+    "users": 141
+  },
+  {
+    "date": "2024-01-13",
+    "city": "New York",
+    "users": 107
+  },
+  {
+    "date": "2024-01-13",
+    "city": "Moscow",
+    "users": 121
+  },
+  {
+    "date": "2024-01-14",
+    "city": "Chennai",
+    "users": 129
+  },
+  {
+    "date": "2024-01-14",
+    "city": "New York",
+    "users": 109
+  },
+  {
+    "date": "2024-01-14",
+    "city": "Moscow",
+    "users": 115
+  },
+  {
+    "date": "2024-01-15",
+    "city": "Chennai",
+    "users": 138
+  },
+  {
+    "date": "2024-01-15",
+    "city": "New York",
+    "users": 134
+  },
+  {
+    "date": "2024-01-15",
+    "city": "Moscow",
+    "users": 125
+  },
+  {
+    "date": "2024-01-16",
+    "city": "Chennai",
+    "users": 125
+  },
+  {
+    "date": "2024-01-16",
+    "city": "New York",
+    "users": 101
+  },
+  {
+    "date": "2024-01-16",
+    "city": "Moscow",
+    "users": 106
+  },
+  {
+    "date": "2024-01-17",
+    "city": "Chennai",
+    "users": 105
+  },
+  {
+    "date": "2024-01-17",
+    "city": "New York",
+    "users": 136
+  },
+  {
+    "date": "2024-01-17",
+    "city": "Moscow",
+    "users": 142
+  },
+  {
+    "date": "2024-01-18",
+    "city": "Chennai",
+    "users": 138
+  },
+  {
+    "date": "2024-01-18",
+    "city": "New York",
+    "users": 136
+  },
+  {
+    "date": "2024-01-18",
+    "city": "Moscow",
+    "users": 105
+  },
+  {
+    "date": "2024-01-19",
+    "city": "Chennai",
+    "users": 135
+  },
+  {
+    "date": "2024-01-19",
+    "city": "New York",
+    "users": 132
+  },
+  {
+    "date": "2024-01-19",
+    "city": "Moscow",
+    "users": 102
+  },
+  {
+    "date": "2024-01-20",
+    "city": "Chennai",
+    "users": 104
+  },
+  {
+    "date": "2024-01-20",
+    "city": "New York",
+    "users": 112
+  },
+  {
+    "date": "2024-01-20",
+    "city": "Moscow",
+    "users": 103
+  },
+  {
+    "date": "2024-01-21",
+    "city": "Chennai",
+    "users": 140
+  },
+  {
+    "date": "2024-01-21",
+    "city": "New York",
+    "users": 112
+  },
+  {
+    "date": "2024-01-21",
+    "city": "Moscow",
+    "users": 138
+  },
+  {
+    "date": "2024-01-22",
+    "city": "Chennai",
+    "users": 101
+  },
+  {
+    "date": "2024-01-22",
+    "city": "New York",
+    "users": 148
+  },
+  {
+    "date": "2024-01-22",
+    "city": "Moscow",
+    "users": 138
+  },
+  {
+    "date": "2024-01-23",
+    "city": "Chennai",
+    "users": 115
+  },
+  {
+    "date": "2024-01-23",
+    "city": "New York",
+    "users": 131
+  },
+  {
+    "date": "2024-01-23",
+    "city": "Moscow",
+    "users": 107
+  },
+  {
+    "date": "2024-01-24",
+    "city": "Chennai",
+    "users": 130
+  },
+  {
+    "date": "2024-01-24",
+    "city": "New York",
+    "users": 144
+  },
+  {
+    "date": "2024-01-24",
+    "city": "Moscow",
+    "users": 114
+  },
+  {
+    "date": "2024-01-25",
+    "city": "Chennai",
+    "users": 130
+  },
+  {
+    "date": "2024-01-25",
+    "city": "New York",
+    "users": 100
+  },
+  {
+    "date": "2024-01-25",
+    "city": "Moscow",
+    "users": 132
+  },
+  {
+    "date": "2024-01-26",
+    "city": "Chennai",
+    "users": 135
+  },
+  {
+    "date": "2024-01-26",
+    "city": "New York",
+    "users": 144
+  },
+  {
+    "date": "2024-01-26",
+    "city": "Moscow",
+    "users": 112
+  },
+  {
+    "date": "2024-01-27",
+    "city": "Chennai",
+    "users": 107
+  },
+  {
+    "date": "2024-01-27",
+    "city": "New York",
+    "users": 111
+  },
+  {
+    "date": "2024-01-27",
+    "city": "Moscow",
+    "users": 132
+  },
+  {
+    "date": "2024-01-28",
+    "city": "Chennai",
+    "users": 130
+  },
+  {
+    "date": "2024-01-28",
+    "city": "New York",
+    "users": 123
+  },
+  {
+    "date": "2024-01-28",
+    "city": "Moscow",
+    "users": 144
+  },
+  {
+    "date": "2024-01-29",
+    "city": "Chennai",
+    "users": 118
+  },
+  {
+    "date": "2024-01-29",
+    "city": "New York",
+    "users": 126
+  },
+  {
+    "date": "2024-01-29",
+    "city": "Moscow",
+    "users": 140
+  },
+  {
+    "date": "2024-01-30",
+    "city": "Chennai",
+    "users": 130
+  },
+  {
+    "date": "2024-01-30",
+    "city": "New York",
+    "users": 137
+  },
+  {
+    "date": "2024-01-30",
+    "city": "Moscow",
+    "users": 109
+  },
+  {
+    "date": "2024-01-31",
+    "city": "Chennai",
+    "users": 138
+  },
+  {
+    "date": "2024-01-31",
+    "city": "New York",
+    "users": 122
+  },
+  {
+    "date": "2024-01-31",
+    "city": "Moscow",
+    "users": 132
+  },
+  {
+    "date": "2024-02-01",
+    "city": "Chennai",
+    "users": 117
+  },
+  {
+    "date": "2024-02-01",
+    "city": "New York",
+    "users": 111
+  },
+  {
+    "date": "2024-02-01",
+    "city": "Moscow",
+    "users": 107
+  },
+  {
+    "date": "2024-02-02",
+    "city": "Chennai",
+    "users": 123
+  },
+  {
+    "date": "2024-02-02",
+    "city": "New York",
+    "users": 115
+  },
+  {
+    "date": "2024-02-02",
+    "city": "Moscow",
+    "users": 123
+  },
+  {
+    "date": "2024-02-03",
+    "city": "Chennai",
+    "users": 129
+  },
+  {
+    "date": "2024-02-03",
+    "city": "New York",
+    "users": 115
+  },
+  {
+    "date": "2024-02-03",
+    "city": "Moscow",
+    "users": 138
+  },
+  {
+    "date": "2024-02-04",
+    "city": "Chennai",
+    "users": 118
+  },
+  {
+    "date": "2024-02-04",
+    "city": "New York",
+    "users": 102
+  },
+  {
+    "date": "2024-02-04",
+    "city": "Moscow",
+    "users": 143
+  },
+  {
+    "date": "2024-02-05",
+    "city": "Chennai",
+    "users": 129
+  },
+  {
+    "date": "2024-02-05",
+    "city": "New York",
+    "users": 101
+  },
+  {
+    "date": "2024-02-05",
+    "city": "Moscow",
+    "users": 143
+  },
+  {
+    "date": "2024-02-06",
+    "city": "Chennai",
+    "users": 109
+  },
+  {
+    "date": "2024-02-06",
+    "city": "New York",
+    "users": 115
+  },
+  {
+    "date": "2024-02-06",
+    "city": "Moscow",
+    "users": 106
+  },
+  {
+    "date": "2024-02-07",
+    "city": "Chennai",
+    "users": 136
+  },
+  {
+    "date": "2024-02-07",
+    "city": "New York",
+    "users": 108
+  },
+  {
+    "date": "2024-02-07",
+    "city": "Moscow",
+    "users": 114
+  },
+  {
+    "date": "2024-02-08",
+    "city": "Chennai",
+    "users": 124
+  },
+  {
+    "date": "2024-02-08",
+    "city": "New York",
+    "users": 128
+  },
+  {
+    "date": "2024-02-08",
+    "city": "Moscow",
+    "users": 136
+  },
+  {
+    "date": "2024-02-09",
+    "city": "Chennai",
+    "users": 145
+  },
+  {
+    "date": "2024-02-09",
+    "city": "New York",
+    "users": 128
+  },
+  {
+    "date": "2024-02-09",
+    "city": "Moscow",
+    "users": 116
+  },
+  {
+    "date": "2024-02-10",
+    "city": "Chennai",
+    "users": 126
+  },
+  {
+    "date": "2024-02-10",
+    "city": "New York",
+    "users": 103
+  },
+  {
+    "date": "2024-02-10",
+    "city": "Moscow",
+    "users": 105
+  },
+  {
+    "date": "2024-02-11",
+    "city": "Chennai",
+    "users": 148
+  },
+  {
+    "date": "2024-02-11",
+    "city": "New York",
+    "users": 110
+  },
+  {
+    "date": "2024-02-11",
+    "city": "Moscow",
+    "users": 134
+  },
+  {
+    "date": "2024-02-12",
+    "city": "Chennai",
+    "users": 133
+  },
+  {
+    "date": "2024-02-12",
+    "city": "New York",
+    "users": 103
+  },
+  {
+    "date": "2024-02-12",
+    "city": "Moscow",
+    "users": 122
+  },
+  {
+    "date": "2024-02-13",
+    "city": "Chennai",
+    "users": 145
+  },
+  {
+    "date": "2024-02-13",
+    "city": "New York",
+    "users": 119
+  },
+  {
+    "date": "2024-02-13",
+    "city": "Moscow",
+    "users": 122
+  },
+  {
+    "date": "2024-02-14",
+    "city": "Chennai",
+    "users": 106
+  },
+  {
+    "date": "2024-02-14",
+    "city": "New York",
+    "users": 125
+  },
+  {
+    "date": "2024-02-14",
+    "city": "Moscow",
+    "users": 101
+  },
+  {
+    "date": "2024-02-15",
+    "city": "Chennai",
+    "users": 140
+  },
+  {
+    "date": "2024-02-15",
+    "city": "New York",
+    "users": 111
+  },
+  {
+    "date": "2024-02-15",
+    "city": "Moscow",
+    "users": 104
+  },
+  {
+    "date": "2024-02-16",
+    "city": "Chennai",
+    "users": 142
+  },
+  {
+    "date": "2024-02-16",
+    "city": "New York",
+    "users": 108
+  },
+  {
+    "date": "2024-02-16",
+    "city": "Moscow",
+    "users": 127
+  },
+  {
+    "date": "2024-02-17",
+    "city": "Chennai",
+    "users": 137
+  },
+  {
+    "date": "2024-02-17",
+    "city": "New York",
+    "users": 140
+  },
+  {
+    "date": "2024-02-17",
+    "city": "Moscow",
+    "users": 138
+  },
+  {
+    "date": "2024-02-18",
+    "city": "Chennai",
+    "users": 105
+  },
+  {
+    "date": "2024-02-18",
+    "city": "New York",
+    "users": 103
+  },
+  {
+    "date": "2024-02-18",
+    "city": "Moscow",
+    "users": 106
+  },
+  {
+    "date": "2024-02-19",
+    "city": "Chennai",
+    "users": 121
+  },
+  {
+    "date": "2024-02-19",
+    "city": "New York",
+    "users": 124
+  },
+  {
+    "date": "2024-02-19",
+    "city": "Moscow",
+    "users": 129
+  },
+  {
+    "date": "2024-02-20",
+    "city": "Chennai",
+    "users": 115
+  },
+  {
+    "date": "2024-02-20",
+    "city": "New York",
+    "users": 143
+  },
+  {
+    "date": "2024-02-20",
+    "city": "Moscow",
+    "users": 136
+  },
+  {
+    "date": "2024-02-21",
+    "city": "Chennai",
+    "users": 139
+  },
+  {
+    "date": "2024-02-21",
+    "city": "New York",
+    "users": 137
+  },
+  {
+    "date": "2024-02-21",
+    "city": "Moscow",
+    "users": 130
+  },
+  {
+    "date": "2024-02-22",
+    "city": "Chennai",
+    "users": 114
+  },
+  {
+    "date": "2024-02-22",
+    "city": "New York",
+    "users": 120
+  },
+  {
+    "date": "2024-02-22",
+    "city": "Moscow",
+    "users": 112
+  },
+  {
+    "date": "2024-02-23",
+    "city": "Chennai",
+    "users": 113
+  },
+  {
+    "date": "2024-02-23",
+    "city": "New York",
+    "users": 110
+  },
+  {
+    "date": "2024-02-23",
+    "city": "Moscow",
+    "users": 141
+  },
+  {
+    "date": "2024-02-24",
+    "city": "Chennai",
+    "users": 119
+  },
+  {
+    "date": "2024-02-24",
+    "city": "New York",
+    "users": 119
+  },
+  {
+    "date": "2024-02-24",
+    "city": "Moscow",
+    "users": 110
+  },
+  {
+    "date": "2024-02-25",
+    "city": "Chennai",
+    "users": 138
+  },
+  {
+    "date": "2024-02-25",
+    "city": "New York",
+    "users": 136
+  },
+  {
+    "date": "2024-02-25",
+    "city": "Moscow",
+    "users": 108
+  },
+  {
+    "date": "2024-02-26",
+    "city": "Chennai",
+    "users": 137
+  },
+  {
+    "date": "2024-02-26",
+    "city": "New York",
+    "users": 135
+  },
+  {
+    "date": "2024-02-26",
+    "city": "Moscow",
+    "users": 119
+  },
+  {
+    "date": "2024-02-27",
+    "city": "Chennai",
+    "users": 137
+  },
+  {
+    "date": "2024-02-27",
+    "city": "New York",
+    "users": 112
+  },
+  {
+    "date": "2024-02-27",
+    "city": "Moscow",
+    "users": 133
+  },
+  {
+    "date": "2024-02-28",
+    "city": "Chennai",
+    "users": 126
+  },
+  {
+    "date": "2024-02-28",
+    "city": "New York",
+    "users": 144
+  },
+  {
+    "date": "2024-02-28",
+    "city": "Moscow",
+    "users": 147
+  },
+  {
+    "date": "2024-02-29",
+    "city": "Chennai",
+    "users": 103
+  },
+  {
+    "date": "2024-02-29",
+    "city": "New York",
+    "users": 134
+  },
+  {
+    "date": "2024-02-29",
+    "city": "Moscow",
+    "users": 114
+  },
+  {
+    "date": "2024-03-01",
+    "city": "Chennai",
+    "users": 127
+  },
+  {
+    "date": "2024-03-01",
+    "city": "New York",
+    "users": 116
+  },
+  {
+    "date": "2024-03-01",
+    "city": "Moscow",
+    "users": 124
+  },
+  {
+    "date": "2024-03-02",
+    "city": "Chennai",
+    "users": 148
+  },
+  {
+    "date": "2024-03-02",
+    "city": "New York",
+    "users": 114
+  },
+  {
+    "date": "2024-03-02",
+    "city": "Moscow",
+    "users": 124
+  },
+  {
+    "date": "2024-03-03",
+    "city": "Chennai",
+    "users": 146
+  },
+  {
+    "date": "2024-03-03",
+    "city": "New York",
+    "users": 148
+  },
+  {
+    "date": "2024-03-03",
+    "city": "Moscow",
+    "users": 141
+  },
+  {
+    "date": "2024-03-04",
+    "city": "Chennai",
+    "users": 135
+  },
+  {
+    "date": "2024-03-04",
+    "city": "New York",
+    "users": 146
+  },
+  {
+    "date": "2024-03-04",
+    "city": "Moscow",
+    "users": 145
+  },
+  {
+    "date": "2024-03-05",
+    "city": "Chennai",
+    "users": 136
+  },
+  {
+    "date": "2024-03-05",
+    "city": "New York",
+    "users": 100
+  },
+  {
+    "date": "2024-03-05",
+    "city": "Moscow",
+    "users": 127
+  },
+  {
+    "date": "2024-03-06",
+    "city": "Chennai",
+    "users": 100
+  },
+  {
+    "date": "2024-03-06",
+    "city": "New York",
+    "users": 100
+  },
+  {
+    "date": "2024-03-06",
+    "city": "Moscow",
+    "users": 100
+  },
+  {
+    "date": "2024-03-07",
+    "city": "Chennai",
+    "users": 148
+  },
+  {
+    "date": "2024-03-07",
+    "city": "New York",
+    "users": 109
+  },
+  {
+    "date": "2024-03-07",
+    "city": "Moscow",
+    "users": 133
+  },
+  {
+    "date": "2024-03-08",
+    "city": "Chennai",
+    "users": 145
+  },
+  {
+    "date": "2024-03-08",
+    "city": "New York",
+    "users": 135
+  },
+  {
+    "date": "2024-03-08",
+    "city": "Moscow",
+    "users": 102
+  },
+  {
+    "date": "2024-03-09",
+    "city": "Chennai",
+    "users": 128
+  },
+  {
+    "date": "2024-03-09",
+    "city": "New York",
+    "users": 109
+  },
+  {
+    "date": "2024-03-09",
+    "city": "Moscow",
+    "users": 102
+  },
+  {
+    "date": "2024-03-10",
+    "city": "Chennai",
+    "users": 130
+  },
+  {
+    "date": "2024-03-10",
+    "city": "New York",
+    "users": 141
+  },
+  {
+    "date": "2024-03-10",
+    "city": "Moscow",
+    "users": 138
+  },
+  {
+    "date": "2024-03-11",
+    "city": "Chennai",
+    "users": 105
+  },
+  {
+    "date": "2024-03-11",
+    "city": "New York",
+    "users": 146
+  },
+  {
+    "date": "2024-03-11",
+    "city": "Moscow",
+    "users": 136
+  },
+  {
+    "date": "2024-03-12",
+    "city": "Chennai",
+    "users": 130
+  },
+  {
+    "date": "2024-03-12",
+    "city": "New York",
+    "users": 105
+  },
+  {
+    "date": "2024-03-12",
+    "city": "Moscow",
+    "users": 146
+  },
+  {
+    "date": "2024-03-13",
+    "city": "Chennai",
+    "users": 144
+  },
+  {
+    "date": "2024-03-13",
+    "city": "New York",
+    "users": 142
+  },
+  {
+    "date": "2024-03-13",
+    "city": "Moscow",
+    "users": 105
+  },
+  {
+    "date": "2024-03-14",
+    "city": "Chennai",
+    "users": 134
+  },
+  {
+    "date": "2024-03-14",
+    "city": "New York",
+    "users": 125
+  },
+  {
+    "date": "2024-03-14",
+    "city": "Moscow",
+    "users": 142
+  },
+  {
+    "date": "2024-03-15",
+    "city": "Chennai",
+    "users": 129
+  },
+  {
+    "date": "2024-03-15",
+    "city": "New York",
+    "users": 105
+  },
+  {
+    "date": "2024-03-15",
+    "city": "Moscow",
+    "users": 113
+  }
+]

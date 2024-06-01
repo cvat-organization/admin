@@ -1,9 +1,8 @@
-// num of vendors
-
 import React, { useState, useEffect } from "react";
 import {
-  LineChart,
+  ComposedChart,
   Line,
+  Bar,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -11,10 +10,12 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import { vendorData } from "../data/d";
+import { vendorData } from "../data/d"; // Import JSON data
 
 interface Props {
   selectedRange: string;
+  startDate: Date | null;
+  endDate: Date | null;
 }
 
 interface DataItem {
@@ -22,26 +23,43 @@ interface DataItem {
   count: number;
 }
 
-const VendorChart: React.FC<Props> = ({ selectedRange }) => {
+const VendorChart: React.FC<Props> = ({
+  selectedRange,
+  startDate,
+  endDate,
+}) => {
   const [displayData, setDisplayData] = useState<DataItem[]>([]);
 
   useEffect(() => {
-    updateDisplayData(selectedRange);
-  }, [selectedRange]);
+    if (selectedRange === "custom" && startDate && endDate) {
+      updateDisplayDataForCustomRange(startDate, endDate);
+    } else {
+      updateDisplayData(selectedRange);
+    }
+  }, [selectedRange, startDate, endDate]);
+
+  const updateDisplayDataForCustomRange = (start: Date, end: Date): void => {
+    const filteredData = filterDataByRange(start, end);
+    setDisplayData(filteredData);
+  };
 
   const updateDisplayData = (range: string): void => {
     switch (range) {
       case "7days":
-        setDisplayData(vendorData.slice(-7)); // Display last 7 days directly from vendorData
+        setDisplayData(vendorData.slice(-7));
         break;
       case "1month":
-        setDisplayData(vendorData.slice(-30)); // Display last 30 days (approx. 1 month) directly from vendorData
+        setDisplayData(vendorData.slice(-30));
         break;
       case "6months":
-        setDisplayData(filterDataByRange(180)); // Display last 180 days (approx. 6 months) from the original dataset
+        setDisplayData(filterDataByRange(getDateByDaysAgo(180), new Date()));
         break;
       case "1year":
-        setDisplayData(filterDataByRange(365)); // Display last 365 days (approx. 1 year) from the original dataset
+        setDisplayData(filterDataByRange(getDateByDaysAgo(365), new Date()));
+        break;
+      case "all":
+        const firstDate = new Date(vendorData[0]?.date); // Get the first date from vendorDate
+        setDisplayData(filterDataByRange(firstDate, new Date()));
         break;
       default:
         setDisplayData(vendorData);
@@ -49,18 +67,14 @@ const VendorChart: React.FC<Props> = ({ selectedRange }) => {
     }
   };
 
-  const filterDataByRange = (days: number): DataItem[] => {
-    const endDate = new Date();
-    const startDate = new Date();
-    startDate.setDate(startDate.getDate() - days);
-
+  const filterDataByRange = (start: Date, end: Date): DataItem[] => {
     const filteredData: DataItem[] = [];
     const cumulativeData: { [key: string]: number } = {};
 
     // Filter data for the specified range
     const rangeData = vendorData.filter((item: DataItem) => {
       const itemDate = new Date(item.date);
-      return itemDate >= startDate && itemDate <= endDate;
+      return itemDate >= start && itemDate <= end;
     });
 
     // Calculate cumulative sum for each month within the range
@@ -77,23 +91,30 @@ const VendorChart: React.FC<Props> = ({ selectedRange }) => {
     return filteredData;
   };
 
+  const getDateByDaysAgo = (days: number): Date => {
+    const date = new Date();
+    date.setDate(date.getDate() - days);
+    return date;
+  };
+
   const renderChart = (): JSX.Element => {
     return (
       <ResponsiveContainer width="100%" height={400}>
-        <LineChart data={displayData}>
+        <ComposedChart data={displayData}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="date" />
           <YAxis />
           <Tooltip />
           <Legend />
+          <Bar dataKey="count" fill="#8884d8" name="Number of Vendors" />
           <Line
             type="monotone"
             dataKey="count"
-            stroke="#8884d8"
+            stroke="#82ca9d"
             activeDot={{ r: 8 }}
-            name="number of vendors"
+            // name="Number of Vendors (Line)"
           />
-        </LineChart>
+        </ComposedChart>
       </ResponsiveContainer>
     );
   };

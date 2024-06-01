@@ -1,85 +1,36 @@
-// import React, { useState } from "react";
-// import UserChart from "../Test";
-// import VendorChart from "../vendor_chart";
-// import ChallengeBarChart from "../challenge_chart";
-// import "./chartController.scss"; // Import the SCSS file
-
-// const ChartController: React.FC<{}> = () => {
-//   const [selectedRange, setSelectedRange] = useState<string>("1year");
-
-//   const handleRangeChange = (range: string) => {
-//     setSelectedRange(range);
-//   };
-
-//   return (
-//     <div className="chartdiv">
-//       <div className="button-container">
-//         <button
-//           className={
-//             selectedRange === "7days" ? "button-chart selected" : "button-chart"
-//           }
-//           onClick={() => handleRangeChange("7days")}
-//         >
-//           7 Days
-//         </button>
-//         <button
-//           className={
-//             selectedRange === "1month"
-//               ? "button-chart selected"
-//               : "button-chart"
-//           }
-//           onClick={() => handleRangeChange("1month")}
-//         >
-//           1 Month
-//         </button>
-//         <button
-//           className={
-//             selectedRange === "6months"
-//               ? "button-chart selected"
-//               : "button-chart"
-//           }
-//           onClick={() => handleRangeChange("6months")}
-//         >
-//           6 Months
-//         </button>
-//         <button
-//           className={
-//             selectedRange === "1year" ? "button-chart selected" : "button-chart"
-//           }
-//           onClick={() => handleRangeChange("1year")}
-//         >
-//           1 Year
-//         </button>
-//       </div>
-//       <div className="chart-page">
-//         <div className="chart-box">
-//           <UserChart selectedRange={selectedRange} />
-//         </div>
-//         <div className="chart-box">
-//           <VendorChart selectedRange={selectedRange} />
-//         </div>
-//         <div className="chart-box">
-//           <ChallengeBarChart selectedRange={selectedRange} />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default ChartController;
-
 import React, { useState } from "react";
-import UserChart from "../Test";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import UserChart from "../user_chart";
 import VendorChart from "../vendor_chart";
 import ChallengeBarChart from "../challenge_chart";
-import "./chartController.scss"; // Import the SCSS file
+import UserCity from "../user_city";
+import UserCountry from "../user_country";
+import UserActivity from "../user_activity";
 
-const ChartController: React.FC<{}> = () => {
-  const [selectedRange, setSelectedRange] = useState<string>("1year");
+import "./chartController.scss";
+
+interface ChartControllerProps {}
+
+const ChartController: React.FC<ChartControllerProps> = () => {
+  const [selectedRange, setSelectedRange] = useState<string>("6months");
+  const [startDate, setStartDate] = useState<Date | null>(null);
+  const [endDate, setEndDate] = useState<Date | null>(null);
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   const handleRangeChange = (range: string) => {
     setSelectedRange(range);
+    // Reset custom date range when a predefined range is selected
+    if (range !== "custom") {
+      setStartDate(null);
+      setEndDate(null);
+    }
+  };
+
+  const handleCustomDateChange = (start: Date | null, end: Date | null) => {
+    setStartDate(start);
+    setEndDate(end);
+    setSelectedRange("custom"); // Set selectedRange to 'custom' when custom dates are selected
   };
 
   const toggleMenu = () => {
@@ -92,56 +43,119 @@ const ChartController: React.FC<{}> = () => {
 
   return (
     <div className="chartdiv">
-      {isMenuOpen && <div className="overlay" onClick={toggleMenu} />}{" "}
-      {/* Add overlay when menu is open */}
+      {isMenuOpen && <div className="overlay" onClick={toggleMenu} />}
       <div className="button-container">
         <button
+          onClick={() => handleRangeChange("7days")}
           className={
             selectedRange === "7days" ? "button-chart selected" : "button-chart"
           }
-          onClick={() => handleRangeChange("7days")}
         >
           7 Days
         </button>
         <button
+          onClick={() => handleRangeChange("1month")}
           className={
             selectedRange === "1month"
               ? "button-chart selected"
               : "button-chart"
           }
-          onClick={() => handleRangeChange("1month")}
         >
           1 Month
         </button>
         <button
+          onClick={() => handleRangeChange("6months")}
           className={
             selectedRange === "6months"
               ? "button-chart selected"
               : "button-chart"
           }
-          onClick={() => handleRangeChange("6months")}
         >
           6 Months
         </button>
         <button
+          onClick={() => handleRangeChange("1year")}
           className={
             selectedRange === "1year" ? "button-chart selected" : "button-chart"
           }
-          onClick={() => handleRangeChange("1year")}
         >
           1 Year
         </button>
+        <button
+          onClick={() => handleRangeChange("all")}
+          className={
+            selectedRange === "all" ? "button-chart selected" : "button-chart"
+          }
+        >
+          All
+        </button>
+        {/* Custom Date Range Pickers */}
+        <div className="date-range">Date Range:</div>
+        <DatePicker
+          selected={startDate}
+          onChange={(date: Date) => handleCustomDateChange(date, endDate)}
+          selectsStart
+          startDate={startDate}
+          endDate={endDate}
+          className="date-picker"
+          placeholderText="Start Date"
+        />
+        <DatePicker
+          selected={endDate}
+          onChange={(date: Date) => handleCustomDateChange(startDate, date)}
+          selectsEnd
+          startDate={startDate}
+          endDate={endDate}
+          minDate={startDate}
+          className="date-picker"
+          placeholderText="End Date"
+        />
       </div>
       <div className={chartContainerStyle}>
         <div className="chart-page">
           <div className="chart-box">
-            <UserChart selectedRange={selectedRange} />
+            <UserChart
+              selectedRange={selectedRange}
+              startDate={startDate}
+              endDate={endDate}
+            />
           </div>
           <div className="chart-box">
-            <VendorChart selectedRange={selectedRange} />
+            <VendorChart
+              selectedRange={selectedRange}
+              startDate={startDate}
+              endDate={endDate}
+            />
           </div>
           <div className="chart-box">
-            <ChallengeBarChart selectedRange={selectedRange} />
+            <ChallengeBarChart
+              selectedRange={selectedRange}
+              startDate={startDate}
+              endDate={endDate}
+            />
+          </div>
+        </div>
+        <div className="chart-page">
+          <div className="chart-box">
+            <UserCity
+              selectedRange={selectedRange}
+              startDate={startDate}
+              endDate={endDate}
+            />
+          </div>
+          <div className="chart-box">
+            <UserCountry
+              selectedRange={selectedRange}
+              startDate={startDate}
+              endDate={endDate}
+            />
+          </div>
+          <div className="chart-box">
+            <UserActivity
+              selectedRange={selectedRange}
+              startDate={startDate}
+              endDate={endDate}
+            />
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import {
-  BarChart,
+  ComposedChart,
+  Line,
   Bar,
   XAxis,
   YAxis,
@@ -9,90 +10,111 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import { challengeData } from "../data/d";
+import { challenges } from "../data/d";
 
 interface Props {
   selectedRange: string;
+  startDate: Date | null;
+  endDate: Date | null;
 }
 
 interface DataItem {
   date: string;
-  overall_count: number;
-  vendor_count: number;
+  count: number;
 }
 
-const ChallengeBarChart: React.FC<Props> = ({ selectedRange }) => {
+const ChallengeBarChart: React.FC<Props> = ({
+  selectedRange,
+  startDate,
+  endDate,
+}) => {
   const [displayData, setDisplayData] = useState<DataItem[]>([]);
 
   useEffect(() => {
-    updateDisplayData(selectedRange);
-  }, [selectedRange]);
+    if (selectedRange === "custom" && startDate && endDate) {
+      updateDisplayDataForCustomRange(startDate, endDate);
+    } else {
+      updateDisplayData(selectedRange);
+    }
+  }, [selectedRange, startDate, endDate]);
+
+  const updateDisplayDataForCustomRange = (start: Date, end: Date): void => {
+    const filteredData = filterDataByRange(start, end);
+    setDisplayData(filteredData);
+  };
 
   const updateDisplayData = (range: string): void => {
     switch (range) {
       case "7days":
-        setDisplayData(challengeData.slice(-7));
+        setDisplayData(challenges.slice(-7));
         break;
       case "1month":
-        setDisplayData(challengeData.slice(-30));
+        setDisplayData(challenges.slice(-30));
         break;
       case "6months":
-        setDisplayData(filterDataByRange(180));
+        setDisplayData(filterDataByRange(getDateByDaysAgo(180), new Date()));
         break;
       case "1year":
-        setDisplayData(filterDataByRange(365));
+        setDisplayData(filterDataByRange(getDateByDaysAgo(365), new Date()));
+        break;
+      case "all":
+        const firstDate = new Date(challenges[0]?.date); // Get the first date from userData
+        setDisplayData(filterDataByRange(firstDate, new Date()));
         break;
       default:
-        setDisplayData(challengeData);
+        setDisplayData(challenges);
         break;
     }
   };
 
-  const filterDataByRange = (days: number): DataItem[] => {
-    const endDate = new Date();
-    const startDate = new Date();
-    startDate.setDate(startDate.getDate() - days);
-
+  const filterDataByRange = (start: Date, end: Date): DataItem[] => {
     const filteredData: DataItem[] = [];
-    const cumulativeData: { [key: string]: DataItem } = {};
+    const cumulativeData: { [key: string]: number } = {};
 
-    const rangeData = challengeData.filter((item: DataItem) => {
+    // Filter data for the specified range
+    const rangeData = challenges.filter((item: DataItem) => {
       const itemDate = new Date(item.date);
-      return itemDate >= startDate && itemDate <= endDate;
+      return itemDate >= start && itemDate <= end;
     });
 
+    // Calculate cumulative sum for each month within the range
     rangeData.forEach((item) => {
-      const month = item.date.substring(0, 7);
-      if (!cumulativeData[month]) {
-        cumulativeData[month] = {
-          date: month,
-          overall_count: 0,
-          vendor_count: 0,
-        };
-      }
-      cumulativeData[month].overall_count += item.overall_count;
-      cumulativeData[month].vendor_count += item.vendor_count;
+      const month = item.date.substring(0, 7); // Extract YYYY-MM from date
+      cumulativeData[month] = (cumulativeData[month] || 0) + item.count;
     });
 
+    // Convert cumulativeData object to an array of DataItem objects
     Object.keys(cumulativeData).forEach((month) => {
-      filteredData.push(cumulativeData[month]);
+      filteredData.push({ date: month, count: cumulativeData[month] });
     });
 
     return filteredData;
   };
 
+  const getDateByDaysAgo = (days: number): Date => {
+    const date = new Date();
+    date.setDate(date.getDate() - days);
+    return date;
+  };
+
   const renderChart = (): JSX.Element => {
     return (
       <ResponsiveContainer width="100%" height={400}>
-        <BarChart data={displayData}>
+        <ComposedChart data={displayData}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="date" />
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="overall_count" fill="#8884d8" name="Overall" />
-          <Bar dataKey="vendor_count" fill="#82ca9d" name="Vendor" />
-        </BarChart>
+          <Bar dataKey="count" fill="#8884d8" name="Number of Challenges" />
+          <Line
+            type="monotone"
+            dataKey="count"
+            stroke="#82ca9d"
+            activeDot={{ r: 8 }}
+            // name="Number of Challenges (Line)"
+          />
+        </ComposedChart>
       </ResponsiveContainer>
     );
   };

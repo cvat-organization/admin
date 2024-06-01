@@ -1,61 +1,3 @@
-// /* ChartController.scss */
-// @import "../../styles/variables.scss";
-// @import "../../styles/responsive.scss";
-
-// .button-container {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: flex-start;
-//     margin-bottom: 20px;
-//     width: 100%;
-//   }
-
-//   .button-chart {
-//     background-color: #faecd4; /* light peach background */
-//     border: none;
-//     color: black;
-//     padding: 10px 20px;
-//     text-align: center;
-//     text-decoration: none;
-//     display: inline-block;
-//     font-size: 16px;
-//     margin: 4px 2px;
-//     cursor: pointer;
-//     border-radius: 8px;
-//     transition: background-color 0.3s; /* Smooth transition */
-  
-//     &:hover {
-//       background-color:  #f0d4a3; /* Darker green background on hover */
-//     }
-  
-//     &.selected {
-//       background-color: #d19641; /* Blue background for selected button */
-//     }
-//   }
-  
-//   .chartdiv {
-//     width: 100%; /* Ensure the chartdiv fills the entire width */
-//   }
-
-//   @media only screen and (max-width: 600px) {
-//     .button-chart {
-//       font-size: 12px; /* Further reduced font size */
-//       padding: 6px 10px; /* Further reduced padding */
-//     }
-//   }
-//   .backdrop {
-//     position: fixed;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     height: 100%;
-//     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-//   }
-  
-//   .chartdiv.menu-open .chart-page {
-//     pointer-events: none; /* Disable pointer events for chart page when menu is open */
-//   }
-  
 /* ChartController.scss */
 @import "../../styles/variables.scss";
 @import "../../styles/responsive.scss";
@@ -94,26 +36,24 @@
 .chartdiv {
   position: relative; /* Ensure relative positioning */
   width: 100%; /* Ensure the chartdiv fills the entire width */
+  box-sizing: border-box; /* Include padding and border in width */
 }
 
-// .backdrop {
-//   position: absolute; /* Position the backdrop absolutely */
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-//   // z-index: 1; /* Ensure the backdrop is above other content */
-// }
-
-.chart-page {
-  position: relative; /* Ensure relative positioning */
-  // z-index: 2; /* Ensure the chart page is above the backdrop */
+.date-range {
+  margin-left: 10px; /* Add margin to the left to create space */
+  margin-top: 20px; /* Add margin to the top to lower the text */
 }
 
+.date-picker {
+  margin-left: 20px;
+  margin-right: 10px; /* Add margin to the right to create space */
+  // margin-top: 10px;
+  display: flex;  
+    margin-bottom: 0px;
+    margin-top: 10px;
+  
+}
 
 .menu.open {
   left: 0; /* Show the menu when it is open */
 }
-
-

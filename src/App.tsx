@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import Home from "./pages/Home/Home";
+import Home from "./pages/Home";
 import { profile } from "console";
 import Profile from "./pages/Profile";
 import Sample from "./pages/sample";
