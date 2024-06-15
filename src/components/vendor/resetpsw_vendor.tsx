@@ -24,6 +24,7 @@ const ResetVendorPassword: React.FC = () => {
         value={newPassword}
         onChange={(e) => setNewPassword(e.target.value)}
         placeholder="Enter new password"
+        // style={{ backgroundColor: "white" }}
       />
       <button onClick={handleReset}>Reset Password</button>
     </div>
