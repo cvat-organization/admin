@@ -6,7 +6,7 @@ export const menu = [
       {
         id: 1,
         title: "Homepage",
-        url: "/sample",
+        url: "/",
         icon: "home-2.svg",
       },
       {
