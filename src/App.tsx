@@ -20,6 +20,8 @@ import SearchVendor from "./components/vendor/search_vendor";
 import ModifyVendor from "./components/vendor/modify_vendor";
 import AddVendor from "./components/vendor/add_vendor";
 import ResetVendorPassword from "./components/vendor/resetpsw_vendor";
+import ViewVendor from "./components/vendor/view_vendor";
+import UpdateVendor from "./components/vendor/update_vendor";
 
 const queryClient = new QueryClient();
 
@@ -60,6 +62,14 @@ function App() {
         {
           path: "/vendor/create",
           element: <AddVendor />,
+        },
+        {
+          path: "/vendor/view",
+          element: <ViewVendor />,
+        },
+        {
+          path: "/vendor/update",
+          element: <UpdateVendor />,
         },
         {
           path: "/vendor/reset-password",

@@ -43,25 +43,30 @@ export const menu = [
         url: "/vendor/onboarding",
         icon: "vendor.svg",
         subItems: [
-          {
-            id: 1,
-            title: "Search Vendor",
-            url: "/vendor/search",
-          },
-          {
-            id: 2,
-            title: "Modify Vendor Details",
-            url: "/vendor/modify",
-          },
-          {
-            id: 3,
-            title: "Create Vendor Details",
-            url: "/vendor/create",
-          },
+          // {
+          //   id: 1,
+          //   title: "Search Vendor",
+          //   url: "/vendor/search",
+          // },
+          // {
+          //   id: 2,
+          //   title: "Modify Vendor Details",
+          //   url: "/vendor/modify",
+          // },
+          // {
+          //   id: 3,
+          //   title: "Create Vendor Details",
+          //   url: "/vendor/create",
+          // },
           {
             id: 4,
             title: "Reset Vendor Password",
             url: "/vendor/reset-password",
+          },
+          {
+            id: 5,
+            title: "View Vendor",
+            url: "/vendor/view",
           },
         ],
       },
@@ -120,4 +125,3 @@ export const menu = [
     ],
   },
 ];
-
