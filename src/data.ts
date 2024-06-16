@@ -1,3 +1,5 @@
+import { url } from "inspector";
+
 export const menu = [
   {
     id: 1,
@@ -58,6 +60,11 @@ export const menu = [
           //   title: "Create Vendor Details",
           //   url: "/vendor/create",
           // },
+          {
+            id: 3,
+            title: "Vendor Onboarding",
+            url: "/vendor/onboarding",
+          },
           {
             id: 4,
             title: "Reset Vendor Password",
