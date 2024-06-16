@@ -1,0 +1,65 @@
+/* view_user_activities.css */
+.simple-component-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .component-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .user-table, .activity-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th, .user-table td, .activity-table th, .activity-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .user-table th, .activity-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .user-table td, .activity-table td {
+    background-color: #ffffff;
+  }
+  
+  .user-table tr:nth-child(even), .activity-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .activities-container {
+    margin-top: 20px;
+  }
+  
+  .activities-container h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  

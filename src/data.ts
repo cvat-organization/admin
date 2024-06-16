@@ -15,11 +15,11 @@ export const menu = [
         url: "/users",
         icon: "profile-2.svg",
         subItems: [
-          {
-            id: 1,
-            title: "Search User",
-            url: "/users/search",
-          },
+          // {
+          //   id: 1,
+          //   title: "Search User",
+          //   url: "/users/search",
+          // },
           {
             id: 2,
             title: "View User",
