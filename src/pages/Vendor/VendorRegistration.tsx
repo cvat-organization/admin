@@ -1,279 +1,321 @@
 import React, { useState } from 'react';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import "./VendorRegistration.css";
+import './VendorRegistration.css';
 
 const VendorForm: React.FC = () => {
-  const totalStages = 2; // Updated to 2 stages for simplicity in this example
-  const [currentStage, setCurrentStage] = useState(1);
-  const [formDataStage1, setFormDataStage1] = useState({
+  const [formData, setFormData] = useState({
     businessName: '',
     businessLogo: null,
-    businessEmail: '',
+    address: '',
     businessDomain: '',
-    businessContactNo: '',
-    businessDescription: '',
     subCategories: '',
-    serviceType: '',
-    address: ''
-  });
-  const [formDataStage2, setFormDataStage2] = useState({
     contactPersonName: '',
+    businessContactNo: '',
+    businessEmail: '',
     contactPersonNo: '',
     contactPersonDesignation: '',
     isDecisionMaker: 'yes',
+    businessDescription: '',
+    serviceType: '',
     businessCertificates: {
-      incorporateCert: null as File | null,
-      gstCert: null as File | null,
-      panCert: null as File | null
-    }
+      incorporateCert: null,
+      gstCert: null,
+      panCert: null
+    },
+    fbId: '',
+    instaId: ''
   });
 
-  const handleSubmitStage1 = (event: React.FormEvent) => {
-    event.preventDefault();
-    setCurrentStage(2);
+  const [currentStep, setCurrentStep] = useState(1);
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prevState => ({
+      ...prevState,
+      [name]: value
+    }));
   };
 
-  const handleSubmitStage2 = (event: React.FormEvent) => {
-    event.preventDefault();
-    setCurrentStage(3);
-    setTimeout(() => {
-      setCurrentStage(1);
-    }, 15000);
+  const handleFileButtonClick = (name: string) => {
+    document.getElementById(name)?.click();
   };
 
-  const handleBackToPrevStage = () => {
-    setCurrentStage(currentStage - 1);
+  const handleCheckboxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, files } = e.target;
+    if (files && files.length) {
+      const file = files[0];
+      setFormData(prevState => ({
+        ...prevState,
+        [name]: file
+      }));
+    }
   };
 
-  const progress = (currentStage / totalStages) * 100;
+  const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const { name, value } = e.target;
+    setFormData(prevState => ({
+      ...prevState,
+      [name]: value
+    }));
+  };
+
+  const handleDecisionMakerChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const { value } = e.target;
+    setFormData(prevState => ({
+      ...prevState,
+      isDecisionMaker: value
+    }));
+  };
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    console.log(formData);
+  };
+
+  const nextStep = () => {
+    setCurrentStep(prevStep => prevStep + 1);
+  };
+
+  const prevStep = () => {
+    setCurrentStep(prevStep => prevStep - 1);
+  };
 
   return (
-    <div className="LargerVendorFormContainer">
-      <h1>Vendor Registration</h1>
-      <div className='SmallerVendorFormContainer'>
-        <div className="vertical-progress-bar">
-          <div className="progress-bar" style={{ height: `${progress}%` }}></div>
-        </div>
-        <div className="progress-text">
-          <span>Step {currentStage} of {totalStages}</span>
-        </div>
-        <div className='VendorFormContainer'>
-          {currentStage === 1 && (
-            <form onSubmit={handleSubmitStage1}>
-              <div className="input-wrapper">
-                <input
-                  type="text"
-                  value={formDataStage1.businessName}
-                  onChange={(e) => setFormDataStage1({ ...formDataStage1, businessName: e.target.value })}
-                  placeholder=" "
-                  required
-                  id="businessNameInput"
-                />
-                <label htmlFor="businessNameInput" className="placeholder-label">Business Name</label>
-              </div>
-              <div className="input-wrapper">
-                <input
-                  type="email"
-                  value={formDataStage1.businessEmail}
-                  onChange={(e) => setFormDataStage1({ ...formDataStage1, businessEmail: e.target.value })}
-                  placeholder=" "
-                  required
-                  id="businessEmailInput"
-                />
-                <label htmlFor="businessEmailInput" className="placeholder-label">Business Email</label>
-              </div>
-              <div className="input-wrapper">
-                <input
-                  type="text"
-                  value={formDataStage1.businessDomain}
-                  onChange={(e) => setFormDataStage1({ ...formDataStage1, businessDomain: e.target.value })}
-                  placeholder=" "
-                  required
-                  id="businessDomainInput"
-                />
-                <label htmlFor="businessDomainInput" className="placeholder-label">Business Domain</label>
-              </div>
-              <div className="input-wrapper">
-                <input
-                  type="text"
-                  value={formDataStage1.businessContactNo}
-                  onChange={(e) => setFormDataStage1({ ...formDataStage1, businessContactNo: e.target.value })}
-                  placeholder=" "
-                  required
-                  id="businessContactNoInput"
-                />
-                <label htmlFor="businessContactNoInput" className="placeholder-label">Business Contact No</label>
-              </div>
-              <div className="input-wrapper">
-                <input
-                  type="text"
-                  value={formDataStage1.businessDescription}
-                  onChange={(e) => setFormDataStage1({ ...formDataStage1, businessDescription: e.target.value })}
-                  placeholder=" "
-                  required
-                  id="businessDescriptionInput"
-                />
-                <label htmlFor="businessDescriptionInput" className="placeholder-label">Business Description</label>
-              </div>
-              <div className="input-wrapper">
-                <input
-                  type="text"
-                  value={formDataStage1.subCategories}
-                  onChange={(e) => setFormDataStage1({ ...formDataStage1, subCategories: e.target.value })}
-                  placeholder=" "
-                  required
-                  id="subCategoriesInput"
-                />
-                <label htmlFor="subCategoriesInput" className="placeholder-label">Sub Categories</label>
-              </div>
-              <div className="input-wrapper">
-                <input
-                  type="text"
-                  value={formDataStage1.serviceType}
-                  onChange={(e) => setFormDataStage1({ ...formDataStage1, serviceType: e.target.value })}
-                  placeholder=" "
-                  required
-                  id="serviceTypeInput"
-                />
-                <label htmlFor="serviceTypeInput" className="placeholder-label">Service Type</label>
-              </div>
-              <div className="input-wrapper">
-                <textarea
-                  value={formDataStage1.address}
-                  onChange={(e) => setFormDataStage1({ ...formDataStage1, address: e.target.value })}
-                  placeholder=" "
-                  rows={3}
-                  required
-                  id="addressInput"
-                />
-                <label htmlFor="addressInput" className="placeholder-label">Address</label>
-              </div>
-              <button type="submit">Next</button>
-            </form>
-          )}
-          {currentStage === 2 && (
-            <form onSubmit={handleSubmitStage2}>
-              <div className="input-wrapper">
-                <input
-                  type="text"
-                  value={formDataStage2.contactPersonName}
-                  onChange={(e) => setFormDataStage2({ ...formDataStage2, contactPersonName: e.target.value })}
-                  placeholder=" "
-                  required
-                  id="contactPersonNameInput"
-                />
-                <label htmlFor="contactPersonNameInput" className="placeholder-label">Contact Person Name</label>
-              </div>
-              <div className="input-wrapper">
-                <input
-                  type="text"
-                  value={formDataStage2.contactPersonNo}
-                  onChange={(e) => setFormDataStage2({ ...formDataStage2, contactPersonNo: e.target.value })}
-                  placeholder=" "
-                  required
-                  id="contactPersonNoInput"
-                />
-                <label htmlFor="contactPersonNoInput" className="placeholder-label">Contact Person No</label>
-              </div>
-              <div className="input-wrapper">
-                <input
-                  type="text"
-                  value={formDataStage2.contactPersonDesignation}
-                  onChange={(e) => setFormDataStage2({ ...formDataStage2, contactPersonDesignation: e.target.value })}
-                  placeholder=" "
-                  required
-                  id="contactPersonDesignationInput"
-                />
-                <label htmlFor="contactPersonDesignationInput" className="placeholder-label">Contact Person Designation</label>
-              </div>
-              <div className="input-wrapper">
-                <select
-                  value={formDataStage2.isDecisionMaker}
-                  onChange={(e) => setFormDataStage2({ ...formDataStage2, isDecisionMaker: e.target.value })}
-                  required
-                >
-                  <option value="" disabled>Decision Maker</option>
-                  <option value="yes">Yes</option>
-                  <option value="no">No</option>
-                </select>
-                <label className="placeholder-label">Decision Maker</label>
-              </div>
-              <div className="input-wrapper">
-                <label htmlFor="incorporateCert">Incorporate Certificate:</label>
-                <input
-                  type="file"
-                  id="incorporateCert"
-                  onChange={(e) => {
-                    const file = e.target.files && e.target.files[0];
-                    if (file) {
-                      setFormDataStage2({
-                        ...formDataStage2,
-                        businessCertificates: {
-                          ...formDataStage2.businessCertificates,
-                          incorporateCert: file
-                        }
-                      });
-                    }
-                  }}
-                  required
-                />
-              </div>
-              <div className="input-wrapper">
-                <label htmlFor="gstCert">GST Certificate:</label>
-                <input
-                  type="file"
-                  id="gstCert"
-                  onChange={(e) => {
-                    const file = e.target.files && e.target.files[0];
-                    if (file) {
-                      setFormDataStage2({
-                        ...formDataStage2,
-                        businessCertificates: {
-                          ...formDataStage2.businessCertificates,
-                          gstCert: file
-                        }
-                      });
-                    }
-                  }}
-                  required
-                />
-              </div>
-              <div className="input-wrapper">
-                <label htmlFor="panCert">PAN Certificate:</label>
-                <input
-                  type="file"
-                  id="panCert"
-                  onChange={(e) => {
-                    const file = e.target.files && e.target.files[0];
-                    if (file) {
-                      setFormDataStage2({
-                        ...formDataStage2,
-                        businessCertificates: {
-                          ...formDataStage2.businessCertificates,
-                          panCert: file
-                        }
-                      });
-                    }
-                  }}
-                  required
-                />
-              </div>
-              <button type="submit">Submit</button>
-              <button type="button" onClick={handleBackToPrevStage}>Back</button>
-            </form>
-          )}
-          {currentStage === 3 && (
-            <div>
-              <div className="registered-container">
-                <div className="tick-icon">
-                  <i className="fas fa-check-circle"></i>
-                </div>
-                <p>The vendor is registered!</p>
-              </div>
-            </div>
-          )}
-        </div>
+    <div className="vendor-form-container">
+      <h1>Vendor Details Form</h1>
+      <div className="progress-bar">
+        <div
+          className="progress"
+          style={{ width: `${(currentStep / 4) * 100}%` }}
+        />
       </div>
+      <form onSubmit={handleSubmit}>
+        {currentStep === 1 && (
+          <div className="form-section">
+            <label>
+              Business Name:
+              <input
+                type="text"
+                name="businessName"
+                value={formData.businessName}
+                onChange={handleChange}
+                required
+              />
+            </label>
+            <label>
+              Business Logo:
+              <input
+                type="file"
+                accept="image/*"
+                id="businessLogo"
+                name="businessLogo"
+                onChange={handleCheckboxChange}
+                style={{ display: 'none' }}
+              />
+              <button type="button" onClick={() => handleFileButtonClick('businessLogo')}>
+                Choose File
+              </button>
+            </label>
+            <label>
+              Address:
+              <textarea
+                name="address"
+                value={formData.address}
+                onChange={handleChange}
+                required
+              />
+            </label>
+            <label>
+              Business Domain:
+              <input
+                type="text"
+                name="businessDomain"
+                value={formData.businessDomain}
+                onChange={handleChange}
+                required
+              />
+            </label>
+            <label>
+              Sub-categories:
+              <input
+                type="text"
+                name="subCategories"
+                value={formData.subCategories}
+                onChange={handleChange}
+                required
+              />
+            </label>
+            <div className="form-navigation">
+              <button type="button" onClick={nextStep}>
+                Next
+              </button>
+            </div>
+          </div>
+        )}
+        {currentStep === 2 && (
+          <div className="form-section">
+            <label>
+              Contact Person Name:
+              <input
+                type="text"
+                name="contactPersonName"
+                value={formData.contactPersonName}
+                onChange={handleChange}
+                required
+              />
+            </label>
+            <label>
+              Business Contact No.:
+              <input
+                type="tel"
+                name="businessContactNo"
+                value={formData.businessContactNo}
+                onChange={handleChange}
+                required
+              />
+            </label>
+            <label>
+              Business Email:
+              <input
+                type="email"
+                name="businessEmail"
+                value={formData.businessEmail}
+                onChange={handleChange}
+                required
+              />
+            </label>
+            <label>
+              Contact Person No.:
+              <input
+                type="tel"
+                name="contactPersonNo"
+                value={formData.contactPersonNo}
+                onChange={handleChange}
+                required
+              />
+            </label>
+            <label>
+              Contact Person Designation:
+              <input
+                type="text"
+                name="contactPersonDesignation"
+                value={formData.contactPersonDesignation}
+                onChange={handleChange}
+                required
+              />
+            </label>
+            <label>
+              Is Decision Maker:
+              <select
+                name="isDecisionMaker"
+                value={formData.isDecisionMaker}
+                onChange={handleDecisionMakerChange}
+                required
+              >
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </label>
+            <div className="form-navigation">
+              <button type="button" onClick={prevStep}>
+                Previous
+              </button>
+              <button type="button" onClick={nextStep}>
+                Next
+              </button>
+            </div>
+          </div>
+        )}
+        {currentStep === 3 && (
+          <div className="form-section">
+            <label>
+              Business Description:
+              <textarea
+                name="businessDescription"
+                value={formData.businessDescription}
+                onChange={handleChange}
+                required
+              />
+            </label>
+            <label>
+              Service Type:
+              <select
+                name="serviceType"
+                value={formData.serviceType}
+                onChange={handleSelectChange}
+                required
+              >
+                <option value="">Select Service Type</option>
+                <option value="online">Online</option>
+                <option value="offline">Offline</option>
+                <option value="both">Both</option>
+              </select>
+            </label>
+            <label>
+              Incorporate Certificate:
+              <input
+                type="file"
+                name="incorporateCert"
+                onChange={handleCheckboxChange}
+                required
+              />
+            </label>
+            <label>
+              GST Certificate:
+              <input
+                type="file"
+                name="gstCert"
+                onChange={handleCheckboxChange}
+                required
+              />
+            </label>
+            <label>
+              PAN Certificate:
+              <input
+                type="file"
+                name="panCert"
+                onChange={handleCheckboxChange}
+                required
+              />
+            </label>
+            <div className="form-navigation">
+              <button type="button" onClick={prevStep}>
+                Previous
+              </button>
+              <button type="button" onClick={nextStep}>
+                Next
+              </button>
+            </div>
+          </div>
+        )}
+        {currentStep === 4 && (
+          <div className="form-section">
+            <label>
+              FB ID:
+              <input
+                type="text"
+                name="fbId"
+                value={formData.fbId}
+                onChange={handleChange}
+              />
+            </label>
+            <label>
+              Instagram ID:
+              <input
+                type="text"
+                name="instaId"
+                value={formData.instaId}
+                onChange={handleChange}
+              />
+            </label>
+            <div className="form-navigation">
+              <button type="button" onClick={prevStep}>
+                Previous
+              </button>
+              <button type="submit">Submit</button>
+            </div>
+          </div>
+        )}
+      </form>
     </div>
   );
 };
