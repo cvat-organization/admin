@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./view_vendor.css"; // Import CSS file for component-specific styles
 import { useNavigate } from "react-router-dom";
 
@@ -10,6 +10,7 @@ interface Vendor {
 
 const ViewVendor: React.FC = () => {
   const navigate = useNavigate();
+  const [searchQuery, setSearchQuery] = useState<string>("");
 
   // Example vendor data with registration dates
   const vendors: Vendor[] = [
@@ -32,9 +33,25 @@ const ViewVendor: React.FC = () => {
     navigate("/vendor/update");
   };
 
+  const filteredVendors = vendors.filter(
+    (vendor) =>
+      vendor.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      vendor.id.toString().includes(searchQuery) ||
+      vendor.registrationDate.includes(searchQuery)
+  );
+
   return (
     <div className="simple-component-container">
       <h2 className="component-title">Vendor List</h2>
+      <div className="search-container">
+        <input
+          type="text"
+          placeholder="Search vendors..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="search-input"
+        />
+      </div>
       <div className="table-container">
         <table className="vendor-table">
           <thead>
@@ -46,7 +63,7 @@ const ViewVendor: React.FC = () => {
             </tr>
           </thead>
           <tbody>
-            {vendors.map((vendor) => (
+            {filteredVendors.map((vendor) => (
               <tr key={vendor.id}>
                 <td>{vendor.id}</td>
                 <td>{vendor.name}</td>

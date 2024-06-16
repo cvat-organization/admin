@@ -22,6 +22,10 @@ import AddVendor from "./components/vendor/add_vendor";
 import ResetVendorPassword from "./components/vendor/resetpsw_vendor";
 import ViewVendor from "./components/vendor/view_vendor";
 import UpdateVendor from "./components/vendor/update_vendor";
+import ViewUser from "./components/users/view_user";
+import UpdateUser from "./components/users/update_user";
+import ViewUserActivities from "./components/users/ViewUserActivities";
+import UserActivities from "./components/users/UserActivities";
 
 const queryClient = new QueryClient();
 
@@ -74,6 +78,22 @@ function App() {
         {
           path: "/vendor/reset-password",
           element: <ResetVendorPassword />,
+        },
+        {
+          path: "/users/view",
+          element: <ViewUser />,
+        },
+        {
+          path: "/user/update",
+          element: <UpdateUser />,
+        },
+        {
+          path: "/users/activities",
+          element: <ViewUserActivities />,
+        },
+        {
+          path: "/user/:userId/activities",
+          element: <UserActivities />,
         },
       ],
     },
