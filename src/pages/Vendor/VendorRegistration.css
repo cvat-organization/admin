@@ -1,127 +1,74 @@
-.LargerVendorFormContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: Arial, sans-serif;
+.vendor-form-container {
+  max-width: 600px;
+  margin: 0 auto;
   padding: 20px;
-  background-color: #f0f4f8;
-
-}
-
-.SmallerVendorFormContainer {
-  display: flex;
-  flex-direction: row;
-  background-color: white;
+  background-color: #f9f9f9;
+  border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  width: 70%;
-  max-width: 900px;
-  margin: auto;
 }
 
-.vertical-progress-bar {
-  width: 10px;
-  background-color: #e0e0e0;
-  border-radius: 10px;
-  margin-right: 20px;
-  position: relative;
+.vendor-form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
 }
 
-.vertical-progress-bar::before {
-  content: "";
-  display: block;
-  height: 100%;
+.vendor-form-container .progress-bar {
   width: 100%;
-  background: linear-gradient(180deg, #4caf50, #4caf50);
-  border-radius: 10px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: height 0.3s ease-in-out;
-}
-
-.progress-text {
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  padding-left: 10px;
-}
-
-.VendorFormContainer {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
-
-.input-wrapper {
-  position: relative;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  overflow: hidden;
   margin-bottom: 20px;
 }
 
-.input-wrapper input,
-.input-wrapper textarea,
-.input-wrapper select {
+.vendor-form-container .progress-bar .progress {
+  height: 10px;
+  background-color: #007bff;
+  transition: width 0.3s ease;
+}
+
+.vendor-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.vendor-form-container form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.vendor-form-container form input[type="text"],
+.vendor-form-container form input[type="email"],
+.vendor-form-container form input[type="tel"],
+.vendor-form-container form textarea,
+.vendor-form-container form select {
   width: 100%;
   padding: 10px;
+  margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 16px;
 }
 
-.placeholder-label {
-  position: absolute;
-  top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
-  background: white;
-  padding: 0 5px;
-  color: #888;
-  pointer-events: none;
-  transition: top 0.2s, color 0.2s;
+.vendor-form-container form input[type="file"] {
+  display: none;
 }
 
-.input-wrapper input:focus + .placeholder-label,
-.input-wrapper input:not(:placeholder-shown) + .placeholder-label,
-.input-wrapper textarea:focus + .placeholder-label,
-.input-wrapper textarea:not(:placeholder-shown) + .placeholder-label,
-.input-wrapper select:focus + .placeholder-label,
-.input-wrapper select:not(:placeholder-shown) + .placeholder-label {
-  top: -10px;
-  color: #4caf50;
-}
-
-button {
-  background-color: #4caf50;
-  color: white;
+.vendor-form-container form button {
+  background-color: #007bff;
+  color: #fff;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
-  margin-top: 10px;
+  margin: 5px 0;
 }
 
-button:hover {
-  background-color: #45a049;
+.vendor-form-container form button:hover {
+  background-color: #0056b3;
 }
 
-.registered-container {
+.vendor-form-container .form-navigation {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.tick-icon {
-  font-size: 50px;
-  color: #4caf50;
-}
-
-.tick-icon .fas {
-  font-size: 50px;
-  color: #4caf50;
-}
-
-p {
-  font-size: 18px;
-  color: #333;
+  justify-content: space-between;
 }
