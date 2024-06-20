@@ -1,19 +1,86 @@
+.sidebar {
+  width: 70px; /* Width of the sidebar when contracted */
+  color: white;
+  overflow-x: hidden;
+  transition: width 0.3s ease;
+  background-color: #d19641;
+}
 
-  
-  .list-item {
-    margin-top: 20px; /* Spacing between rows */
-    margin-bottom: 20px; /* Spacing between rows */
-    display: flex; /* Use flexbox to arrange items in a row */
-    justify-content: space-around; /* Distribute items evenly in the row */
-  }
-  
-  .list-item img {
-    width: 30px; /* Adjust the width of the icons as needed */
-    height: 30px; /* Adjust the height of the icons as needed */
-    border-radius: 10px;
-    transition: transform 0.3s ease, }
-  
-  .list-item:hover img {
-    transform: scale(1.2); /* Scale up the icon on hover for a modern effect */
-  }
-  
+.sidebar.expanded {
+  width: 200px; /* Width of the sidebar when expanded */
+}
+
+.menu-item {
+  margin-bottom: 10px; /* Adjust margin between menu items */
+}
+
+.list-item {
+  display: block;
+  text-decoration: none;
+  color: white; /* Set text color to white */
+}
+
+.item-box {
+  display: flex;
+  padding: 12px;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Ensure full width of the container */
+  box-sizing: border-box;
+}
+
+.item-box:hover {
+  background-color: #555; /* Background color on hover */
+}
+
+.item-box.active {
+  background-color: #faecd4; /* Background color for the active item */
+}
+
+.item-box.active .list-item {
+  color: black; /* Set text color to black for active item */
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column; /* Stack icon and name vertically when contracted */
+  align-items: center; /* Center items horizontally when contracted */
+  width: 100%; /* Ensure full width of the container */
+  box-sizing: border-box;
+}
+
+.item-content.expanded {
+  flex-direction: row; /* Align icon and name horizontally when expanded */
+  align-items: center; /* Center items horizontally when expanded */
+  justify-content: flex-start; /* Align content to the start when expanded */
+}
+
+.item-icon img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1); /* Set icon color to white */
+}
+
+.item-box.active .item-icon img {
+  filter: none; /* Set icon color to black for active item */
+}
+
+.item-name {
+  text-align: center; /* Center text when contracted */
+  font-size: 10px; /* Adjust font size of item name */
+  margin-top: 8px; /* Add space between icon and name when contracted */
+  width: 100%; /* Ensure full width of the container */
+  box-sizing: border-box;
+  color: white; /* Ensure non-active items are white */
+}
+
+.item-box.active .item-name {
+  color: black; /* Set text color to black for active item */
+}
+
+.item-content.expanded .item-name {
+  font-size: 14px; /* Adjust font size of item name when expanded */
+  text-align: left; /* Align text to the left when expanded */
+  margin-top: 0; /* Remove top margin when expanded */
+  margin-left: 8px; /* Add space between icon and name when expanded */
+  width: auto; /* Allow width to be auto when expanded */
+}

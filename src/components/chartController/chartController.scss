@@ -1,4 +1,64 @@
-/* ChartController.scss */
+// // /* ChartController.scss */
+// // @import "../../styles/variables.scss";
+// // @import "../../styles/responsive.scss";
+
+// // .button-container {
+// //   display: flex;
+// //   flex-direction: row;
+// //   justify-content: flex-start;
+// //   margin-bottom: 20px;
+// //   width: 100%;
+// // }
+
+// // .button-chart {
+// //   background-color: #faecd4; /* light peach background */
+// //   border: none;
+// //   color: black;
+// //   padding: 10px 20px;
+// //   text-align: center;
+// //   text-decoration: none;
+// //   display: inline-block;
+// //   font-size: 16px;
+// //   margin: 4px 2px;
+// //   cursor: pointer;
+// //   border-radius: 8px;
+// //   transition: background-color 0.3s; /* Smooth transition */
+
+// //   &:hover {
+// //     background-color: #f0d4a3; /* Darker green background on hover */
+// //   }
+
+// //   &.selected {
+// //     background-color: #d19641; /* Blue background for selected button */
+// //   }
+// // }
+
+// // .chartdiv {
+// //   position: relative; /* Ensure relative positioning */
+// //   width: 100%; /* Ensure the chartdiv fills the entire width */
+// //   box-sizing: border-box; /* Include padding and border in width */
+// // }
+
+// // .date-range {
+// //   margin-left: 10px; /* Add margin to the left to create space */
+// //   margin-top: 20px; /* Add margin to the top to lower the text */
+// // }
+
+// // .date-picker {
+// //   margin-left: 20px;
+// //   margin-right: 10px; /* Add margin to the right to create space */
+// //   // margin-top: 10px;
+// //   display: flex;  
+// //     margin-bottom: 0px;
+// //     margin-top: 10px;
+  
+// // }
+
+// // .menu.open {
+// //   left: 0; /* Show the menu when it is open */
+// // }
+
+// /* ChartController.scss */
 @import "../../styles/variables.scss";
 @import "../../styles/responsive.scss";
 
@@ -11,9 +71,11 @@
 }
 
 .button-chart {
+  flex: 1;
+  max-width: 110px;
   background-color: #faecd4; /* light peach background */
-  border: none;
-  color: black;
+  border: 1px solid #d4a15e; /* light border */
+  color: #666; /* light text color */
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -21,15 +83,17 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 8px;
-  transition: background-color 0.3s; /* Smooth transition */
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
 
   &:hover {
-    background-color: #f0d4a3; /* Darker green background on hover */
+    background-color: #f0d4a3; /* Darker peach background on hover */
   }
 
   &.selected {
-    background-color: #d19641; /* Blue background for selected button */
+    background-color: #d4a15e; /* Darker peach background for selected button */
+    color: #fff; /* White text for selected button */
+    border-color: #d4a15e; /* Darker border color for selected button */
   }
 }
 
@@ -42,16 +106,23 @@
 .date-range {
   margin-left: 10px; /* Add margin to the left to create space */
   margin-top: 20px; /* Add margin to the top to lower the text */
+  color: #666; /* Light text color */
 }
 
 .date-picker {
   margin-left: 20px;
   margin-right: 10px; /* Add margin to the right to create space */
-  // margin-top: 10px;
-  display: flex;  
-    margin-bottom: 0px;
-    margin-top: 10px;
-  
+  display: flex;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ddd; /* Light border color */
+  transition: border-color 0.3s; /* Smooth transition */
+
+  &:focus {
+    border-color: #d4a15e; /* Darker border color on focus */
+  }
 }
 
 .menu.open {
