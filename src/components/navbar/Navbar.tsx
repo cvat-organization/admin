@@ -11,10 +11,10 @@ interface UserProfile {
 }
 
 interface NavbarProps {
-  toggleMenu: () => void;
+  toggleSidebar: () => void;
 }
 
-const Navbar: React.FC<NavbarProps> = ({ toggleMenu }) => {
+const Navbar: React.FC<NavbarProps> = ({ toggleSidebar }) => {
   const [isProfileDropdownOpen, setIsProfileDropdownOpen] = useState(false);
   const [userProfile, setUserProfile] = useState<UserProfile | null>(null);
 
@@ -87,10 +87,10 @@ const Navbar: React.FC<NavbarProps> = ({ toggleMenu }) => {
 
   return (
     <div className="navbar">
-      <button onClick={toggleMenu} className="menu-toggle">
-        <img src="/toggle-menu.svg" alt="Toggle Menu" />
-      </button>
       <div className="logo">
+        <button onClick={toggleSidebar} className="sidebar-toggle">
+          <img src="/toggle-menu.svg" alt="Toggle Sidebar" />
+        </button>
         <img src="logo.svg" alt="" />
         <span>ⓐⓒⓣⓘⓥⓞ</span>
       </div>
