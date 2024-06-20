@@ -1,9 +1,10 @@
 .sidebar {
+  height: 100vh;
   width: 70px; /* Width of the sidebar when contracted */
-  color: white;
+  color: black;
   overflow-x: hidden;
   transition: width 0.3s ease;
-  background-color: #d19641;
+  background-color:  white;
 }
 
 .sidebar.expanded {
@@ -17,7 +18,7 @@
 .list-item {
   display: block;
   text-decoration: none;
-  color: white; /* Set text color to white */
+  color: black; /* Set text color to white */
 }
 
 .item-box {
@@ -29,7 +30,7 @@
 }
 
 .item-box:hover {
-  background-color: #555; /* Background color on hover */
+  background-color: #faecd4; /* Background color on hover */
 }
 
 .item-box.active {
@@ -57,7 +58,7 @@
 .item-icon img {
   width: 24px;
   height: 24px;
-  filter: brightness(0) invert(1); /* Set icon color to white */
+  filter: brightness(0) invert(0); /* Set icon color to Black */
 }
 
 .item-box.active .item-icon img {
@@ -70,7 +71,7 @@
   margin-top: 8px; /* Add space between icon and name when contracted */
   width: 100%; /* Ensure full width of the container */
   box-sizing: border-box;
-  color: white; /* Ensure non-active items are white */
+  color: black/* Ensure non-active items are white */
 }
 
 .item-box.active .item-name {
