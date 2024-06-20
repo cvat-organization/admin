@@ -8,8 +8,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #d19641; /* Ensures all text in the navbar is #d19641 */
-  background-color: #faecd4;
+  color: #faecd4; /* Ensures all text in the navbar is #d19641 */
+  background-color:  #d19641;
   font-size: larger;
 
   .logo {
@@ -63,14 +63,14 @@
       display: flex;
       align-items: center;
       gap: 10px;
-      color: #d19641; /* Ensure username text color is #d19641 */
+      color: #faecd4; /* Ensure username text color is #d19641 */
 
       img {
         width: 26px;
         height: 26px;
         border-radius: 50%;
         object-fit: cover;
-        border: 2px solid #d19641; /* Add border with #d19641 color */
+        border: 2px solid#faecd4; /* Add border with #d19641 color */
       }
     }
   }

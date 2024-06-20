@@ -10,7 +10,7 @@
   top: 70px; /* Adjust the top position according to your navbar height */
   left: 0; /* Positioned at the left edge */
   width: 70px; /* Width of the sidebar (double the icon width) */
-  background-color: #d19641; /* White background */
+  background-color: white; /* White background */
   overflow-y: auto; /* Allow scrolling if the content exceeds the container height */
   display: flex; /* Use flexbox for centering */
   flex-direction: column; /* Stack items vertically */
