@@ -14,13 +14,12 @@ import Profile from "./pages/Profile";
 import { useState } from "react";
 import Layout from "./components/Layout/Layout";
 import NewPassword from "./pages/ForgotPassword/NewPassword";
-import VendorForm from "./pages/Vendor/VendorRegistration";
+import ViewVendor from "./pages/Vendor/VendorRegistration";
 import ProfilePage from "./pages/Profile/Profile";
 import SearchVendor from "./components/vendor/search_vendor";
 import ModifyVendor from "./components/vendor/modify_vendor";
 import AddVendor from "./components/vendor/add_vendor";
 import ResetVendorPassword from "./components/vendor/resetpsw_vendor";
-import ViewVendor from "./components/vendor/view_vendor";
 import UpdateVendor from "./components/vendor/update_vendor";
 import ViewUser from "./components/users/view_user";
 import UpdateUser from "./components/users/update_user";
@@ -49,7 +48,7 @@ function App() {
         // },
         {
           path: "/vendor/onboarding",
-          element: <VendorForm />,
+          element: <ViewVendor />,
         },
         {
           path: "/profile",
