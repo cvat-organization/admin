@@ -10,8 +10,8 @@
   align-items: center;
 }
 
-.create-vendor-button {
-  background-color: #4caf50;
+.create-activity-button {
+  background-color: #d19641;
   color: white;
   border: none;
   padding: 8px 16px;
@@ -20,8 +20,8 @@
   transition: background-color 0.3s ease;
 }
 
-.create-vendor-button:hover {
-  background-color: #45a049;
+.create-activity-button:hover {
+  background-color: #b58c4e;
 }
 
 .search-container {
@@ -31,8 +31,9 @@
 .search-input {
   width: 100%;
   padding: 10px;
-  border-radius: 4px;
-  border: 1px solid #ddd;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .table-container {
@@ -40,7 +41,7 @@
   overflow-x: auto;
 }
 
-.vendor-table {
+.activity-table {
   width: 100%;
   border-collapse: collapse;
   background-color: #ffffff;
@@ -48,25 +49,25 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.vendor-table th,
-.vendor-table td {
+.activity-table th,
+.activity-table td {
   border: 1px solid #dddddd;
   padding: 12px;
   text-align: center;
 }
 
-.vendor-table th {
+.activity-table th {
   background-color: #f2f2f2;
   color: #333333;
   font-weight: bold;
 }
 
-.vendor-table td {
+.activity-table td {
   color: #666666;
 }
 
-.vendor-table button {
-  background-color: #4caf50;
+.activity-table button {
+  background-color: #d19641;
   color: white;
   border: none;
   padding: 8px 16px;
@@ -75,39 +76,24 @@
   transition: background-color 0.3s ease;
 }
 
-.vendor-table button:hover {
-  background-color: #45a049;
+.activity-table button:hover {
+  background-color: #d19640;
 }
 
-.simple-component-container {
-  margin: 0 auto;
-  padding: 20px;
-  width: 1200px;
+.view-button {
+  background-color: #007bff;
 }
 
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.view-button:hover {
+  background-color: #0056b3;
 }
 
-.component-title {
-  font-size: 24px;
-  margin-bottom: 10px;
+.delete-button {
+  background-color: #dc3545;
 }
 
-.create-vendor-button {
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.create-vendor-button:hover {
-  background-color: #45a049;
+.delete-button:hover {
+  background-color: #c82333;
 }
 
 .modal {
@@ -128,18 +114,27 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  width: 600px;
-  max-height: 80%; /* Limit modal height to 80% of viewport */
-  overflow-y: auto; /* Add vertical scrollbar when content exceeds modal height */
+  width: 90%;
+  max-width: 500px;
+  max-height: 80%;
+  overflow-y: auto;
   position: relative;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
 }
 
-.close-button {
+.modal-content::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.close-modal-button {
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 24px;
   cursor: pointer;
+  border: none;
+  background: transparent;
+  font-size: 20px;
 }
 
 .form-group {
@@ -149,38 +144,40 @@
 .form-group label {
   display: block;
   margin-bottom: 5px;
-  font-weight: bold;
+  color: #333;
 }
 
 .form-group input,
-.form-group select,
-.form-group textarea {
-  width: calc(100% - 20px); /* Adjust width to accommodate padding */
-  padding: 8px;
+.form-group textarea,
+.form-group select {
+  width: calc(100% - 20px); /* Adjusting width for consistent padding */
+  padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 14px;
+  color: #333;
+  background-color: white; /* Ensuring white background */
 }
 
-.form-group textarea {
-  min-height: 100px; /* Ensure a minimum height for textareas */
+.form-group input[type="file"] {
+  padding: 3px; /* File input padding adjustment */
 }
 
-.form-group input[type="checkbox"] {
-  width: auto; /* Ensure checkbox has default width */
-}
-
-.create-button {
-  background-color: #4caf50;
+.modal-content button {
+  background-color: #d19641;
   color: white;
   border: none;
   padding: 8px 16px;
   cursor: pointer;
   border-radius: 4px;
   transition: background-color 0.3s ease;
-  width: 100%;
+  margin-right: 10px;
 }
 
-.create-button:hover {
-  background-color: #45a049;
+.modal-content button:hover {
+  background-color: #d19620;
+}
+
+.modal-content button:last-child {
+  margin-right: 0;
 }

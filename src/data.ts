@@ -21,7 +21,7 @@ export const menu = [
       {
         id: 4,
         title: "Vendor",
-        url: "/vendor/onboarding",
+        url: "/vendor",
         icon: "vendor.svg",
       },
       {
