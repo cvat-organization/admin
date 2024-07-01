@@ -1,0 +1,5507 @@
+[
+  {
+    "date": "2023-03-15",
+    "country": "India",
+    "users": 147
+  },
+  {
+    "date": "2023-03-15",
+    "country": "USA",
+    "users": 142
+  },
+  {
+    "date": "2023-03-15",
+    "country": "Russia",
+    "users": 126
+  },
+  {
+    "date": "2023-03-16",
+    "country": "India",
+    "users": 120
+  },
+  {
+    "date": "2023-03-16",
+    "country": "USA",
+    "users": 146
+  },
+  {
+    "date": "2023-03-16",
+    "country": "Russia",
+    "users": 127
+  },
+  {
+    "date": "2023-03-17",
+    "country": "India",
+    "users": 142
+  },
+  {
+    "date": "2023-03-17",
+    "country": "USA",
+    "users": 143
+  },
+  {
+    "date": "2023-03-17",
+    "country": "Russia",
+    "users": 104
+  },
+  {
+    "date": "2023-03-18",
+    "country": "India",
+    "users": 146
+  },
+  {
+    "date": "2023-03-18",
+    "country": "USA",
+    "users": 134
+  },
+  {
+    "date": "2023-03-18",
+    "country": "Russia",
+    "users": 123
+  },
+  {
+    "date": "2023-03-19",
+    "country": "India",
+    "users": 128
+  },
+  {
+    "date": "2023-03-19",
+    "country": "USA",
+    "users": 112
+  },
+  {
+    "date": "2023-03-19",
+    "country": "Russia",
+    "users": 103
+  },
+  {
+    "date": "2023-03-20",
+    "country": "India",
+    "users": 150
+  },
+  {
+    "date": "2023-03-20",
+    "country": "USA",
+    "users": 147
+  },
+  {
+    "date": "2023-03-20",
+    "country": "Russia",
+    "users": 123
+  },
+  {
+    "date": "2023-03-21",
+    "country": "India",
+    "users": 122
+  },
+  {
+    "date": "2023-03-21",
+    "country": "USA",
+    "users": 132
+  },
+  {
+    "date": "2023-03-21",
+    "country": "Russia",
+    "users": 117
+  },
+  {
+    "date": "2023-03-22",
+    "country": "India",
+    "users": 141
+  },
+  {
+    "date": "2023-03-22",
+    "country": "USA",
+    "users": 123
+  },
+  {
+    "date": "2023-03-22",
+    "country": "Russia",
+    "users": 106
+  },
+  {
+    "date": "2023-03-23",
+    "country": "India",
+    "users": 103
+  },
+  {
+    "date": "2023-03-23",
+    "country": "USA",
+    "users": 110
+  },
+  {
+    "date": "2023-03-23",
+    "country": "Russia",
+    "users": 109
+  },
+  {
+    "date": "2023-03-24",
+    "country": "India",
+    "users": 109
+  },
+  {
+    "date": "2023-03-24",
+    "country": "USA",
+    "users": 132
+  },
+  {
+    "date": "2023-03-24",
+    "country": "Russia",
+    "users": 115
+  },
+  {
+    "date": "2023-03-25",
+    "country": "India",
+    "users": 106
+  },
+  {
+    "date": "2023-03-25",
+    "country": "USA",
+    "users": 135
+  },
+  {
+    "date": "2023-03-25",
+    "country": "Russia",
+    "users": 142
+  },
+  {
+    "date": "2023-03-26",
+    "country": "India",
+    "users": 104
+  },
+  {
+    "date": "2023-03-26",
+    "country": "USA",
+    "users": 102
+  },
+  {
+    "date": "2023-03-26",
+    "country": "Russia",
+    "users": 106
+  },
+  {
+    "date": "2023-03-27",
+    "country": "India",
+    "users": 109
+  },
+  {
+    "date": "2023-03-27",
+    "country": "USA",
+    "users": 104
+  },
+  {
+    "date": "2023-03-27",
+    "country": "Russia",
+    "users": 135
+  },
+  {
+    "date": "2023-03-28",
+    "country": "India",
+    "users": 129
+  },
+  {
+    "date": "2023-03-28",
+    "country": "USA",
+    "users": 146
+  },
+  {
+    "date": "2023-03-28",
+    "country": "Russia",
+    "users": 107
+  },
+  {
+    "date": "2023-03-29",
+    "country": "India",
+    "users": 118
+  },
+  {
+    "date": "2023-03-29",
+    "country": "USA",
+    "users": 133
+  },
+  {
+    "date": "2023-03-29",
+    "country": "Russia",
+    "users": 147
+  },
+  {
+    "date": "2023-03-30",
+    "country": "India",
+    "users": 135
+  },
+  {
+    "date": "2023-03-30",
+    "country": "USA",
+    "users": 115
+  },
+  {
+    "date": "2023-03-30",
+    "country": "Russia",
+    "users": 131
+  },
+  {
+    "date": "2023-03-31",
+    "country": "India",
+    "users": 110
+  },
+  {
+    "date": "2023-03-31",
+    "country": "USA",
+    "users": 123
+  },
+  {
+    "date": "2023-03-31",
+    "country": "Russia",
+    "users": 147
+  },
+  {
+    "date": "2023-04-01",
+    "country": "India",
+    "users": 127
+  },
+  {
+    "date": "2023-04-01",
+    "country": "USA",
+    "users": 107
+  },
+  {
+    "date": "2023-04-01",
+    "country": "Russia",
+    "users": 110
+  },
+  {
+    "date": "2023-04-02",
+    "country": "India",
+    "users": 108
+  },
+  {
+    "date": "2023-04-02",
+    "country": "USA",
+    "users": 150
+  },
+  {
+    "date": "2023-04-02",
+    "country": "Russia",
+    "users": 124
+  },
+  {
+    "date": "2023-04-03",
+    "country": "India",
+    "users": 112
+  },
+  {
+    "date": "2023-04-03",
+    "country": "USA",
+    "users": 123
+  },
+  {
+    "date": "2023-04-03",
+    "country": "Russia",
+    "users": 123
+  },
+  {
+    "date": "2023-04-04",
+    "country": "India",
+    "users": 100
+  },
+  {
+    "date": "2023-04-04",
+    "country": "USA",
+    "users": 138
+  },
+  {
+    "date": "2023-04-04",
+    "country": "Russia",
+    "users": 129
+  },
+  {
+    "date": "2023-04-05",
+    "country": "India",
+    "users": 107
+  },
+  {
+    "date": "2023-04-05",
+    "country": "USA",
+    "users": 144
+  },
+  {
+    "date": "2023-04-05",
+    "country": "Russia",
+    "users": 146
+  },
+  {
+    "date": "2023-04-06",
+    "country": "India",
+    "users": 130
+  },
+  {
+    "date": "2023-04-06",
+    "country": "USA",
+    "users": 138
+  },
+  {
+    "date": "2023-04-06",
+    "country": "Russia",
+    "users": 135
+  },
+  {
+    "date": "2023-04-07",
+    "country": "India",
+    "users": 144
+  },
+  {
+    "date": "2023-04-07",
+    "country": "USA",
+    "users": 118
+  },
+  {
+    "date": "2023-04-07",
+    "country": "Russia",
+    "users": 118
+  },
+  {
+    "date": "2023-04-08",
+    "country": "India",
+    "users": 112
+  },
+  {
+    "date": "2023-04-08",
+    "country": "USA",
+    "users": 106
+  },
+  {
+    "date": "2023-04-08",
+    "country": "Russia",
+    "users": 138
+  },
+  {
+    "date": "2023-04-09",
+    "country": "India",
+    "users": 109
+  },
+  {
+    "date": "2023-04-09",
+    "country": "USA",
+    "users": 105
+  },
+  {
+    "date": "2023-04-09",
+    "country": "Russia",
+    "users": 131
+  },
+  {
+    "date": "2023-04-10",
+    "country": "India",
+    "users": 136
+  },
+  {
+    "date": "2023-04-10",
+    "country": "USA",
+    "users": 126
+  },
+  {
+    "date": "2023-04-10",
+    "country": "Russia",
+    "users": 132
+  },
+  {
+    "date": "2023-04-11",
+    "country": "India",
+    "users": 126
+  },
+  {
+    "date": "2023-04-11",
+    "country": "USA",
+    "users": 141
+  },
+  {
+    "date": "2023-04-11",
+    "country": "Russia",
+    "users": 135
+  },
+  {
+    "date": "2023-04-12",
+    "country": "India",
+    "users": 130
+  },
+  {
+    "date": "2023-04-12",
+    "country": "USA",
+    "users": 130
+  },
+  {
+    "date": "2023-04-12",
+    "country": "Russia",
+    "users": 121
+  },
+  {
+    "date": "2023-04-13",
+    "country": "India",
+    "users": 150
+  },
+  {
+    "date": "2023-04-13",
+    "country": "USA",
+    "users": 127
+  },
+  {
+    "date": "2023-04-13",
+    "country": "Russia",
+    "users": 106
+  },
+  {
+    "date": "2023-04-14",
+    "country": "India",
+    "users": 117
+  },
+  {
+    "date": "2023-04-14",
+    "country": "USA",
+    "users": 137
+  },
+  {
+    "date": "2023-04-14",
+    "country": "Russia",
+    "users": 135
+  },
+  {
+    "date": "2023-04-15",
+    "country": "India",
+    "users": 120
+  },
+  {
+    "date": "2023-04-15",
+    "country": "USA",
+    "users": 119
+  },
+  {
+    "date": "2023-04-15",
+    "country": "Russia",
+    "users": 134
+  },
+  {
+    "date": "2023-04-16",
+    "country": "India",
+    "users": 146
+  },
+  {
+    "date": "2023-04-16",
+    "country": "USA",
+    "users": 119
+  },
+  {
+    "date": "2023-04-16",
+    "country": "Russia",
+    "users": 132
+  },
+  {
+    "date": "2023-04-17",
+    "country": "India",
+    "users": 120
+  },
+  {
+    "date": "2023-04-17",
+    "country": "USA",
+    "users": 146
+  },
+  {
+    "date": "2023-04-17",
+    "country": "Russia",
+    "users": 128
+  },
+  {
+    "date": "2023-04-18",
+    "country": "India",
+    "users": 111
+  },
+  {
+    "date": "2023-04-18",
+    "country": "USA",
+    "users": 142
+  },
+  {
+    "date": "2023-04-18",
+    "country": "Russia",
+    "users": 125
+  },
+  {
+    "date": "2023-04-19",
+    "country": "India",
+    "users": 125
+  },
+  {
+    "date": "2023-04-19",
+    "country": "USA",
+    "users": 117
+  },
+  {
+    "date": "2023-04-19",
+    "country": "Russia",
+    "users": 128
+  },
+  {
+    "date": "2023-04-20",
+    "country": "India",
+    "users": 113
+  },
+  {
+    "date": "2023-04-20",
+    "country": "USA",
+    "users": 107
+  },
+  {
+    "date": "2023-04-20",
+    "country": "Russia",
+    "users": 127
+  },
+  {
+    "date": "2023-04-21",
+    "country": "India",
+    "users": 107
+  },
+  {
+    "date": "2023-04-21",
+    "country": "USA",
+    "users": 117
+  },
+  {
+    "date": "2023-04-21",
+    "country": "Russia",
+    "users": 141
+  },
+  {
+    "date": "2023-04-22",
+    "country": "India",
+    "users": 103
+  },
+  {
+    "date": "2023-04-22",
+    "country": "USA",
+    "users": 117
+  },
+  {
+    "date": "2023-04-22",
+    "country": "Russia",
+    "users": 138
+  },
+  {
+    "date": "2023-04-23",
+    "country": "India",
+    "users": 115
+  },
+  {
+    "date": "2023-04-23",
+    "country": "USA",
+    "users": 134
+  },
+  {
+    "date": "2023-04-23",
+    "country": "Russia",
+    "users": 143
+  },
+  {
+    "date": "2023-04-24",
+    "country": "India",
+    "users": 129
+  },
+  {
+    "date": "2023-04-24",
+    "country": "USA",
+    "users": 122
+  },
+  {
+    "date": "2023-04-24",
+    "country": "Russia",
+    "users": 137
+  },
+  {
+    "date": "2023-04-25",
+    "country": "India",
+    "users": 141
+  },
+  {
+    "date": "2023-04-25",
+    "country": "USA",
+    "users": 134
+  },
+  {
+    "date": "2023-04-25",
+    "country": "Russia",
+    "users": 113
+  },
+  {
+    "date": "2023-04-26",
+    "country": "India",
+    "users": 124
+  },
+  {
+    "date": "2023-04-26",
+    "country": "USA",
+    "users": 146
+  },
+  {
+    "date": "2023-04-26",
+    "country": "Russia",
+    "users": 138
+  },
+  {
+    "date": "2023-04-27",
+    "country": "India",
+    "users": 147
+  },
+  {
+    "date": "2023-04-27",
+    "country": "USA",
+    "users": 143
+  },
+  {
+    "date": "2023-04-27",
+    "country": "Russia",
+    "users": 131
+  },
+  {
+    "date": "2023-04-28",
+    "country": "India",
+    "users": 115
+  },
+  {
+    "date": "2023-04-28",
+    "country": "USA",
+    "users": 117
+  },
+  {
+    "date": "2023-04-28",
+    "country": "Russia",
+    "users": 131
+  },
+  {
+    "date": "2023-04-29",
+    "country": "India",
+    "users": 119
+  },
+  {
+    "date": "2023-04-29",
+    "country": "USA",
+    "users": 124
+  },
+  {
+    "date": "2023-04-29",
+    "country": "Russia",
+    "users": 127
+  },
+  {
+    "date": "2023-04-30",
+    "country": "India",
+    "users": 147
+  },
+  {
+    "date": "2023-04-30",
+    "country": "USA",
+    "users": 147
+  },
+  {
+    "date": "2023-04-30",
+    "country": "Russia",
+    "users": 114
+  },
+  {
+    "date": "2023-05-01",
+    "country": "India",
+    "users": 140
+  },
+  {
+    "date": "2023-05-01",
+    "country": "USA",
+    "users": 125
+  },
+  {
+    "date": "2023-05-01",
+    "country": "Russia",
+    "users": 123
+  },
+  {
+    "date": "2023-05-02",
+    "country": "India",
+    "users": 138
+  },
+  {
+    "date": "2023-05-02",
+    "country": "USA",
+    "users": 149
+  },
+  {
+    "date": "2023-05-02",
+    "country": "Russia",
+    "users": 110
+  },
+  {
+    "date": "2023-05-03",
+    "country": "India",
+    "users": 132
+  },
+  {
+    "date": "2023-05-03",
+    "country": "USA",
+    "users": 127
+  },
+  {
+    "date": "2023-05-03",
+    "country": "Russia",
+    "users": 112
+  },
+  {
+    "date": "2023-05-04",
+    "country": "India",
+    "users": 127
+  },
+  {
+    "date": "2023-05-04",
+    "country": "USA",
+    "users": 102
+  },
+  {
+    "date": "2023-05-04",
+    "country": "Russia",
+    "users": 141
+  },
+  {
+    "date": "2023-05-05",
+    "country": "India",
+    "users": 129
+  },
+  {
+    "date": "2023-05-05",
+    "country": "USA",
+    "users": 138
+  },
+  {
+    "date": "2023-05-05",
+    "country": "Russia",
+    "users": 105
+  },
+  {
+    "date": "2023-05-06",
+    "country": "India",
+    "users": 131
+  },
+  {
+    "date": "2023-05-06",
+    "country": "USA",
+    "users": 127
+  },
+  {
+    "date": "2023-05-06",
+    "country": "Russia",
+    "users": 128
+  },
+  {
+    "date": "2023-05-07",
+    "country": "India",
+    "users": 127
+  },
+  {
+    "date": "2023-05-07",
+    "country": "USA",
+    "users": 139
+  },
+  {
+    "date": "2023-05-07",
+    "country": "Russia",
+    "users": 142
+  },
+  {
+    "date": "2023-05-08",
+    "country": "India",
+    "users": 109
+  },
+  {
+    "date": "2023-05-08",
+    "country": "USA",
+    "users": 116
+  },
+  {
+    "date": "2023-05-08",
+    "country": "Russia",
+    "users": 134
+  },
+  {
+    "date": "2023-05-09",
+    "country": "India",
+    "users": 145
+  },
+  {
+    "date": "2023-05-09",
+    "country": "USA",
+    "users": 110
+  },
+  {
+    "date": "2023-05-09",
+    "country": "Russia",
+    "users": 106
+  },
+  {
+    "date": "2023-05-10",
+    "country": "India",
+    "users": 122
+  },
+  {
+    "date": "2023-05-10",
+    "country": "USA",
+    "users": 112
+  },
+  {
+    "date": "2023-05-10",
+    "country": "Russia",
+    "users": 146
+  },
+  {
+    "date": "2023-05-11",
+    "country": "India",
+    "users": 150
+  },
+  {
+    "date": "2023-05-11",
+    "country": "USA",
+    "users": 115
+  },
+  {
+    "date": "2023-05-11",
+    "country": "Russia",
+    "users": 136
+  },
+  {
+    "date": "2023-05-12",
+    "country": "India",
+    "users": 110
+  },
+  {
+    "date": "2023-05-12",
+    "country": "USA",
+    "users": 123
+  },
+  {
+    "date": "2023-05-12",
+    "country": "Russia",
+    "users": 120
+  },
+  {
+    "date": "2023-05-13",
+    "country": "India",
+    "users": 130
+  },
+  {
+    "date": "2023-05-13",
+    "country": "USA",
+    "users": 128
+  },
+  {
+    "date": "2023-05-13",
+    "country": "Russia",
+    "users": 112
+  },
+  {
+    "date": "2023-05-14",
+    "country": "India",
+    "users": 137
+  },
+  {
+    "date": "2023-05-14",
+    "country": "USA",
+    "users": 105
+  },
+  {
+    "date": "2023-05-14",
+    "country": "Russia",
+    "users": 116
+  },
+  {
+    "date": "2023-05-15",
+    "country": "India",
+    "users": 118
+  },
+  {
+    "date": "2023-05-15",
+    "country": "USA",
+    "users": 124
+  },
+  {
+    "date": "2023-05-15",
+    "country": "Russia",
+    "users": 135
+  },
+  {
+    "date": "2023-05-16",
+    "country": "India",
+    "users": 128
+  },
+  {
+    "date": "2023-05-16",
+    "country": "USA",
+    "users": 122
+  },
+  {
+    "date": "2023-05-16",
+    "country": "Russia",
+    "users": 140
+  },
+  {
+    "date": "2023-05-17",
+    "country": "India",
+    "users": 149
+  },
+  {
+    "date": "2023-05-17",
+    "country": "USA",
+    "users": 126
+  },
+  {
+    "date": "2023-05-17",
+    "country": "Russia",
+    "users": 133
+  },
+  {
+    "date": "2023-05-18",
+    "country": "India",
+    "users": 122
+  },
+  {
+    "date": "2023-05-18",
+    "country": "USA",
+    "users": 147
+  },
+  {
+    "date": "2023-05-18",
+    "country": "Russia",
+    "users": 112
+  },
+  {
+    "date": "2023-05-19",
+    "country": "India",
+    "users": 132
+  },
+  {
+    "date": "2023-05-19",
+    "country": "USA",
+    "users": 117
+  },
+  {
+    "date": "2023-05-19",
+    "country": "Russia",
+    "users": 136
+  },
+  {
+    "date": "2023-05-20",
+    "country": "India",
+    "users": 133
+  },
+  {
+    "date": "2023-05-20",
+    "country": "USA",
+    "users": 108
+  },
+  {
+    "date": "2023-05-20",
+    "country": "Russia",
+    "users": 130
+  },
+  {
+    "date": "2023-05-21",
+    "country": "India",
+    "users": 122
+  },
+  {
+    "date": "2023-05-21",
+    "country": "USA",
+    "users": 138
+  },
+  {
+    "date": "2023-05-21",
+    "country": "Russia",
+    "users": 116
+  },
+  {
+    "date": "2023-05-22",
+    "country": "India",
+    "users": 136
+  },
+  {
+    "date": "2023-05-22",
+    "country": "USA",
+    "users": 132
+  },
+  {
+    "date": "2023-05-22",
+    "country": "Russia",
+    "users": 123
+  },
+  {
+    "date": "2023-05-23",
+    "country": "India",
+    "users": 122
+  },
+  {
+    "date": "2023-05-23",
+    "country": "USA",
+    "users": 146
+  },
+  {
+    "date": "2023-05-23",
+    "country": "Russia",
+    "users": 108
+  },
+  {
+    "date": "2023-05-24",
+    "country": "India",
+    "users": 119
+  },
+  {
+    "date": "2023-05-24",
+    "country": "USA",
+    "users": 121
+  },
+  {
+    "date": "2023-05-24",
+    "country": "Russia",
+    "users": 119
+  },
+  {
+    "date": "2023-05-25",
+    "country": "India",
+    "users": 122
+  },
+  {
+    "date": "2023-05-25",
+    "country": "USA",
+    "users": 126
+  },
+  {
+    "date": "2023-05-25",
+    "country": "Russia",
+    "users": 125
+  },
+  {
+    "date": "2023-05-26",
+    "country": "India",
+    "users": 131
+  },
+  {
+    "date": "2023-05-26",
+    "country": "USA",
+    "users": 144
+  },
+  {
+    "date": "2023-05-26",
+    "country": "Russia",
+    "users": 101
+  },
+  {
+    "date": "2023-05-27",
+    "country": "India",
+    "users": 112
+  },
+  {
+    "date": "2023-05-27",
+    "country": "USA",
+    "users": 130
+  },
+  {
+    "date": "2023-05-27",
+    "country": "Russia",
+    "users": 100
+  },
+  {
+    "date": "2023-05-28",
+    "country": "India",
+    "users": 122
+  },
+  {
+    "date": "2023-05-28",
+    "country": "USA",
+    "users": 131
+  },
+  {
+    "date": "2023-05-28",
+    "country": "Russia",
+    "users": 105
+  },
+  {
+    "date": "2023-05-29",
+    "country": "India",
+    "users": 139
+  },
+  {
+    "date": "2023-05-29",
+    "country": "USA",
+    "users": 148
+  },
+  {
+    "date": "2023-05-29",
+    "country": "Russia",
+    "users": 135
+  },
+  {
+    "date": "2023-05-30",
+    "country": "India",
+    "users": 105
+  },
+  {
+    "date": "2023-05-30",
+    "country": "USA",
+    "users": 143
+  },
+  {
+    "date": "2023-05-30",
+    "country": "Russia",
+    "users": 128
+  },
+  {
+    "date": "2023-05-31",
+    "country": "India",
+    "users": 130
+  },
+  {
+    "date": "2023-05-31",
+    "country": "USA",
+    "users": 148
+  },
+  {
+    "date": "2023-05-31",
+    "country": "Russia",
+    "users": 101
+  },
+  {
+    "date": "2023-06-01",
+    "country": "India",
+    "users": 126
+  },
+  {
+    "date": "2023-06-01",
+    "country": "USA",
+    "users": 103
+  },
+  {
+    "date": "2023-06-01",
+    "country": "Russia",
+    "users": 111
+  },
+  {
+    "date": "2023-06-02",
+    "country": "India",
+    "users": 112
+  },
+  {
+    "date": "2023-06-02",
+    "country": "USA",
+    "users": 116
+  },
+  {
+    "date": "2023-06-02",
+    "country": "Russia",
+    "users": 108
+  },
+  {
+    "date": "2023-06-03",
+    "country": "India",
+    "users": 149
+  },
+  {
+    "date": "2023-06-03",
+    "country": "USA",
+    "users": 105
+  },
+  {
+    "date": "2023-06-03",
+    "country": "Russia",
+    "users": 145
+  },
+  {
+    "date": "2023-06-04",
+    "country": "India",
+    "users": 141
+  },
+  {
+    "date": "2023-06-04",
+    "country": "USA",
+    "users": 133
+  },
+  {
+    "date": "2023-06-04",
+    "country": "Russia",
+    "users": 112
+  },
+  {
+    "date": "2023-06-05",
+    "country": "India",
+    "users": 105
+  },
+  {
+    "date": "2023-06-05",
+    "country": "USA",
+    "users": 142
+  },
+  {
+    "date": "2023-06-05",
+    "country": "Russia",
+    "users": 130
+  },
+  {
+    "date": "2023-06-06",
+    "country": "India",
+    "users": 147
+  },
+  {
+    "date": "2023-06-06",
+    "country": "USA",
+    "users": 124
+  },
+  {
+    "date": "2023-06-06",
+    "country": "Russia",
+    "users": 112
+  },
+  {
+    "date": "2023-06-07",
+    "country": "India",
+    "users": 115
+  },
+  {
+    "date": "2023-06-07",
+    "country": "USA",
+    "users": 144
+  },
+  {
+    "date": "2023-06-07",
+    "country": "Russia",
+    "users": 109
+  },
+  {
+    "date": "2023-06-08",
+    "country": "India",
+    "users": 103
+  },
+  {
+    "date": "2023-06-08",
+    "country": "USA",
+    "users": 121
+  },
+  {
+    "date": "2023-06-08",
+    "country": "Russia",
+    "users": 147
+  },
+  {
+    "date": "2023-06-09",
+    "country": "India",
+    "users": 112
+  },
+  {
+    "date": "2023-06-09",
+    "country": "USA",
+    "users": 104
+  },
+  {
+    "date": "2023-06-09",
+    "country": "Russia",
+    "users": 137
+  },
+  {
+    "date": "2023-06-10",
+    "country": "India",
+    "users": 113
+  },
+  {
+    "date": "2023-06-10",
+    "country": "USA",
+    "users": 111
+  },
+  {
+    "date": "2023-06-10",
+    "country": "Russia",
+    "users": 127
+  },
+  {
+    "date": "2023-06-11",
+    "country": "India",
+    "users": 135
+  },
+  {
+    "date": "2023-06-11",
+    "country": "USA",
+    "users": 117
+  },
+  {
+    "date": "2023-06-11",
+    "country": "Russia",
+    "users": 131
+  },
+  {
+    "date": "2023-06-12",
+    "country": "India",
+    "users": 140
+  },
+  {
+    "date": "2023-06-12",
+    "country": "USA",
+    "users": 130
+  },
+  {
+    "date": "2023-06-12",
+    "country": "Russia",
+    "users": 128
+  },
+  {
+    "date": "2023-06-13",
+    "country": "India",
+    "users": 119
+  },
+  {
+    "date": "2023-06-13",
+    "country": "USA",
+    "users": 120
+  },
+  {
+    "date": "2023-06-13",
+    "country": "Russia",
+    "users": 131
+  },
+  {
+    "date": "2023-06-14",
+    "country": "India",
+    "users": 112
+  },
+  {
+    "date": "2023-06-14",
+    "country": "USA",
+    "users": 125
+  },
+  {
+    "date": "2023-06-14",
+    "country": "Russia",
+    "users": 104
+  },
+  {
+    "date": "2023-06-15",
+    "country": "India",
+    "users": 136
+  },
+  {
+    "date": "2023-06-15",
+    "country": "USA",
+    "users": 116
+  },
+  {
+    "date": "2023-06-15",
+    "country": "Russia",
+    "users": 130
+  },
+  {
+    "date": "2023-06-16",
+    "country": "India",
+    "users": 141
+  },
+  {
+    "date": "2023-06-16",
+    "country": "USA",
+    "users": 124
+  },
+  {
+    "date": "2023-06-16",
+    "country": "Russia",
+    "users": 150
+  },
+  {
+    "date": "2023-06-17",
+    "country": "India",
+    "users": 134
+  },
+  {
+    "date": "2023-06-17",
+    "country": "USA",
+    "users": 104
+  },
+  {
+    "date": "2023-06-17",
+    "country": "Russia",
+    "users": 102
+  },
+  {
+    "date": "2023-06-18",
+    "country": "India",
+    "users": 133
+  },
+  {
+    "date": "2023-06-18",
+    "country": "USA",
+    "users": 142
+  },
+  {
+    "date": "2023-06-18",
+    "country": "Russia",
+    "users": 137
+  },
+  {
+    "date": "2023-06-19",
+    "country": "India",
+    "users": 100
+  },
+  {
+    "date": "2023-06-19",
+    "country": "USA",
+    "users": 129
+  },
+  {
+    "date": "2023-06-19",
+    "country": "Russia",
+    "users": 138
+  },
+  {
+    "date": "2023-06-20",
+    "country": "India",
+    "users": 114
+  },
+  {
+    "date": "2023-06-20",
+    "country": "USA",
+    "users": 119
+  },
+  {
+    "date": "2023-06-20",
+    "country": "Russia",
+    "users": 131
+  },
+  {
+    "date": "2023-06-21",
+    "country": "India",
+    "users": 118
+  },
+  {
+    "date": "2023-06-21",
+    "country": "USA",
+    "users": 123
+  },
+  {
+    "date": "2023-06-21",
+    "country": "Russia",
+    "users": 126
+  },
+  {
+    "date": "2023-06-22",
+    "country": "India",
+    "users": 149
+  },
+  {
+    "date": "2023-06-22",
+    "country": "USA",
+    "users": 145
+  },
+  {
+    "date": "2023-06-22",
+    "country": "Russia",
+    "users": 138
+  },
+  {
+    "date": "2023-06-23",
+    "country": "India",
+    "users": 120
+  },
+  {
+    "date": "2023-06-23",
+    "country": "USA",
+    "users": 101
+  },
+  {
+    "date": "2023-06-23",
+    "country": "Russia",
+    "users": 149
+  },
+  {
+    "date": "2023-06-24",
+    "country": "India",
+    "users": 118
+  },
+  {
+    "date": "2023-06-24",
+    "country": "USA",
+    "users": 149
+  },
+  {
+    "date": "2023-06-24",
+    "country": "Russia",
+    "users": 145
+  },
+  {
+    "date": "2023-06-25",
+    "country": "India",
+    "users": 120
+  },
+  {
+    "date": "2023-06-25",
+    "country": "USA",
+    "users": 131
+  },
+  {
+    "date": "2023-06-25",
+    "country": "Russia",
+    "users": 100
+  },
+  {
+    "date": "2023-06-26",
+    "country": "India",
+    "users": 112
+  },
+  {
+    "date": "2023-06-26",
+    "country": "USA",
+    "users": 116
+  },
+  {
+    "date": "2023-06-26",
+    "country": "Russia",
+    "users": 140
+  },
+  {
+    "date": "2023-06-27",
+    "country": "India",
+    "users": 134
+  },
+  {
+    "date": "2023-06-27",
+    "country": "USA",
+    "users": 142
+  },
+  {
+    "date": "2023-06-27",
+    "country": "Russia",
+    "users": 129
+  },
+  {
+    "date": "2023-06-28",
+    "country": "India",
+    "users": 104
+  },
+  {
+    "date": "2023-06-28",
+    "country": "USA",
+    "users": 123
+  },
+  {
+    "date": "2023-06-28",
+    "country": "Russia",
+    "users": 110
+  },
+  {
+    "date": "2023-06-29",
+    "country": "India",
+    "users": 125
+  },
+  {
+    "date": "2023-06-29",
+    "country": "USA",
+    "users": 105
+  },
+  {
+    "date": "2023-06-29",
+    "country": "Russia",
+    "users": 108
+  },
+  {
+    "date": "2023-06-30",
+    "country": "India",
+    "users": 121
+  },
+  {
+    "date": "2023-06-30",
+    "country": "USA",
+    "users": 138
+  },
+  {
+    "date": "2023-06-30",
+    "country": "Russia",
+    "users": 128
+  },
+  {
+    "date": "2023-07-01",
+    "country": "India",
+    "users": 135
+  },
+  {
+    "date": "2023-07-01",
+    "country": "USA",
+    "users": 120
+  },
+  {
+    "date": "2023-07-01",
+    "country": "Russia",
+    "users": 122
+  },
+  {
+    "date": "2023-07-02",
+    "country": "India",
+    "users": 113
+  },
+  {
+    "date": "2023-07-02",
+    "country": "USA",
+    "users": 140
+  },
+  {
+    "date": "2023-07-02",
+    "country": "Russia",
+    "users": 139
+  },
+  {
+    "date": "2023-07-03",
+    "country": "India",
+    "users": 115
+  },
+  {
+    "date": "2023-07-03",
+    "country": "USA",
+    "users": 137
+  },
+  {
+    "date": "2023-07-03",
+    "country": "Russia",
+    "users": 121
+  },
+  {
+    "date": "2023-07-04",
+    "country": "India",
+    "users": 100
+  },
+  {
+    "date": "2023-07-04",
+    "country": "USA",
+    "users": 148
+  },
+  {
+    "date": "2023-07-04",
+    "country": "Russia",
+    "users": 148
+  },
+  {
+    "date": "2023-07-05",
+    "country": "India",
+    "users": 103
+  },
+  {
+    "date": "2023-07-05",
+    "country": "USA",
+    "users": 141
+  },
+  {
+    "date": "2023-07-05",
+    "country": "Russia",
+    "users": 116
+  },
+  {
+    "date": "2023-07-06",
+    "country": "India",
+    "users": 108
+  },
+  {
+    "date": "2023-07-06",
+    "country": "USA",
+    "users": 134
+  },
+  {
+    "date": "2023-07-06",
+    "country": "Russia",
+    "users": 111
+  },
+  {
+    "date": "2023-07-07",
+    "country": "India",
+    "users": 128
+  },
+  {
+    "date": "2023-07-07",
+    "country": "USA",
+    "users": 134
+  },
+  {
+    "date": "2023-07-07",
+    "country": "Russia",
+    "users": 110
+  },
+  {
+    "date": "2023-07-08",
+    "country": "India",
+    "users": 100
+  },
+  {
+    "date": "2023-07-08",
+    "country": "USA",
+    "users": 146
+  },
+  {
+    "date": "2023-07-08",
+    "country": "Russia",
+    "users": 146
+  },
+  {
+    "date": "2023-07-09",
+    "country": "India",
+    "users": 112
+  },
+  {
+    "date": "2023-07-09",
+    "country": "USA",
+    "users": 113
+  },
+  {
+    "date": "2023-07-09",
+    "country": "Russia",
+    "users": 148
+  },
+  {
+    "date": "2023-07-10",
+    "country": "India",
+    "users": 140
+  },
+  {
+    "date": "2023-07-10",
+    "country": "USA",
+    "users": 141
+  },
+  {
+    "date": "2023-07-10",
+    "country": "Russia",
+    "users": 123
+  },
+  {
+    "date": "2023-07-11",
+    "country": "India",
+    "users": 117
+  },
+  {
+    "date": "2023-07-11",
+    "country": "USA",
+    "users": 140
+  },
+  {
+    "date": "2023-07-11",
+    "country": "Russia",
+    "users": 108
+  },
+  {
+    "date": "2023-07-12",
+    "country": "India",
+    "users": 105
+  },
+  {
+    "date": "2023-07-12",
+    "country": "USA",
+    "users": 102
+  },
+  {
+    "date": "2023-07-12",
+    "country": "Russia",
+    "users": 142
+  },
+  {
+    "date": "2023-07-13",
+    "country": "India",
+    "users": 130
+  },
+  {
+    "date": "2023-07-13",
+    "country": "USA",
+    "users": 124
+  },
+  {
+    "date": "2023-07-13",
+    "country": "Russia",
+    "users": 125
+  },
+  {
+    "date": "2023-07-14",
+    "country": "India",
+    "users": 142
+  },
+  {
+    "date": "2023-07-14",
+    "country": "USA",
+    "users": 104
+  },
+  {
+    "date": "2023-07-14",
+    "country": "Russia",
+    "users": 101
+  },
+  {
+    "date": "2023-07-15",
+    "country": "India",
+    "users": 117
+  },
+  {
+    "date": "2023-07-15",
+    "country": "USA",
+    "users": 132
+  },
+  {
+    "date": "2023-07-15",
+    "country": "Russia",
+    "users": 143
+  },
+  {
+    "date": "2023-07-16",
+    "country": "India",
+    "users": 125
+  },
+  {
+    "date": "2023-07-16",
+    "country": "USA",
+    "users": 150
+  },
+  {
+    "date": "2023-07-16",
+    "country": "Russia",
+    "users": 120
+  },
+  {
+    "date": "2023-07-17",
+    "country": "India",
+    "users": 102
+  },
+  {
+    "date": "2023-07-17",
+    "country": "USA",
+    "users": 143
+  },
+  {
+    "date": "2023-07-17",
+    "country": "Russia",
+    "users": 106
+  },
+  {
+    "date": "2023-07-18",
+    "country": "India",
+    "users": 102
+  },
+  {
+    "date": "2023-07-18",
+    "country": "USA",
+    "users": 144
+  },
+  {
+    "date": "2023-07-18",
+    "country": "Russia",
+    "users": 128
+  },
+  {
+    "date": "2023-07-19",
+    "country": "India",
+    "users": 103
+  },
+  {
+    "date": "2023-07-19",
+    "country": "USA",
+    "users": 137
+  },
+  {
+    "date": "2023-07-19",
+    "country": "Russia",
+    "users": 142
+  },
+  {
+    "date": "2023-07-20",
+    "country": "India",
+    "users": 123
+  },
+  {
+    "date": "2023-07-20",
+    "country": "USA",
+    "users": 106
+  },
+  {
+    "date": "2023-07-20",
+    "country": "Russia",
+    "users": 141
+  },
+  {
+    "date": "2023-07-21",
+    "country": "India",
+    "users": 109
+  },
+  {
+    "date": "2023-07-21",
+    "country": "USA",
+    "users": 100
+  },
+  {
+    "date": "2023-07-21",
+    "country": "Russia",
+    "users": 115
+  },
+  {
+    "date": "2023-07-22",
+    "country": "India",
+    "users": 122
+  },
+  {
+    "date": "2023-07-22",
+    "country": "USA",
+    "users": 128
+  },
+  {
+    "date": "2023-07-22",
+    "country": "Russia",
+    "users": 103
+  },
+  {
+    "date": "2023-07-23",
+    "country": "India",
+    "users": 129
+  },
+  {
+    "date": "2023-07-23",
+    "country": "USA",
+    "users": 115
+  },
+  {
+    "date": "2023-07-23",
+    "country": "Russia",
+    "users": 109
+  },
+  {
+    "date": "2023-07-24",
+    "country": "India",
+    "users": 136
+  },
+  {
+    "date": "2023-07-24",
+    "country": "USA",
+    "users": 110
+  },
+  {
+    "date": "2023-07-24",
+    "country": "Russia",
+    "users": 124
+  },
+  {
+    "date": "2023-07-25",
+    "country": "India",
+    "users": 101
+  },
+  {
+    "date": "2023-07-25",
+    "country": "USA",
+    "users": 106
+  },
+  {
+    "date": "2023-07-25",
+    "country": "Russia",
+    "users": 145
+  },
+  {
+    "date": "2023-07-26",
+    "country": "India",
+    "users": 140
+  },
+  {
+    "date": "2023-07-26",
+    "country": "USA",
+    "users": 108
+  },
+  {
+    "date": "2023-07-26",
+    "country": "Russia",
+    "users": 141
+  },
+  {
+    "date": "2023-07-27",
+    "country": "India",
+    "users": 117
+  },
+  {
+    "date": "2023-07-27",
+    "country": "USA",
+    "users": 142
+  },
+  {
+    "date": "2023-07-27",
+    "country": "Russia",
+    "users": 133
+  },
+  {
+    "date": "2023-07-28",
+    "country": "India",
+    "users": 146
+  },
+  {
+    "date": "2023-07-28",
+    "country": "USA",
+    "users": 113
+  },
+  {
+    "date": "2023-07-28",
+    "country": "Russia",
+    "users": 116
+  },
+  {
+    "date": "2023-07-29",
+    "country": "India",
+    "users": 119
+  },
+  {
+    "date": "2023-07-29",
+    "country": "USA",
+    "users": 134
+  },
+  {
+    "date": "2023-07-29",
+    "country": "Russia",
+    "users": 125
+  },
+  {
+    "date": "2023-07-30",
+    "country": "India",
+    "users": 110
+  },
+  {
+    "date": "2023-07-30",
+    "country": "USA",
+    "users": 132
+  },
+  {
+    "date": "2023-07-30",
+    "country": "Russia",
+    "users": 112
+  },
+  {
+    "date": "2023-07-31",
+    "country": "India",
+    "users": 111
+  },
+  {
+    "date": "2023-07-31",
+    "country": "USA",
+    "users": 105
+  },
+  {
+    "date": "2023-07-31",
+    "country": "Russia",
+    "users": 142
+  },
+  {
+    "date": "2023-08-01",
+    "country": "India",
+    "users": 148
+  },
+  {
+    "date": "2023-08-01",
+    "country": "USA",
+    "users": 115
+  },
+  {
+    "date": "2023-08-01",
+    "country": "Russia",
+    "users": 111
+  },
+  {
+    "date": "2023-08-02",
+    "country": "India",
+    "users": 116
+  },
+  {
+    "date": "2023-08-02",
+    "country": "USA",
+    "users": 122
+  },
+  {
+    "date": "2023-08-02",
+    "country": "Russia",
+    "users": 140
+  },
+  {
+    "date": "2023-08-03",
+    "country": "India",
+    "users": 120
+  },
+  {
+    "date": "2023-08-03",
+    "country": "USA",
+    "users": 144
+  },
+  {
+    "date": "2023-08-03",
+    "country": "Russia",
+    "users": 139
+  },
+  {
+    "date": "2023-08-04",
+    "country": "India",
+    "users": 141
+  },
+  {
+    "date": "2023-08-04",
+    "country": "USA",
+    "users": 111
+  },
+  {
+    "date": "2023-08-04",
+    "country": "Russia",
+    "users": 140
+  },
+  {
+    "date": "2023-08-05",
+    "country": "India",
+    "users": 139
+  },
+  {
+    "date": "2023-08-05",
+    "country": "USA",
+    "users": 145
+  },
+  {
+    "date": "2023-08-05",
+    "country": "Russia",
+    "users": 150
+  },
+  {
+    "date": "2023-08-06",
+    "country": "India",
+    "users": 102
+  },
+  {
+    "date": "2023-08-06",
+    "country": "USA",
+    "users": 148
+  },
+  {
+    "date": "2023-08-06",
+    "country": "Russia",
+    "users": 140
+  },
+  {
+    "date": "2023-08-07",
+    "country": "India",
+    "users": 107
+  },
+  {
+    "date": "2023-08-07",
+    "country": "USA",
+    "users": 140
+  },
+  {
+    "date": "2023-08-07",
+    "country": "Russia",
+    "users": 131
+  },
+  {
+    "date": "2023-08-08",
+    "country": "India",
+    "users": 121
+  },
+  {
+    "date": "2023-08-08",
+    "country": "USA",
+    "users": 110
+  },
+  {
+    "date": "2023-08-08",
+    "country": "Russia",
+    "users": 103
+  },
+  {
+    "date": "2023-08-09",
+    "country": "India",
+    "users": 103
+  },
+  {
+    "date": "2023-08-09",
+    "country": "USA",
+    "users": 147
+  },
+  {
+    "date": "2023-08-09",
+    "country": "Russia",
+    "users": 103
+  },
+  {
+    "date": "2023-08-10",
+    "country": "India",
+    "users": 102
+  },
+  {
+    "date": "2023-08-10",
+    "country": "USA",
+    "users": 133
+  },
+  {
+    "date": "2023-08-10",
+    "country": "Russia",
+    "users": 139
+  },
+  {
+    "date": "2023-08-11",
+    "country": "India",
+    "users": 114
+  },
+  {
+    "date": "2023-08-11",
+    "country": "USA",
+    "users": 112
+  },
+  {
+    "date": "2023-08-11",
+    "country": "Russia",
+    "users": 142
+  },
+  {
+    "date": "2023-08-12",
+    "country": "India",
+    "users": 143
+  },
+  {
+    "date": "2023-08-12",
+    "country": "USA",
+    "users": 128
+  },
+  {
+    "date": "2023-08-12",
+    "country": "Russia",
+    "users": 110
+  },
+  {
+    "date": "2023-08-13",
+    "country": "India",
+    "users": 115
+  },
+  {
+    "date": "2023-08-13",
+    "country": "USA",
+    "users": 135
+  },
+  {
+    "date": "2023-08-13",
+    "country": "Russia",
+    "users": 139
+  },
+  {
+    "date": "2023-08-14",
+    "country": "India",
+    "users": 119
+  },
+  {
+    "date": "2023-08-14",
+    "country": "USA",
+    "users": 112
+  },
+  {
+    "date": "2023-08-14",
+    "country": "Russia",
+    "users": 111
+  },
+  {
+    "date": "2023-08-15",
+    "country": "India",
+    "users": 117
+  },
+  {
+    "date": "2023-08-15",
+    "country": "USA",
+    "users": 136
+  },
+  {
+    "date": "2023-08-15",
+    "country": "Russia",
+    "users": 106
+  },
+  {
+    "date": "2023-08-16",
+    "country": "India",
+    "users": 146
+  },
+  {
+    "date": "2023-08-16",
+    "country": "USA",
+    "users": 145
+  },
+  {
+    "date": "2023-08-16",
+    "country": "Russia",
+    "users": 117
+  },
+  {
+    "date": "2023-08-17",
+    "country": "India",
+    "users": 140
+  },
+  {
+    "date": "2023-08-17",
+    "country": "USA",
+    "users": 102
+  },
+  {
+    "date": "2023-08-17",
+    "country": "Russia",
+    "users": 133
+  },
+  {
+    "date": "2023-08-18",
+    "country": "India",
+    "users": 128
+  },
+  {
+    "date": "2023-08-18",
+    "country": "USA",
+    "users": 127
+  },
+  {
+    "date": "2023-08-18",
+    "country": "Russia",
+    "users": 109
+  },
+  {
+    "date": "2023-08-19",
+    "country": "India",
+    "users": 128
+  },
+  {
+    "date": "2023-08-19",
+    "country": "USA",
+    "users": 127
+  },
+  {
+    "date": "2023-08-19",
+    "country": "Russia",
+    "users": 149
+  },
+  {
+    "date": "2023-08-20",
+    "country": "India",
+    "users": 105
+  },
+  {
+    "date": "2023-08-20",
+    "country": "USA",
+    "users": 116
+  },
+  {
+    "date": "2023-08-20",
+    "country": "Russia",
+    "users": 119
+  },
+  {
+    "date": "2023-08-21",
+    "country": "India",
+    "users": 103
+  },
+  {
+    "date": "2023-08-21",
+    "country": "USA",
+    "users": 106
+  },
+  {
+    "date": "2023-08-21",
+    "country": "Russia",
+    "users": 118
+  },
+  {
+    "date": "2023-08-22",
+    "country": "India",
+    "users": 133
+  },
+  {
+    "date": "2023-08-22",
+    "country": "USA",
+    "users": 133
+  },
+  {
+    "date": "2023-08-22",
+    "country": "Russia",
+    "users": 134
+  },
+  {
+    "date": "2023-08-23",
+    "country": "India",
+    "users": 109
+  },
+  {
+    "date": "2023-08-23",
+    "country": "USA",
+    "users": 115
+  },
+  {
+    "date": "2023-08-23",
+    "country": "Russia",
+    "users": 150
+  },
+  {
+    "date": "2023-08-24",
+    "country": "India",
+    "users": 134
+  },
+  {
+    "date": "2023-08-24",
+    "country": "USA",
+    "users": 150
+  },
+  {
+    "date": "2023-08-24",
+    "country": "Russia",
+    "users": 112
+  },
+  {
+    "date": "2023-08-25",
+    "country": "India",
+    "users": 147
+  },
+  {
+    "date": "2023-08-25",
+    "country": "USA",
+    "users": 132
+  },
+  {
+    "date": "2023-08-25",
+    "country": "Russia",
+    "users": 108
+  },
+  {
+    "date": "2023-08-26",
+    "country": "India",
+    "users": 120
+  },
+  {
+    "date": "2023-08-26",
+    "country": "USA",
+    "users": 104
+  },
+  {
+    "date": "2023-08-26",
+    "country": "Russia",
+    "users": 115
+  },
+  {
+    "date": "2023-08-27",
+    "country": "India",
+    "users": 128
+  },
+  {
+    "date": "2023-08-27",
+    "country": "USA",
+    "users": 147
+  },
+  {
+    "date": "2023-08-27",
+    "country": "Russia",
+    "users": 109
+  },
+  {
+    "date": "2023-08-28",
+    "country": "India",
+    "users": 138
+  },
+  {
+    "date": "2023-08-28",
+    "country": "USA",
+    "users": 115
+  },
+  {
+    "date": "2023-08-28",
+    "country": "Russia",
+    "users": 104
+  },
+  {
+    "date": "2023-08-29",
+    "country": "India",
+    "users": 131
+  },
+  {
+    "date": "2023-08-29",
+    "country": "USA",
+    "users": 132
+  },
+  {
+    "date": "2023-08-29",
+    "country": "Russia",
+    "users": 101
+  },
+  {
+    "date": "2023-08-30",
+    "country": "India",
+    "users": 125
+  },
+  {
+    "date": "2023-08-30",
+    "country": "USA",
+    "users": 138
+  },
+  {
+    "date": "2023-08-30",
+    "country": "Russia",
+    "users": 132
+  },
+  {
+    "date": "2023-08-31",
+    "country": "India",
+    "users": 147
+  },
+  {
+    "date": "2023-08-31",
+    "country": "USA",
+    "users": 117
+  },
+  {
+    "date": "2023-08-31",
+    "country": "Russia",
+    "users": 120
+  },
+  {
+    "date": "2023-09-01",
+    "country": "India",
+    "users": 146
+  },
+  {
+    "date": "2023-09-01",
+    "country": "USA",
+    "users": 125
+  },
+  {
+    "date": "2023-09-01",
+    "country": "Russia",
+    "users": 116
+  },
+  {
+    "date": "2023-09-02",
+    "country": "India",
+    "users": 143
+  },
+  {
+    "date": "2023-09-02",
+    "country": "USA",
+    "users": 117
+  },
+  {
+    "date": "2023-09-02",
+    "country": "Russia",
+    "users": 128
+  },
+  {
+    "date": "2023-09-03",
+    "country": "India",
+    "users": 115
+  },
+  {
+    "date": "2023-09-03",
+    "country": "USA",
+    "users": 123
+  },
+  {
+    "date": "2023-09-03",
+    "country": "Russia",
+    "users": 118
+  },
+  {
+    "date": "2023-09-04",
+    "country": "India",
+    "users": 136
+  },
+  {
+    "date": "2023-09-04",
+    "country": "USA",
+    "users": 141
+  },
+  {
+    "date": "2023-09-04",
+    "country": "Russia",
+    "users": 147
+  },
+  {
+    "date": "2023-09-05",
+    "country": "India",
+    "users": 118
+  },
+  {
+    "date": "2023-09-05",
+    "country": "USA",
+    "users": 108
+  },
+  {
+    "date": "2023-09-05",
+    "country": "Russia",
+    "users": 134
+  },
+  {
+    "date": "2023-09-06",
+    "country": "India",
+    "users": 121
+  },
+  {
+    "date": "2023-09-06",
+    "country": "USA",
+    "users": 106
+  },
+  {
+    "date": "2023-09-06",
+    "country": "Russia",
+    "users": 116
+  },
+  {
+    "date": "2023-09-07",
+    "country": "India",
+    "users": 123
+  },
+  {
+    "date": "2023-09-07",
+    "country": "USA",
+    "users": 140
+  },
+  {
+    "date": "2023-09-07",
+    "country": "Russia",
+    "users": 130
+  },
+  {
+    "date": "2023-09-08",
+    "country": "India",
+    "users": 114
+  },
+  {
+    "date": "2023-09-08",
+    "country": "USA",
+    "users": 132
+  },
+  {
+    "date": "2023-09-08",
+    "country": "Russia",
+    "users": 115
+  },
+  {
+    "date": "2023-09-09",
+    "country": "India",
+    "users": 147
+  },
+  {
+    "date": "2023-09-09",
+    "country": "USA",
+    "users": 119
+  },
+  {
+    "date": "2023-09-09",
+    "country": "Russia",
+    "users": 140
+  },
+  {
+    "date": "2023-09-10",
+    "country": "India",
+    "users": 101
+  },
+  {
+    "date": "2023-09-10",
+    "country": "USA",
+    "users": 150
+  },
+  {
+    "date": "2023-09-10",
+    "country": "Russia",
+    "users": 123
+  },
+  {
+    "date": "2023-09-11",
+    "country": "India",
+    "users": 119
+  },
+  {
+    "date": "2023-09-11",
+    "country": "USA",
+    "users": 148
+  },
+  {
+    "date": "2023-09-11",
+    "country": "Russia",
+    "users": 129
+  },
+  {
+    "date": "2023-09-12",
+    "country": "India",
+    "users": 103
+  },
+  {
+    "date": "2023-09-12",
+    "country": "USA",
+    "users": 122
+  },
+  {
+    "date": "2023-09-12",
+    "country": "Russia",
+    "users": 135
+  },
+  {
+    "date": "2023-09-13",
+    "country": "India",
+    "users": 102
+  },
+  {
+    "date": "2023-09-13",
+    "country": "USA",
+    "users": 131
+  },
+  {
+    "date": "2023-09-13",
+    "country": "Russia",
+    "users": 140
+  },
+  {
+    "date": "2023-09-14",
+    "country": "India",
+    "users": 135
+  },
+  {
+    "date": "2023-09-14",
+    "country": "USA",
+    "users": 137
+  },
+  {
+    "date": "2023-09-14",
+    "country": "Russia",
+    "users": 122
+  },
+  {
+    "date": "2023-09-15",
+    "country": "India",
+    "users": 114
+  },
+  {
+    "date": "2023-09-15",
+    "country": "USA",
+    "users": 110
+  },
+  {
+    "date": "2023-09-15",
+    "country": "Russia",
+    "users": 124
+  },
+  {
+    "date": "2023-09-16",
+    "country": "India",
+    "users": 117
+  },
+  {
+    "date": "2023-09-16",
+    "country": "USA",
+    "users": 145
+  },
+  {
+    "date": "2023-09-16",
+    "country": "Russia",
+    "users": 112
+  },
+  {
+    "date": "2023-09-17",
+    "country": "India",
+    "users": 135
+  },
+  {
+    "date": "2023-09-17",
+    "country": "USA",
+    "users": 110
+  },
+  {
+    "date": "2023-09-17",
+    "country": "Russia",
+    "users": 127
+  },
+  {
+    "date": "2023-09-18",
+    "country": "India",
+    "users": 132
+  },
+  {
+    "date": "2023-09-18",
+    "country": "USA",
+    "users": 108
+  },
+  {
+    "date": "2023-09-18",
+    "country": "Russia",
+    "users": 123
+  },
+  {
+    "date": "2023-09-19",
+    "country": "India",
+    "users": 144
+  },
+  {
+    "date": "2023-09-19",
+    "country": "USA",
+    "users": 114
+  },
+  {
+    "date": "2023-09-19",
+    "country": "Russia",
+    "users": 103
+  },
+  {
+    "date": "2023-09-20",
+    "country": "India",
+    "users": 149
+  },
+  {
+    "date": "2023-09-20",
+    "country": "USA",
+    "users": 129
+  },
+  {
+    "date": "2023-09-20",
+    "country": "Russia",
+    "users": 124
+  },
+  {
+    "date": "2023-09-21",
+    "country": "India",
+    "users": 116
+  },
+  {
+    "date": "2023-09-21",
+    "country": "USA",
+    "users": 124
+  },
+  {
+    "date": "2023-09-21",
+    "country": "Russia",
+    "users": 115
+  },
+  {
+    "date": "2023-09-22",
+    "country": "India",
+    "users": 131
+  },
+  {
+    "date": "2023-09-22",
+    "country": "USA",
+    "users": 117
+  },
+  {
+    "date": "2023-09-22",
+    "country": "Russia",
+    "users": 141
+  },
+  {
+    "date": "2023-09-23",
+    "country": "India",
+    "users": 128
+  },
+  {
+    "date": "2023-09-23",
+    "country": "USA",
+    "users": 131
+  },
+  {
+    "date": "2023-09-23",
+    "country": "Russia",
+    "users": 144
+  },
+  {
+    "date": "2023-09-24",
+    "country": "India",
+    "users": 127
+  },
+  {
+    "date": "2023-09-24",
+    "country": "USA",
+    "users": 140
+  },
+  {
+    "date": "2023-09-24",
+    "country": "Russia",
+    "users": 139
+  },
+  {
+    "date": "2023-09-25",
+    "country": "India",
+    "users": 138
+  },
+  {
+    "date": "2023-09-25",
+    "country": "USA",
+    "users": 100
+  },
+  {
+    "date": "2023-09-25",
+    "country": "Russia",
+    "users": 145
+  },
+  {
+    "date": "2023-09-26",
+    "country": "India",
+    "users": 127
+  },
+  {
+    "date": "2023-09-26",
+    "country": "USA",
+    "users": 106
+  },
+  {
+    "date": "2023-09-26",
+    "country": "Russia",
+    "users": 131
+  },
+  {
+    "date": "2023-09-27",
+    "country": "India",
+    "users": 115
+  },
+  {
+    "date": "2023-09-27",
+    "country": "USA",
+    "users": 109
+  },
+  {
+    "date": "2023-09-27",
+    "country": "Russia",
+    "users": 102
+  },
+  {
+    "date": "2023-09-28",
+    "country": "India",
+    "users": 124
+  },
+  {
+    "date": "2023-09-28",
+    "country": "USA",
+    "users": 145
+  },
+  {
+    "date": "2023-09-28",
+    "country": "Russia",
+    "users": 125
+  },
+  {
+    "date": "2023-09-29",
+    "country": "India",
+    "users": 105
+  },
+  {
+    "date": "2023-09-29",
+    "country": "USA",
+    "users": 133
+  },
+  {
+    "date": "2023-09-29",
+    "country": "Russia",
+    "users": 116
+  },
+  {
+    "date": "2023-09-30",
+    "country": "India",
+    "users": 145
+  },
+  {
+    "date": "2023-09-30",
+    "country": "USA",
+    "users": 125
+  },
+  {
+    "date": "2023-09-30",
+    "country": "Russia",
+    "users": 141
+  },
+  {
+    "date": "2023-10-01",
+    "country": "India",
+    "users": 106
+  },
+  {
+    "date": "2023-10-01",
+    "country": "USA",
+    "users": 103
+  },
+  {
+    "date": "2023-10-01",
+    "country": "Russia",
+    "users": 102
+  },
+  {
+    "date": "2023-10-02",
+    "country": "India",
+    "users": 118
+  },
+  {
+    "date": "2023-10-02",
+    "country": "USA",
+    "users": 134
+  },
+  {
+    "date": "2023-10-02",
+    "country": "Russia",
+    "users": 130
+  },
+  {
+    "date": "2023-10-03",
+    "country": "India",
+    "users": 105
+  },
+  {
+    "date": "2023-10-03",
+    "country": "USA",
+    "users": 144
+  },
+  {
+    "date": "2023-10-03",
+    "country": "Russia",
+    "users": 144
+  },
+  {
+    "date": "2023-10-04",
+    "country": "India",
+    "users": 100
+  },
+  {
+    "date": "2023-10-04",
+    "country": "USA",
+    "users": 131
+  },
+  {
+    "date": "2023-10-04",
+    "country": "Russia",
+    "users": 146
+  },
+  {
+    "date": "2023-10-05",
+    "country": "India",
+    "users": 111
+  },
+  {
+    "date": "2023-10-05",
+    "country": "USA",
+    "users": 103
+  },
+  {
+    "date": "2023-10-05",
+    "country": "Russia",
+    "users": 122
+  },
+  {
+    "date": "2023-10-06",
+    "country": "India",
+    "users": 110
+  },
+  {
+    "date": "2023-10-06",
+    "country": "USA",
+    "users": 103
+  },
+  {
+    "date": "2023-10-06",
+    "country": "Russia",
+    "users": 119
+  },
+  {
+    "date": "2023-10-07",
+    "country": "India",
+    "users": 118
+  },
+  {
+    "date": "2023-10-07",
+    "country": "USA",
+    "users": 109
+  },
+  {
+    "date": "2023-10-07",
+    "country": "Russia",
+    "users": 103
+  },
+  {
+    "date": "2023-10-08",
+    "country": "India",
+    "users": 109
+  },
+  {
+    "date": "2023-10-08",
+    "country": "USA",
+    "users": 102
+  },
+  {
+    "date": "2023-10-08",
+    "country": "Russia",
+    "users": 114
+  },
+  {
+    "date": "2023-10-09",
+    "country": "India",
+    "users": 129
+  },
+  {
+    "date": "2023-10-09",
+    "country": "USA",
+    "users": 100
+  },
+  {
+    "date": "2023-10-09",
+    "country": "Russia",
+    "users": 118
+  },
+  {
+    "date": "2023-10-10",
+    "country": "India",
+    "users": 137
+  },
+  {
+    "date": "2023-10-10",
+    "country": "USA",
+    "users": 113
+  },
+  {
+    "date": "2023-10-10",
+    "country": "Russia",
+    "users": 134
+  },
+  {
+    "date": "2023-10-11",
+    "country": "India",
+    "users": 111
+  },
+  {
+    "date": "2023-10-11",
+    "country": "USA",
+    "users": 136
+  },
+  {
+    "date": "2023-10-11",
+    "country": "Russia",
+    "users": 118
+  },
+  {
+    "date": "2023-10-12",
+    "country": "India",
+    "users": 147
+  },
+  {
+    "date": "2023-10-12",
+    "country": "USA",
+    "users": 135
+  },
+  {
+    "date": "2023-10-12",
+    "country": "Russia",
+    "users": 107
+  },
+  {
+    "date": "2023-10-13",
+    "country": "India",
+    "users": 132
+  },
+  {
+    "date": "2023-10-13",
+    "country": "USA",
+    "users": 111
+  },
+  {
+    "date": "2023-10-13",
+    "country": "Russia",
+    "users": 132
+  },
+  {
+    "date": "2023-10-14",
+    "country": "India",
+    "users": 146
+  },
+  {
+    "date": "2023-10-14",
+    "country": "USA",
+    "users": 110
+  },
+  {
+    "date": "2023-10-14",
+    "country": "Russia",
+    "users": 100
+  },
+  {
+    "date": "2023-10-15",
+    "country": "India",
+    "users": 131
+  },
+  {
+    "date": "2023-10-15",
+    "country": "USA",
+    "users": 104
+  },
+  {
+    "date": "2023-10-15",
+    "country": "Russia",
+    "users": 134
+  },
+  {
+    "date": "2023-10-16",
+    "country": "India",
+    "users": 123
+  },
+  {
+    "date": "2023-10-16",
+    "country": "USA",
+    "users": 105
+  },
+  {
+    "date": "2023-10-16",
+    "country": "Russia",
+    "users": 148
+  },
+  {
+    "date": "2023-10-17",
+    "country": "India",
+    "users": 143
+  },
+  {
+    "date": "2023-10-17",
+    "country": "USA",
+    "users": 135
+  },
+  {
+    "date": "2023-10-17",
+    "country": "Russia",
+    "users": 109
+  },
+  {
+    "date": "2023-10-18",
+    "country": "India",
+    "users": 124
+  },
+  {
+    "date": "2023-10-18",
+    "country": "USA",
+    "users": 146
+  },
+  {
+    "date": "2023-10-18",
+    "country": "Russia",
+    "users": 101
+  },
+  {
+    "date": "2023-10-19",
+    "country": "India",
+    "users": 148
+  },
+  {
+    "date": "2023-10-19",
+    "country": "USA",
+    "users": 141
+  },
+  {
+    "date": "2023-10-19",
+    "country": "Russia",
+    "users": 121
+  },
+  {
+    "date": "2023-10-20",
+    "country": "India",
+    "users": 108
+  },
+  {
+    "date": "2023-10-20",
+    "country": "USA",
+    "users": 137
+  },
+  {
+    "date": "2023-10-20",
+    "country": "Russia",
+    "users": 125
+  },
+  {
+    "date": "2023-10-21",
+    "country": "India",
+    "users": 150
+  },
+  {
+    "date": "2023-10-21",
+    "country": "USA",
+    "users": 148
+  },
+  {
+    "date": "2023-10-21",
+    "country": "Russia",
+    "users": 129
+  },
+  {
+    "date": "2023-10-22",
+    "country": "India",
+    "users": 142
+  },
+  {
+    "date": "2023-10-22",
+    "country": "USA",
+    "users": 146
+  },
+  {
+    "date": "2023-10-22",
+    "country": "Russia",
+    "users": 137
+  },
+  {
+    "date": "2023-10-23",
+    "country": "India",
+    "users": 140
+  },
+  {
+    "date": "2023-10-23",
+    "country": "USA",
+    "users": 138
+  },
+  {
+    "date": "2023-10-23",
+    "country": "Russia",
+    "users": 105
+  },
+  {
+    "date": "2023-10-24",
+    "country": "India",
+    "users": 144
+  },
+  {
+    "date": "2023-10-24",
+    "country": "USA",
+    "users": 104
+  },
+  {
+    "date": "2023-10-24",
+    "country": "Russia",
+    "users": 123
+  },
+  {
+    "date": "2023-10-25",
+    "country": "India",
+    "users": 116
+  },
+  {
+    "date": "2023-10-25",
+    "country": "USA",
+    "users": 141
+  },
+  {
+    "date": "2023-10-25",
+    "country": "Russia",
+    "users": 128
+  },
+  {
+    "date": "2023-10-26",
+    "country": "India",
+    "users": 125
+  },
+  {
+    "date": "2023-10-26",
+    "country": "USA",
+    "users": 110
+  },
+  {
+    "date": "2023-10-26",
+    "country": "Russia",
+    "users": 122
+  },
+  {
+    "date": "2023-10-27",
+    "country": "India",
+    "users": 101
+  },
+  {
+    "date": "2023-10-27",
+    "country": "USA",
+    "users": 143
+  },
+  {
+    "date": "2023-10-27",
+    "country": "Russia",
+    "users": 118
+  },
+  {
+    "date": "2023-10-28",
+    "country": "India",
+    "users": 120
+  },
+  {
+    "date": "2023-10-28",
+    "country": "USA",
+    "users": 111
+  },
+  {
+    "date": "2023-10-28",
+    "country": "Russia",
+    "users": 134
+  },
+  {
+    "date": "2023-10-29",
+    "country": "India",
+    "users": 117
+  },
+  {
+    "date": "2023-10-29",
+    "country": "USA",
+    "users": 141
+  },
+  {
+    "date": "2023-10-29",
+    "country": "Russia",
+    "users": 134
+  },
+  {
+    "date": "2023-10-30",
+    "country": "India",
+    "users": 116
+  },
+  {
+    "date": "2023-10-30",
+    "country": "USA",
+    "users": 103
+  },
+  {
+    "date": "2023-10-30",
+    "country": "Russia",
+    "users": 102
+  },
+  {
+    "date": "2023-10-31",
+    "country": "India",
+    "users": 134
+  },
+  {
+    "date": "2023-10-31",
+    "country": "USA",
+    "users": 143
+  },
+  {
+    "date": "2023-10-31",
+    "country": "Russia",
+    "users": 136
+  },
+  {
+    "date": "2023-11-01",
+    "country": "India",
+    "users": 133
+  },
+  {
+    "date": "2023-11-01",
+    "country": "USA",
+    "users": 146
+  },
+  {
+    "date": "2023-11-01",
+    "country": "Russia",
+    "users": 132
+  },
+  {
+    "date": "2023-11-02",
+    "country": "India",
+    "users": 135
+  },
+  {
+    "date": "2023-11-02",
+    "country": "USA",
+    "users": 114
+  },
+  {
+    "date": "2023-11-02",
+    "country": "Russia",
+    "users": 117
+  },
+  {
+    "date": "2023-11-03",
+    "country": "India",
+    "users": 119
+  },
+  {
+    "date": "2023-11-03",
+    "country": "USA",
+    "users": 105
+  },
+  {
+    "date": "2023-11-03",
+    "country": "Russia",
+    "users": 147
+  },
+  {
+    "date": "2023-11-04",
+    "country": "India",
+    "users": 112
+  },
+  {
+    "date": "2023-11-04",
+    "country": "USA",
+    "users": 136
+  },
+  {
+    "date": "2023-11-04",
+    "country": "Russia",
+    "users": 134
+  },
+  {
+    "date": "2023-11-05",
+    "country": "India",
+    "users": 141
+  },
+  {
+    "date": "2023-11-05",
+    "country": "USA",
+    "users": 134
+  },
+  {
+    "date": "2023-11-05",
+    "country": "Russia",
+    "users": 145
+  },
+  {
+    "date": "2023-11-06",
+    "country": "India",
+    "users": 115
+  },
+  {
+    "date": "2023-11-06",
+    "country": "USA",
+    "users": 137
+  },
+  {
+    "date": "2023-11-06",
+    "country": "Russia",
+    "users": 150
+  },
+  {
+    "date": "2023-11-07",
+    "country": "India",
+    "users": 126
+  },
+  {
+    "date": "2023-11-07",
+    "country": "USA",
+    "users": 149
+  },
+  {
+    "date": "2023-11-07",
+    "country": "Russia",
+    "users": 140
+  },
+  {
+    "date": "2023-11-08",
+    "country": "India",
+    "users": 106
+  },
+  {
+    "date": "2023-11-08",
+    "country": "USA",
+    "users": 105
+  },
+  {
+    "date": "2023-11-08",
+    "country": "Russia",
+    "users": 107
+  },
+  {
+    "date": "2023-11-09",
+    "country": "India",
+    "users": 104
+  },
+  {
+    "date": "2023-11-09",
+    "country": "USA",
+    "users": 140
+  },
+  {
+    "date": "2023-11-09",
+    "country": "Russia",
+    "users": 101
+  },
+  {
+    "date": "2023-11-10",
+    "country": "India",
+    "users": 114
+  },
+  {
+    "date": "2023-11-10",
+    "country": "USA",
+    "users": 145
+  },
+  {
+    "date": "2023-11-10",
+    "country": "Russia",
+    "users": 104
+  },
+  {
+    "date": "2023-11-11",
+    "country": "India",
+    "users": 124
+  },
+  {
+    "date": "2023-11-11",
+    "country": "USA",
+    "users": 116
+  },
+  {
+    "date": "2023-11-11",
+    "country": "Russia",
+    "users": 135
+  },
+  {
+    "date": "2023-11-12",
+    "country": "India",
+    "users": 110
+  },
+  {
+    "date": "2023-11-12",
+    "country": "USA",
+    "users": 119
+  },
+  {
+    "date": "2023-11-12",
+    "country": "Russia",
+    "users": 133
+  },
+  {
+    "date": "2023-11-13",
+    "country": "India",
+    "users": 137
+  },
+  {
+    "date": "2023-11-13",
+    "country": "USA",
+    "users": 109
+  },
+  {
+    "date": "2023-11-13",
+    "country": "Russia",
+    "users": 138
+  },
+  {
+    "date": "2023-11-14",
+    "country": "India",
+    "users": 129
+  },
+  {
+    "date": "2023-11-14",
+    "country": "USA",
+    "users": 104
+  },
+  {
+    "date": "2023-11-14",
+    "country": "Russia",
+    "users": 115
+  },
+  {
+    "date": "2023-11-15",
+    "country": "India",
+    "users": 124
+  },
+  {
+    "date": "2023-11-15",
+    "country": "USA",
+    "users": 130
+  },
+  {
+    "date": "2023-11-15",
+    "country": "Russia",
+    "users": 124
+  },
+  {
+    "date": "2023-11-16",
+    "country": "India",
+    "users": 102
+  },
+  {
+    "date": "2023-11-16",
+    "country": "USA",
+    "users": 111
+  },
+  {
+    "date": "2023-11-16",
+    "country": "Russia",
+    "users": 109
+  },
+  {
+    "date": "2023-11-17",
+    "country": "India",
+    "users": 139
+  },
+  {
+    "date": "2023-11-17",
+    "country": "USA",
+    "users": 110
+  },
+  {
+    "date": "2023-11-17",
+    "country": "Russia",
+    "users": 143
+  },
+  {
+    "date": "2023-11-18",
+    "country": "India",
+    "users": 127
+  },
+  {
+    "date": "2023-11-18",
+    "country": "USA",
+    "users": 124
+  },
+  {
+    "date": "2023-11-18",
+    "country": "Russia",
+    "users": 105
+  },
+  {
+    "date": "2023-11-19",
+    "country": "India",
+    "users": 111
+  },
+  {
+    "date": "2023-11-19",
+    "country": "USA",
+    "users": 100
+  },
+  {
+    "date": "2023-11-19",
+    "country": "Russia",
+    "users": 141
+  },
+  {
+    "date": "2023-11-20",
+    "country": "India",
+    "users": 101
+  },
+  {
+    "date": "2023-11-20",
+    "country": "USA",
+    "users": 116
+  },
+  {
+    "date": "2023-11-20",
+    "country": "Russia",
+    "users": 113
+  },
+  {
+    "date": "2023-11-21",
+    "country": "India",
+    "users": 116
+  },
+  {
+    "date": "2023-11-21",
+    "country": "USA",
+    "users": 118
+  },
+  {
+    "date": "2023-11-21",
+    "country": "Russia",
+    "users": 149
+  },
+  {
+    "date": "2023-11-22",
+    "country": "India",
+    "users": 112
+  },
+  {
+    "date": "2023-11-22",
+    "country": "USA",
+    "users": 135
+  },
+  {
+    "date": "2023-11-22",
+    "country": "Russia",
+    "users": 105
+  },
+  {
+    "date": "2023-11-23",
+    "country": "India",
+    "users": 115
+  },
+  {
+    "date": "2023-11-23",
+    "country": "USA",
+    "users": 139
+  },
+  {
+    "date": "2023-11-23",
+    "country": "Russia",
+    "users": 135
+  },
+  {
+    "date": "2023-11-24",
+    "country": "India",
+    "users": 129
+  },
+  {
+    "date": "2023-11-24",
+    "country": "USA",
+    "users": 101
+  },
+  {
+    "date": "2023-11-24",
+    "country": "Russia",
+    "users": 125
+  },
+  {
+    "date": "2023-11-25",
+    "country": "India",
+    "users": 116
+  },
+  {
+    "date": "2023-11-25",
+    "country": "USA",
+    "users": 144
+  },
+  {
+    "date": "2023-11-25",
+    "country": "Russia",
+    "users": 113
+  },
+  {
+    "date": "2023-11-26",
+    "country": "India",
+    "users": 138
+  },
+  {
+    "date": "2023-11-26",
+    "country": "USA",
+    "users": 138
+  },
+  {
+    "date": "2023-11-26",
+    "country": "Russia",
+    "users": 110
+  },
+  {
+    "date": "2023-11-27",
+    "country": "India",
+    "users": 143
+  },
+  {
+    "date": "2023-11-27",
+    "country": "USA",
+    "users": 134
+  },
+  {
+    "date": "2023-11-27",
+    "country": "Russia",
+    "users": 104
+  },
+  {
+    "date": "2023-11-28",
+    "country": "India",
+    "users": 113
+  },
+  {
+    "date": "2023-11-28",
+    "country": "USA",
+    "users": 114
+  },
+  {
+    "date": "2023-11-28",
+    "country": "Russia",
+    "users": 110
+  },
+  {
+    "date": "2023-11-29",
+    "country": "India",
+    "users": 105
+  },
+  {
+    "date": "2023-11-29",
+    "country": "USA",
+    "users": 125
+  },
+  {
+    "date": "2023-11-29",
+    "country": "Russia",
+    "users": 138
+  },
+  {
+    "date": "2023-11-30",
+    "country": "India",
+    "users": 103
+  },
+  {
+    "date": "2023-11-30",
+    "country": "USA",
+    "users": 101
+  },
+  {
+    "date": "2023-11-30",
+    "country": "Russia",
+    "users": 116
+  },
+  {
+    "date": "2023-12-01",
+    "country": "India",
+    "users": 144
+  },
+  {
+    "date": "2023-12-01",
+    "country": "USA",
+    "users": 108
+  },
+  {
+    "date": "2023-12-01",
+    "country": "Russia",
+    "users": 147
+  },
+  {
+    "date": "2023-12-02",
+    "country": "India",
+    "users": 102
+  },
+  {
+    "date": "2023-12-02",
+    "country": "USA",
+    "users": 121
+  },
+  {
+    "date": "2023-12-02",
+    "country": "Russia",
+    "users": 120
+  },
+  {
+    "date": "2023-12-03",
+    "country": "India",
+    "users": 140
+  },
+  {
+    "date": "2023-12-03",
+    "country": "USA",
+    "users": 143
+  },
+  {
+    "date": "2023-12-03",
+    "country": "Russia",
+    "users": 109
+  },
+  {
+    "date": "2023-12-04",
+    "country": "India",
+    "users": 118
+  },
+  {
+    "date": "2023-12-04",
+    "country": "USA",
+    "users": 124
+  },
+  {
+    "date": "2023-12-04",
+    "country": "Russia",
+    "users": 137
+  },
+  {
+    "date": "2023-12-05",
+    "country": "India",
+    "users": 143
+  },
+  {
+    "date": "2023-12-05",
+    "country": "USA",
+    "users": 142
+  },
+  {
+    "date": "2023-12-05",
+    "country": "Russia",
+    "users": 131
+  },
+  {
+    "date": "2023-12-06",
+    "country": "India",
+    "users": 109
+  },
+  {
+    "date": "2023-12-06",
+    "country": "USA",
+    "users": 142
+  },
+  {
+    "date": "2023-12-06",
+    "country": "Russia",
+    "users": 142
+  },
+  {
+    "date": "2023-12-07",
+    "country": "India",
+    "users": 115
+  },
+  {
+    "date": "2023-12-07",
+    "country": "USA",
+    "users": 124
+  },
+  {
+    "date": "2023-12-07",
+    "country": "Russia",
+    "users": 123
+  },
+  {
+    "date": "2023-12-08",
+    "country": "India",
+    "users": 139
+  },
+  {
+    "date": "2023-12-08",
+    "country": "USA",
+    "users": 137
+  },
+  {
+    "date": "2023-12-08",
+    "country": "Russia",
+    "users": 134
+  },
+  {
+    "date": "2023-12-09",
+    "country": "India",
+    "users": 140
+  },
+  {
+    "date": "2023-12-09",
+    "country": "USA",
+    "users": 126
+  },
+  {
+    "date": "2023-12-09",
+    "country": "Russia",
+    "users": 130
+  },
+  {
+    "date": "2023-12-10",
+    "country": "India",
+    "users": 146
+  },
+  {
+    "date": "2023-12-10",
+    "country": "USA",
+    "users": 149
+  },
+  {
+    "date": "2023-12-10",
+    "country": "Russia",
+    "users": 140
+  },
+  {
+    "date": "2023-12-11",
+    "country": "India",
+    "users": 123
+  },
+  {
+    "date": "2023-12-11",
+    "country": "USA",
+    "users": 134
+  },
+  {
+    "date": "2023-12-11",
+    "country": "Russia",
+    "users": 148
+  },
+  {
+    "date": "2023-12-12",
+    "country": "India",
+    "users": 144
+  },
+  {
+    "date": "2023-12-12",
+    "country": "USA",
+    "users": 131
+  },
+  {
+    "date": "2023-12-12",
+    "country": "Russia",
+    "users": 113
+  },
+  {
+    "date": "2023-12-13",
+    "country": "India",
+    "users": 116
+  },
+  {
+    "date": "2023-12-13",
+    "country": "USA",
+    "users": 145
+  },
+  {
+    "date": "2023-12-13",
+    "country": "Russia",
+    "users": 118
+  },
+  {
+    "date": "2023-12-14",
+    "country": "India",
+    "users": 103
+  },
+  {
+    "date": "2023-12-14",
+    "country": "USA",
+    "users": 114
+  },
+  {
+    "date": "2023-12-14",
+    "country": "Russia",
+    "users": 102
+  },
+  {
+    "date": "2023-12-15",
+    "country": "India",
+    "users": 108
+  },
+  {
+    "date": "2023-12-15",
+    "country": "USA",
+    "users": 117
+  },
+  {
+    "date": "2023-12-15",
+    "country": "Russia",
+    "users": 142
+  },
+  {
+    "date": "2023-12-16",
+    "country": "India",
+    "users": 121
+  },
+  {
+    "date": "2023-12-16",
+    "country": "USA",
+    "users": 101
+  },
+  {
+    "date": "2023-12-16",
+    "country": "Russia",
+    "users": 121
+  },
+  {
+    "date": "2023-12-17",
+    "country": "India",
+    "users": 119
+  },
+  {
+    "date": "2023-12-17",
+    "country": "USA",
+    "users": 127
+  },
+  {
+    "date": "2023-12-17",
+    "country": "Russia",
+    "users": 137
+  },
+  {
+    "date": "2023-12-18",
+    "country": "India",
+    "users": 143
+  },
+  {
+    "date": "2023-12-18",
+    "country": "USA",
+    "users": 150
+  },
+  {
+    "date": "2023-12-18",
+    "country": "Russia",
+    "users": 112
+  },
+  {
+    "date": "2023-12-19",
+    "country": "India",
+    "users": 119
+  },
+  {
+    "date": "2023-12-19",
+    "country": "USA",
+    "users": 106
+  },
+  {
+    "date": "2023-12-19",
+    "country": "Russia",
+    "users": 119
+  },
+  {
+    "date": "2023-12-20",
+    "country": "India",
+    "users": 120
+  },
+  {
+    "date": "2023-12-20",
+    "country": "USA",
+    "users": 147
+  },
+  {
+    "date": "2023-12-20",
+    "country": "Russia",
+    "users": 122
+  },
+  {
+    "date": "2023-12-21",
+    "country": "India",
+    "users": 146
+  },
+  {
+    "date": "2023-12-21",
+    "country": "USA",
+    "users": 102
+  },
+  {
+    "date": "2023-12-21",
+    "country": "Russia",
+    "users": 108
+  },
+  {
+    "date": "2023-12-22",
+    "country": "India",
+    "users": 107
+  },
+  {
+    "date": "2023-12-22",
+    "country": "USA",
+    "users": 109
+  },
+  {
+    "date": "2023-12-22",
+    "country": "Russia",
+    "users": 150
+  },
+  {
+    "date": "2023-12-23",
+    "country": "India",
+    "users": 107
+  },
+  {
+    "date": "2023-12-23",
+    "country": "USA",
+    "users": 137
+  },
+  {
+    "date": "2023-12-23",
+    "country": "Russia",
+    "users": 126
+  },
+  {
+    "date": "2023-12-24",
+    "country": "India",
+    "users": 112
+  },
+  {
+    "date": "2023-12-24",
+    "country": "USA",
+    "users": 150
+  },
+  {
+    "date": "2023-12-24",
+    "country": "Russia",
+    "users": 110
+  },
+  {
+    "date": "2023-12-25",
+    "country": "India",
+    "users": 104
+  },
+  {
+    "date": "2023-12-25",
+    "country": "USA",
+    "users": 111
+  },
+  {
+    "date": "2023-12-25",
+    "country": "Russia",
+    "users": 138
+  },
+  {
+    "date": "2023-12-26",
+    "country": "India",
+    "users": 137
+  },
+  {
+    "date": "2023-12-26",
+    "country": "USA",
+    "users": 130
+  },
+  {
+    "date": "2023-12-26",
+    "country": "Russia",
+    "users": 135
+  },
+  {
+    "date": "2023-12-27",
+    "country": "India",
+    "users": 149
+  },
+  {
+    "date": "2023-12-27",
+    "country": "USA",
+    "users": 149
+  },
+  {
+    "date": "2023-12-27",
+    "country": "Russia",
+    "users": 124
+  },
+  {
+    "date": "2023-12-28",
+    "country": "India",
+    "users": 111
+  },
+  {
+    "date": "2023-12-28",
+    "country": "USA",
+    "users": 110
+  },
+  {
+    "date": "2023-12-28",
+    "country": "Russia",
+    "users": 147
+  },
+  {
+    "date": "2023-12-29",
+    "country": "India",
+    "users": 100
+  },
+  {
+    "date": "2023-12-29",
+    "country": "USA",
+    "users": 105
+  },
+  {
+    "date": "2023-12-29",
+    "country": "Russia",
+    "users": 142
+  },
+  {
+    "date": "2023-12-30",
+    "country": "India",
+    "users": 113
+  },
+  {
+    "date": "2023-12-30",
+    "country": "USA",
+    "users": 113
+  },
+  {
+    "date": "2023-12-30",
+    "country": "Russia",
+    "users": 121
+  },
+  {
+    "date": "2023-12-31",
+    "country": "India",
+    "users": 123
+  },
+  {
+    "date": "2023-12-31",
+    "country": "USA",
+    "users": 132
+  },
+  {
+    "date": "2023-12-31",
+    "country": "Russia",
+    "users": 119
+  },
+  {
+    "date": "2024-01-01",
+    "country": "India",
+    "users": 138
+  },
+  {
+    "date": "2024-01-01",
+    "country": "USA",
+    "users": 136
+  },
+  {
+    "date": "2024-01-01",
+    "country": "Russia",
+    "users": 138
+  },
+  {
+    "date": "2024-01-02",
+    "country": "India",
+    "users": 132
+  },
+  {
+    "date": "2024-01-02",
+    "country": "USA",
+    "users": 103
+  },
+  {
+    "date": "2024-01-02",
+    "country": "Russia",
+    "users": 132
+  },
+  {
+    "date": "2024-01-03",
+    "country": "India",
+    "users": 106
+  },
+  {
+    "date": "2024-01-03",
+    "country": "USA",
+    "users": 146
+  },
+  {
+    "date": "2024-01-03",
+    "country": "Russia",
+    "users": 132
+  },
+  {
+    "date": "2024-01-04",
+    "country": "India",
+    "users": 150
+  },
+  {
+    "date": "2024-01-04",
+    "country": "USA",
+    "users": 146
+  },
+  {
+    "date": "2024-01-04",
+    "country": "Russia",
+    "users": 136
+  },
+  {
+    "date": "2024-01-05",
+    "country": "India",
+    "users": 112
+  },
+  {
+    "date": "2024-01-05",
+    "country": "USA",
+    "users": 105
+  },
+  {
+    "date": "2024-01-05",
+    "country": "Russia",
+    "users": 114
+  },
+  {
+    "date": "2024-01-06",
+    "country": "India",
+    "users": 121
+  },
+  {
+    "date": "2024-01-06",
+    "country": "USA",
+    "users": 114
+  },
+  {
+    "date": "2024-01-06",
+    "country": "Russia",
+    "users": 125
+  },
+  {
+    "date": "2024-01-07",
+    "country": "India",
+    "users": 130
+  },
+  {
+    "date": "2024-01-07",
+    "country": "USA",
+    "users": 100
+  },
+  {
+    "date": "2024-01-07",
+    "country": "Russia",
+    "users": 130
+  },
+  {
+    "date": "2024-01-08",
+    "country": "India",
+    "users": 118
+  },
+  {
+    "date": "2024-01-08",
+    "country": "USA",
+    "users": 140
+  },
+  {
+    "date": "2024-01-08",
+    "country": "Russia",
+    "users": 148
+  },
+  {
+    "date": "2024-01-09",
+    "country": "India",
+    "users": 148
+  },
+  {
+    "date": "2024-01-09",
+    "country": "USA",
+    "users": 145
+  },
+  {
+    "date": "2024-01-09",
+    "country": "Russia",
+    "users": 101
+  },
+  {
+    "date": "2024-01-10",
+    "country": "India",
+    "users": 131
+  },
+  {
+    "date": "2024-01-10",
+    "country": "USA",
+    "users": 142
+  },
+  {
+    "date": "2024-01-10",
+    "country": "Russia",
+    "users": 147
+  },
+  {
+    "date": "2024-01-11",
+    "country": "India",
+    "users": 100
+  },
+  {
+    "date": "2024-01-11",
+    "country": "USA",
+    "users": 122
+  },
+  {
+    "date": "2024-01-11",
+    "country": "Russia",
+    "users": 143
+  },
+  {
+    "date": "2024-01-12",
+    "country": "India",
+    "users": 136
+  },
+  {
+    "date": "2024-01-12",
+    "country": "USA",
+    "users": 145
+  },
+  {
+    "date": "2024-01-12",
+    "country": "Russia",
+    "users": 147
+  },
+  {
+    "date": "2024-01-13",
+    "country": "India",
+    "users": 132
+  },
+  {
+    "date": "2024-01-13",
+    "country": "USA",
+    "users": 102
+  },
+  {
+    "date": "2024-01-13",
+    "country": "Russia",
+    "users": 146
+  },
+  {
+    "date": "2024-01-14",
+    "country": "India",
+    "users": 148
+  },
+  {
+    "date": "2024-01-14",
+    "country": "USA",
+    "users": 146
+  },
+  {
+    "date": "2024-01-14",
+    "country": "Russia",
+    "users": 120
+  },
+  {
+    "date": "2024-01-15",
+    "country": "India",
+    "users": 108
+  },
+  {
+    "date": "2024-01-15",
+    "country": "USA",
+    "users": 149
+  },
+  {
+    "date": "2024-01-15",
+    "country": "Russia",
+    "users": 122
+  },
+  {
+    "date": "2024-01-16",
+    "country": "India",
+    "users": 130
+  },
+  {
+    "date": "2024-01-16",
+    "country": "USA",
+    "users": 148
+  },
+  {
+    "date": "2024-01-16",
+    "country": "Russia",
+    "users": 132
+  },
+  {
+    "date": "2024-01-17",
+    "country": "India",
+    "users": 133
+  },
+  {
+    "date": "2024-01-17",
+    "country": "USA",
+    "users": 106
+  },
+  {
+    "date": "2024-01-17",
+    "country": "Russia",
+    "users": 137
+  },
+  {
+    "date": "2024-01-18",
+    "country": "India",
+    "users": 143
+  },
+  {
+    "date": "2024-01-18",
+    "country": "USA",
+    "users": 120
+  },
+  {
+    "date": "2024-01-18",
+    "country": "Russia",
+    "users": 108
+  },
+  {
+    "date": "2024-01-19",
+    "country": "India",
+    "users": 123
+  },
+  {
+    "date": "2024-01-19",
+    "country": "USA",
+    "users": 129
+  },
+  {
+    "date": "2024-01-19",
+    "country": "Russia",
+    "users": 125
+  },
+  {
+    "date": "2024-01-20",
+    "country": "India",
+    "users": 147
+  },
+  {
+    "date": "2024-01-20",
+    "country": "USA",
+    "users": 124
+  },
+  {
+    "date": "2024-01-20",
+    "country": "Russia",
+    "users": 113
+  },
+  {
+    "date": "2024-01-21",
+    "country": "India",
+    "users": 100
+  },
+  {
+    "date": "2024-01-21",
+    "country": "USA",
+    "users": 104
+  },
+  {
+    "date": "2024-01-21",
+    "country": "Russia",
+    "users": 111
+  },
+  {
+    "date": "2024-01-22",
+    "country": "India",
+    "users": 105
+  },
+  {
+    "date": "2024-01-22",
+    "country": "USA",
+    "users": 104
+  },
+  {
+    "date": "2024-01-22",
+    "country": "Russia",
+    "users": 137
+  },
+  {
+    "date": "2024-01-23",
+    "country": "India",
+    "users": 131
+  },
+  {
+    "date": "2024-01-23",
+    "country": "USA",
+    "users": 110
+  },
+  {
+    "date": "2024-01-23",
+    "country": "Russia",
+    "users": 137
+  },
+  {
+    "date": "2024-01-24",
+    "country": "India",
+    "users": 120
+  },
+  {
+    "date": "2024-01-24",
+    "country": "USA",
+    "users": 113
+  },
+  {
+    "date": "2024-01-24",
+    "country": "Russia",
+    "users": 129
+  },
+  {
+    "date": "2024-01-25",
+    "country": "India",
+    "users": 103
+  },
+  {
+    "date": "2024-01-25",
+    "country": "USA",
+    "users": 129
+  },
+  {
+    "date": "2024-01-25",
+    "country": "Russia",
+    "users": 113
+  },
+  {
+    "date": "2024-01-26",
+    "country": "India",
+    "users": 117
+  },
+  {
+    "date": "2024-01-26",
+    "country": "USA",
+    "users": 132
+  },
+  {
+    "date": "2024-01-26",
+    "country": "Russia",
+    "users": 135
+  },
+  {
+    "date": "2024-01-27",
+    "country": "India",
+    "users": 110
+  },
+  {
+    "date": "2024-01-27",
+    "country": "USA",
+    "users": 127
+  },
+  {
+    "date": "2024-01-27",
+    "country": "Russia",
+    "users": 124
+  },
+  {
+    "date": "2024-01-28",
+    "country": "India",
+    "users": 114
+  },
+  {
+    "date": "2024-01-28",
+    "country": "USA",
+    "users": 118
+  },
+  {
+    "date": "2024-01-28",
+    "country": "Russia",
+    "users": 108
+  },
+  {
+    "date": "2024-01-29",
+    "country": "India",
+    "users": 140
+  },
+  {
+    "date": "2024-01-29",
+    "country": "USA",
+    "users": 104
+  },
+  {
+    "date": "2024-01-29",
+    "country": "Russia",
+    "users": 121
+  },
+  {
+    "date": "2024-01-30",
+    "country": "India",
+    "users": 141
+  },
+  {
+    "date": "2024-01-30",
+    "country": "USA",
+    "users": 107
+  },
+  {
+    "date": "2024-01-30",
+    "country": "Russia",
+    "users": 116
+  },
+  {
+    "date": "2024-01-31",
+    "country": "India",
+    "users": 116
+  },
+  {
+    "date": "2024-01-31",
+    "country": "USA",
+    "users": 124
+  },
+  {
+    "date": "2024-01-31",
+    "country": "Russia",
+    "users": 125
+  },
+  {
+    "date": "2024-02-01",
+    "country": "India",
+    "users": 131
+  },
+  {
+    "date": "2024-02-01",
+    "country": "USA",
+    "users": 102
+  },
+  {
+    "date": "2024-02-01",
+    "country": "Russia",
+    "users": 102
+  },
+  {
+    "date": "2024-02-02",
+    "country": "India",
+    "users": 107
+  },
+  {
+    "date": "2024-02-02",
+    "country": "USA",
+    "users": 106
+  },
+  {
+    "date": "2024-02-02",
+    "country": "Russia",
+    "users": 123
+  },
+  {
+    "date": "2024-02-03",
+    "country": "India",
+    "users": 111
+  },
+  {
+    "date": "2024-02-03",
+    "country": "USA",
+    "users": 148
+  },
+  {
+    "date": "2024-02-03",
+    "country": "Russia",
+    "users": 124
+  },
+  {
+    "date": "2024-02-04",
+    "country": "India",
+    "users": 123
+  },
+  {
+    "date": "2024-02-04",
+    "country": "USA",
+    "users": 140
+  },
+  {
+    "date": "2024-02-04",
+    "country": "Russia",
+    "users": 129
+  },
+  {
+    "date": "2024-02-05",
+    "country": "India",
+    "users": 126
+  },
+  {
+    "date": "2024-02-05",
+    "country": "USA",
+    "users": 105
+  },
+  {
+    "date": "2024-02-05",
+    "country": "Russia",
+    "users": 146
+  },
+  {
+    "date": "2024-02-06",
+    "country": "India",
+    "users": 125
+  },
+  {
+    "date": "2024-02-06",
+    "country": "USA",
+    "users": 145
+  },
+  {
+    "date": "2024-02-06",
+    "country": "Russia",
+    "users": 100
+  },
+  {
+    "date": "2024-02-07",
+    "country": "India",
+    "users": 109
+  },
+  {
+    "date": "2024-02-07",
+    "country": "USA",
+    "users": 142
+  },
+  {
+    "date": "2024-02-07",
+    "country": "Russia",
+    "users": 113
+  },
+  {
+    "date": "2024-02-08",
+    "country": "India",
+    "users": 132
+  },
+  {
+    "date": "2024-02-08",
+    "country": "USA",
+    "users": 149
+  },
+  {
+    "date": "2024-02-08",
+    "country": "Russia",
+    "users": 116
+  },
+  {
+    "date": "2024-02-09",
+    "country": "India",
+    "users": 127
+  },
+  {
+    "date": "2024-02-09",
+    "country": "USA",
+    "users": 105
+  },
+  {
+    "date": "2024-02-09",
+    "country": "Russia",
+    "users": 101
+  },
+  {
+    "date": "2024-02-10",
+    "country": "India",
+    "users": 104
+  },
+  {
+    "date": "2024-02-10",
+    "country": "USA",
+    "users": 127
+  },
+  {
+    "date": "2024-02-10",
+    "country": "Russia",
+    "users": 120
+  },
+  {
+    "date": "2024-02-11",
+    "country": "India",
+    "users": 150
+  },
+  {
+    "date": "2024-02-11",
+    "country": "USA",
+    "users": 112
+  },
+  {
+    "date": "2024-02-11",
+    "country": "Russia",
+    "users": 128
+  },
+  {
+    "date": "2024-02-12",
+    "country": "India",
+    "users": 141
+  },
+  {
+    "date": "2024-02-12",
+    "country": "USA",
+    "users": 104
+  },
+  {
+    "date": "2024-02-12",
+    "country": "Russia",
+    "users": 145
+  },
+  {
+    "date": "2024-02-13",
+    "country": "India",
+    "users": 132
+  },
+  {
+    "date": "2024-02-13",
+    "country": "USA",
+    "users": 128
+  },
+  {
+    "date": "2024-02-13",
+    "country": "Russia",
+    "users": 136
+  },
+  {
+    "date": "2024-02-14",
+    "country": "India",
+    "users": 118
+  },
+  {
+    "date": "2024-02-14",
+    "country": "USA",
+    "users": 108
+  },
+  {
+    "date": "2024-02-14",
+    "country": "Russia",
+    "users": 144
+  },
+  {
+    "date": "2024-02-15",
+    "country": "India",
+    "users": 148
+  },
+  {
+    "date": "2024-02-15",
+    "country": "USA",
+    "users": 130
+  },
+  {
+    "date": "2024-02-15",
+    "country": "Russia",
+    "users": 124
+  },
+  {
+    "date": "2024-02-16",
+    "country": "India",
+    "users": 110
+  },
+  {
+    "date": "2024-02-16",
+    "country": "USA",
+    "users": 139
+  },
+  {
+    "date": "2024-02-16",
+    "country": "Russia",
+    "users": 127
+  },
+  {
+    "date": "2024-02-17",
+    "country": "India",
+    "users": 116
+  },
+  {
+    "date": "2024-02-17",
+    "country": "USA",
+    "users": 134
+  },
+  {
+    "date": "2024-02-17",
+    "country": "Russia",
+    "users": 134
+  },
+  {
+    "date": "2024-02-18",
+    "country": "India",
+    "users": 147
+  },
+  {
+    "date": "2024-02-18",
+    "country": "USA",
+    "users": 147
+  },
+  {
+    "date": "2024-02-18",
+    "country": "Russia",
+    "users": 132
+  },
+  {
+    "date": "2024-02-19",
+    "country": "India",
+    "users": 140
+  },
+  {
+    "date": "2024-02-19",
+    "country": "USA",
+    "users": 114
+  },
+  {
+    "date": "2024-02-19",
+    "country": "Russia",
+    "users": 138
+  },
+  {
+    "date": "2024-02-20",
+    "country": "India",
+    "users": 112
+  },
+  {
+    "date": "2024-02-20",
+    "country": "USA",
+    "users": 120
+  },
+  {
+    "date": "2024-02-20",
+    "country": "Russia",
+    "users": 107
+  },
+  {
+    "date": "2024-02-21",
+    "country": "India",
+    "users": 103
+  },
+  {
+    "date": "2024-02-21",
+    "country": "USA",
+    "users": 120
+  },
+  {
+    "date": "2024-02-21",
+    "country": "Russia",
+    "users": 121
+  },
+  {
+    "date": "2024-02-22",
+    "country": "India",
+    "users": 101
+  },
+  {
+    "date": "2024-02-22",
+    "country": "USA",
+    "users": 104
+  },
+  {
+    "date": "2024-02-22",
+    "country": "Russia",
+    "users": 143
+  },
+  {
+    "date": "2024-02-23",
+    "country": "India",
+    "users": 131
+  },
+  {
+    "date": "2024-02-23",
+    "country": "USA",
+    "users": 141
+  },
+  {
+    "date": "2024-02-23",
+    "country": "Russia",
+    "users": 113
+  },
+  {
+    "date": "2024-02-24",
+    "country": "India",
+    "users": 112
+  },
+  {
+    "date": "2024-02-24",
+    "country": "USA",
+    "users": 107
+  },
+  {
+    "date": "2024-02-24",
+    "country": "Russia",
+    "users": 100
+  },
+  {
+    "date": "2024-02-25",
+    "country": "India",
+    "users": 110
+  },
+  {
+    "date": "2024-02-25",
+    "country": "USA",
+    "users": 137
+  },
+  {
+    "date": "2024-02-25",
+    "country": "Russia",
+    "users": 149
+  },
+  {
+    "date": "2024-02-26",
+    "country": "India",
+    "users": 119
+  },
+  {
+    "date": "2024-02-26",
+    "country": "USA",
+    "users": 106
+  },
+  {
+    "date": "2024-02-26",
+    "country": "Russia",
+    "users": 139
+  },
+  {
+    "date": "2024-02-27",
+    "country": "India",
+    "users": 125
+  },
+  {
+    "date": "2024-02-27",
+    "country": "USA",
+    "users": 126
+  },
+  {
+    "date": "2024-02-27",
+    "country": "Russia",
+    "users": 105
+  },
+  {
+    "date": "2024-02-28",
+    "country": "India",
+    "users": 113
+  },
+  {
+    "date": "2024-02-28",
+    "country": "USA",
+    "users": 128
+  },
+  {
+    "date": "2024-02-28",
+    "country": "Russia",
+    "users": 137
+  },
+  {
+    "date": "2024-02-29",
+    "country": "India",
+    "users": 123
+  },
+  {
+    "date": "2024-02-29",
+    "country": "USA",
+    "users": 122
+  },
+  {
+    "date": "2024-02-29",
+    "country": "Russia",
+    "users": 112
+  },
+  {
+    "date": "2024-03-01",
+    "country": "India",
+    "users": 102
+  },
+  {
+    "date": "2024-03-01",
+    "country": "USA",
+    "users": 143
+  },
+  {
+    "date": "2024-03-01",
+    "country": "Russia",
+    "users": 138
+  },
+  {
+    "date": "2024-03-02",
+    "country": "India",
+    "users": 140
+  },
+  {
+    "date": "2024-03-02",
+    "country": "USA",
+    "users": 114
+  },
+  {
+    "date": "2024-03-02",
+    "country": "Russia",
+    "users": 135
+  },
+  {
+    "date": "2024-03-03",
+    "country": "India",
+    "users": 129
+  },
+  {
+    "date": "2024-03-03",
+    "country": "USA",
+    "users": 114
+  },
+  {
+    "date": "2024-03-03",
+    "country": "Russia",
+    "users": 118
+  },
+  {
+    "date": "2024-03-04",
+    "country": "India",
+    "users": 100
+  },
+  {
+    "date": "2024-03-04",
+    "country": "USA",
+    "users": 133
+  },
+  {
+    "date": "2024-03-04",
+    "country": "Russia",
+    "users": 133
+  },
+  {
+    "date": "2024-03-05",
+    "country": "India",
+    "users": 117
+  },
+  {
+    "date": "2024-03-05",
+    "country": "USA",
+    "users": 119
+  },
+  {
+    "date": "2024-03-05",
+    "country": "Russia",
+    "users": 106
+  },
+  {
+    "date": "2024-03-06",
+    "country": "India",
+    "users": 127
+  },
+  {
+    "date": "2024-03-06",
+    "country": "USA",
+    "users": 147
+  },
+  {
+    "date": "2024-03-06",
+    "country": "Russia",
+    "users": 143
+  },
+  {
+    "date": "2024-03-07",
+    "country": "India",
+    "users": 106
+  },
+  {
+    "date": "2024-03-07",
+    "country": "USA",
+    "users": 130
+  },
+  {
+    "date": "2024-03-07",
+    "country": "Russia",
+    "users": 135
+  },
+  {
+    "date": "2024-03-08",
+    "country": "India",
+    "users": 136
+  },
+  {
+    "date": "2024-03-08",
+    "country": "USA",
+    "users": 100
+  },
+  {
+    "date": "2024-03-08",
+    "country": "Russia",
+    "users": 130
+  },
+  {
+    "date": "2024-03-09",
+    "country": "India",
+    "users": 126
+  },
+  {
+    "date": "2024-03-09",
+    "country": "USA",
+    "users": 142
+  },
+  {
+    "date": "2024-03-09",
+    "country": "Russia",
+    "users": 124
+  },
+  {
+    "date": "2024-03-10",
+    "country": "India",
+    "users": 113
+  },
+  {
+    "date": "2024-03-10",
+    "country": "USA",
+    "users": 140
+  },
+  {
+    "date": "2024-03-10",
+    "country": "Russia",
+    "users": 103
+  },
+  {
+    "date": "2024-03-11",
+    "country": "India",
+    "users": 150
+  },
+  {
+    "date": "2024-03-11",
+    "country": "USA",
+    "users": 135
+  },
+  {
+    "date": "2024-03-11",
+    "country": "Russia",
+    "users": 141
+  },
+  {
+    "date": "2024-03-12",
+    "country": "India",
+    "users": 120
+  },
+  {
+    "date": "2024-03-12",
+    "country": "USA",
+    "users": 147
+  },
+  {
+    "date": "2024-03-12",
+    "country": "Russia",
+    "users": 115
+  },
+  {
+    "date": "2024-03-13",
+    "country": "India",
+    "users": 139
+  },
+  {
+    "date": "2024-03-13",
+    "country": "USA",
+    "users": 122
+  },
+  {
+    "date": "2024-03-13",
+    "country": "Russia",
+    "users": 112
+  },
+  {
+    "date": "2024-03-14",
+    "country": "India",
+    "users": 133
+  },
+  {
+    "date": "2024-03-14",
+    "country": "USA",
+    "users": 112
+  },
+  {
+    "date": "2024-03-14",
+    "country": "Russia",
+    "users": 122
+  },
+  {
+    "date": "2024-03-15",
+    "country": "India",
+    "users": 132
+  },
+  {
+    "date": "2024-03-15",
+    "country": "USA",
+    "users": 141
+  },
+  {
+    "date": "2024-03-15",
+    "country": "Russia",
+    "users": 130
+  }
+]

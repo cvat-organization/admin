@@ -1,0 +1,115 @@
+.Login-main-container {
+    position: relative;
+}
+
+.Login-picture-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.Login-picture-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Login-form-overlay {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    left: 0;
+    width: 50%; /* Set the login form to cover 50% of the image */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login.css */
+
+.Login-form-container {
+    /* Other existing styles */
+    background-color: white;
+    padding: 40px;
+    padding-bottom: 75px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space evenly between input fields and button */
+    color:#d19641;
+}
+
+  
+
+.Login-form-container input[type="email"],
+.Login-form-container input[type="password"] {
+    /* Styles for email and password input fields */
+    width: calc(100% - 20px); /* Adjust width to leave space for padding */
+    padding: 10px;
+    margin-bottom: 20px; /* Increase margin between input fields */
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black; 
+}
+
+.Forgot-password-link {
+    text-align: right;
+    font-size: 12px;
+}
+
+.Button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Increase space between input fields and button */
+}
+
+.Login-button, .Signup-button {
+    /* Button styles */
+    width: 100%;
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #d19641; /* Make background color consistent for both buttons */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.Login-button:hover, .Signup-button:hover {
+    background-color: #e2a959; /* Apply hover effect */
+}
+
+
+.Forgot-password-container {
+    text-align: right;
+}
+
+.Forgot-password-link {
+    font-size: 12px;
+}
+
+/* Login.css */
+
+@media only screen and (min-width: 768px) {
+    .Login-form-overlay {
+        width: 50%; /* Set the login form to cover 50% of the image */
+    }
+
+    .Login-form-container {
+        max-width: 400px;
+        margin: 0 auto; /* Center the form horizontally */
+    }
+}
+
+
+

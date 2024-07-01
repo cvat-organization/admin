@@ -1,0 +1,41 @@
+/* ChartPage.scss */
+@import "../styles/variables.scss";
+@import "../styles/responsive.scss";
+
+/* ChartPage.scss */
+
+/* Style for the container of the charts */
+.chart-page {
+    display: flex; /* Use flexbox */
+    flex-direction: row; /* Arrange charts horizontally */
+    justify-content: space-between; /* Distribute charts evenly */
+    padding: 10px;
+    gap: 20px; /* Add spacing between chart boxes */
+  }
+  
+  /* Style for the box containing each chart */
+  .chart-box {
+    flex: 1; /* Each chart box will take up equal space */
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid $soft-bg;
+    background-color: white;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .chart-page {
+      flex-direction: column; /* Change to a column layout on small screens */
+      align-items: center; /* Center items vertically */
+    }
+  
+    .chart-box {
+      width: 100%; /* Each chart box takes full width on small screens */
+      margin-bottom: 20px; /* Add space between chart boxes */
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .chart-page {
+      padding-left: 15px; /* Reduce padding on smaller screens */
+    }
+  }

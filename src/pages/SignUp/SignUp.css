@@ -1,0 +1,83 @@
+.Register-main-container {
+    position: relative;
+}
+
+.Register-picture-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.Register-picture-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Register-form-overlay {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    left: 0;
+    width: 50%; /* Set the register form to cover 50% of the image */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Register.css */
+
+.Register-form-container {
+    background-color: white;
+    padding: 40px;
+    padding-bottom: 75px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    color: #d19641;
+}
+
+.Register-form-container input[type="text"],
+.Register-form-container input[type="email"],
+.Register-form-container input[type="password"] {
+    width: calc(100% - 20px); /* Adjust width to leave space for padding */
+    padding: 10px;
+    margin-bottom: 20px; /* Increase margin between input fields */
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black; 
+}
+
+
+.Register-button {
+    width: 100%;
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #d19641; /* Make background color consistent for both buttons */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.Register-button:hover {
+    background-color: #e2a959; /* Apply hover effect */
+}
+
+.Forgot-password-container {
+    text-align: right;
+}
+
+.Forgot-password-link {
+    font-size: 12px;
+}
+
+
+

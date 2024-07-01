@@ -1,0 +1,126 @@
+@import "../../styles/responsive.scss";
+@import "../../styles/variables.scss";
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #faecd4; /* Ensures all text in the navbar is #d19641 */
+  background-color:  #d19641;
+  font-size: larger;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+    margin-right: auto;
+
+    .brand-logo {
+      font-size: 24px; /* Increase font size of the brand logo */
+    }
+
+    .sidebar-toggle {
+      background-color: #d19641;
+      border: none;
+      cursor: pointer;
+      padding: 8px; /* Adds padding to make it look like a button */
+      margin-right: 10px;
+      border-radius: 4px; /* Adds rounded corners */
+
+      img {
+        width: 24px;
+        height: 24px;
+        filter: invert(100%); /* Makes the icon white */
+      }
+    }
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+
+    .icon {
+      border-radius: 50%;
+      padding: 8px; /* Adds padding to make icons clickable */
+      transition: background-color 0.3s ease; /* Adds transition for smoother hover effect */
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1); /* Adds subtle hover effect */
+      }
+
+      @include sm {
+        display: none;
+      }
+    }
+
+    .user {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #faecd4; /* Ensure username text color is #d19641 */
+
+      img {
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid#faecd4; /* Add border with #d19641 color */
+      }
+    }
+  }
+
+  .menu-toggle {
+    background-color: #d19641;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .profile-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #d19641; /* Ensure profile button text color is #d19641 */
+  }
+
+  .profile-dropdown {
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    right: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 100;
+    min-width: 120px;
+    color: #d19641; /* Ensure dropdown text color is #d19641 */
+
+    a,
+    button {
+      display: block;
+      padding: 8px 12px;
+      text-decoration: none;
+      color: #d19641; /* Default color for links/buttons in dropdown */
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #f5f5f5;
+      }
+    }
+
+    button {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      width: 100%;
+      text-align: left;
+      font-size: 14px;
+    }
+  }
+}
