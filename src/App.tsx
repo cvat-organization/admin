@@ -11,16 +11,11 @@ import Layout from "./components/Layout/Layout";
 import NewPassword from "./pages/ForgotPassword/NewPassword";
 import ViewVendor from "./pages/Vendor/vendor_page";
 import ProfilePage from "./pages/Profile/Profile";
-import SearchVendor from "./components/vendor/search_vendor";
-import ModifyVendor from "./components/vendor/modify_vendor";
-import AddVendor from "./components/vendor/add_vendor";
-import ResetVendorPassword from "./components/vendor/resetpsw_vendor";
-import UpdateVendor from "./components/vendor/update_vendor";
 import ViewUser from "./components/users/view_user";
-import UpdateUser from "./components/users/update_user";
 import ViewUserActivities from "./components/users/ViewUserActivities";
-import ViewActivities from "./pages/Activity/activity_table";
 import UserActivities from "./components/users/UserActivities";
+import SettingsPage from "./pages/Settings/settings";
+import ViewActivities from "./pages/Activity/activity_table";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +28,10 @@ function App() {
         {
           path: "/",
           element: <Home />,
+        },
+        {
+          path: "/settings",
+          element: <SettingsPage />,
         },
         {
           path: "/profile",
@@ -51,16 +50,16 @@ function App() {
           element: <ViewUser />,
         },
         {
-          path: "/user/update",
-          element: <UpdateUser />,
-        },
-        {
-          path: "/activities",
-          element: <ViewActivities />,
+          path: "/users/activities",
+          element: <ViewUserActivities />,
         },
         {
           path: "/user/:userId/activities",
           element: <UserActivities />,
+        },
+        {
+          path: "/activities",
+          element: <ViewActivities />,
         },
       ],
     },

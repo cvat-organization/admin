@@ -28,15 +28,18 @@
 .table-container {
   width: 100%;
   overflow-x: auto;
+  overflow-y: auto; /* Enables vertical scrolling */
 }
 
-.user-table {
-  width: 100%;
-  border-collapse: collapse;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+.user-table th {
+  background-color: #f2f2f2;
+  color: #333333;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 10; /* Ensures the header stays on top */
 }
+
 
 .user-table th,
 .user-table td {
@@ -56,7 +59,7 @@
 }
 
 .user-table button {
-  background-color: #4caf50;
+  
   color: white;
   border: none;
   padding: 8px 16px;
@@ -66,7 +69,8 @@
 }
 
 .user-table button:hover {
-  background-color: #45a049;
+  transform: scale(1.2);
+  background-color: transparent;
 }
 
 .modal {
@@ -87,14 +91,149 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  width: 400px;
+  width: 35%;
+  max-height: 90%; /* Adjust maximum height as per your design */
+  overflow: auto; /* Enable scrolling if content exceeds modal size */
   position: relative;
 }
+.modal-content::-webkit-scrollbar {
+  width: 0; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
 
+.modal-content {
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
 .close-button {
   position: absolute;
   top: 10px;
   right: 10px;
   font-size: 20px;
   cursor: pointer;
+}
+
+.export-excel-button {
+  background-color: #4caf50; /* Adjust color as needed */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-bottom: 10px; /* Adjust spacing as needed */
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.export-excel-button:hover {
+  background-color: #45a049; /* Adjust hover color as needed */
+}
+
+.export-pdf-button {
+  background-color: #4caf50; /* Adjust color as needed */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-bottom: 10px; /* Adjust spacing as needed */
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.export-excel-button:hover {
+  background-color: #45a049; /* Adjust hover color as needed */
+}
+
+.modify-button, .activity-button, .challenges-button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.modify-button img, .activity-button img, .challenges-button img {
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+}
+
+.activity-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.activity-card h3 {
+  margin-top: 0;
+}
+
+.activity-card p {
+  margin: 4px 0;
+}
+
+.form-group input[type="number"], input[type="password"] {
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-group select {
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.table-scroll {
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 600px; /* Adjust height as needed */
+}
+
+/* Hide scrollbar for webkit (Chrome, Safari) */
+.table-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.table-scroll {
+  scrollbar-width: none;
+}
+
+.delete-button {
+  background-color: #e74c3c; /* Red color for delete */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+.update-button {
+  
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
 }

@@ -127,13 +127,13 @@ const ChartController: React.FC<ChartControllerProps> = () => {
               endDate={endDate}
             />
           </div>
-          <div className="chart-box">
+          {/* <div className="chart-box">
             <ChallengeBarChart
               selectedRange={selectedRange}
               startDate={startDate}
               endDate={endDate}
             />
-          </div>
+          </div> */}
         </div>
         <div className="chart-page">
           <div className="chart-box">
@@ -143,13 +143,13 @@ const ChartController: React.FC<ChartControllerProps> = () => {
               endDate={endDate}
             />
           </div>
-          <div className="chart-box">
+          {/* <div className="chart-box">
             <UserCountry
               selectedRange={selectedRange}
               startDate={startDate}
               endDate={endDate}
             />
-          </div>
+          </div> */}
           <div className="chart-box">
             <UserActivity
               selectedRange={selectedRange}

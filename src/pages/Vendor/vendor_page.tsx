@@ -1,6 +1,9 @@
 import React, { useState, useEffect, ChangeEvent } from "react";
 import axios from "axios";
-import "./vendor_page.css";
+import './vendor_page.css'
+import * as XLSX from "xlsx"; // Import xlsx library for Excel operations
+import jsPDF from "jspdf";
+import "jspdf-autotable";
 import { useNavigate } from "react-router-dom";
 
 interface User {
@@ -193,6 +196,7 @@ const ViewVendor: React.FC = () => {
       console.error("Error creating vendor:", error);
     }
   };
+  
 
   const filteredUsers = users.filter(
     (user) =>
@@ -215,6 +219,54 @@ const ViewVendor: React.FC = () => {
       reader.readAsDataURL(file);
     }
   };
+  
+  const handleExportToExcel = () => {
+    // Convert users data to Excel format
+    const ws = XLSX.utils.json_to_sheet(users);
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, "Users");
+
+    // Save Excel file
+    XLSX.writeFile(wb, "Vendor.xlsx");
+
+    // Optionally, you can add feedback to the user
+    console.log("Users exported to Excel");
+  };
+
+  const handleExportToPDF = () => {
+    // Initialize PDF document
+    const doc = new jsPDF();
+
+    // Define columns for PDF table
+    const columns = [
+      "Full Name",
+      "Email",
+      "User Type",
+      "Is Active",
+      "Created At",
+      "Updated At",
+    ];
+
+    // Map Vendor data to rows array
+    const rows = users.map((user) => [
+      user._id,
+      user.fullName,
+      user.email,
+      user.userType,
+      user.isActive ? "Yes" : "No",
+      user.createdAt,
+      user.updatedAt,
+    ]);
+
+    // Add table to PDF document using autoTable plugin
+    (doc as any).autoTable({ head: [columns], body: rows });
+
+    // Save PDF file
+    doc.save("vendor.pdf");
+
+    // Optionally, you can add feedback to the user
+    console.log("Vendor exported to PDF");
+  };
 
   return (
     <div className="simple-component-container">
@@ -227,6 +279,12 @@ const ViewVendor: React.FC = () => {
           Create Vendor
         </button>
       </div>
+      <button className="export-excel-button" onClick={handleExportToExcel}>
+        Export to Excel
+      </button>
+      <button className="export-pdf-button" onClick={handleExportToPDF}>
+        Export to PDF
+      </button>
       <div className="search-container">
         <input
           type="text"
@@ -244,7 +302,7 @@ const ViewVendor: React.FC = () => {
               <th>Email</th>
               <th>Phone Number</th>
               <th>User Type</th>
-                <th>Service Type</th>
+              <th>Service Type</th>
               <th>Active</th>
               <th>Created At</th>
               <th>Updated At</th>
@@ -263,9 +321,12 @@ const ViewVendor: React.FC = () => {
                 <td>{user.createdAt}</td>
                 <td>{user.updatedAt}</td>
                 <td>
-                  <button onClick={() => handleModify(user._id)}>
-                    Modify
-                  </button>
+                <button
+                      className="modify-button"
+                      onClick={() => handleModify(user._id)}
+                    >
+                      <img src={`/view.svg`} alt="Modify" />
+                    </button>
                 </td>
               </tr>
             ))}
@@ -276,8 +337,10 @@ const ViewVendor: React.FC = () => {
       {isModifyModalOpen && selectedUser && (
         <div className="modal">
           <div className="modal-content">
-          <button className="close-modal-button" onClick={() => setIsModifyModalOpen(false)}>X</button>
-            <h2>Modify User</h2>
+            <div className="modal-header">
+                      <h2>Modify User</h2>
+                      <button className="close-modal-button" onClick={() => setIsModifyModalOpen(false)}>X</button>
+            </div>
             <form>
                 <div className="form-group">
               <label>Buisness Name:</label>
@@ -410,10 +473,11 @@ const ViewVendor: React.FC = () => {
                         }
                     />
                 </div>
-              <button type="button" onClick={handleUpdateUser}>
+              <button type="submit" className="update-button" onClick={handleUpdateUser}>
                 Update
               </button>
-              <button onClick={() => setIsModifyModalOpen(false)}>Close</button>
+              <button
+              className="delete-button" onClick={() => setIsModifyModalOpen(false)}>Close</button>
             </form>
             
           </div>
@@ -424,8 +488,10 @@ const ViewVendor: React.FC = () => {
         <div className="modal">
             
           <div className="modal-content">
-          <button className="close-modal-button" onClick={() => setIsModifyModalOpen(false)}>X</button>
-            <h2>Create Vendor</h2>
+            <div className="modal-header">
+                        <h2>Create Vendor</h2>
+                        <button className="close-modal-button" onClick={() => setIsCreateModalOpen(false)}>X</button>
+            </div>
             <form>
                 <div className="form-group">
               <label>Business Name:</label>
@@ -589,10 +655,10 @@ const ViewVendor: React.FC = () => {
                 <option value="true">Yes</option>
               </select>
                 </div>
-              <button type="button" onClick={handleCreateUser}>
+              <button className="update-button" type="button" onClick={handleCreateUser}>
                 Create Vendor
               </button>
-              <button onClick={() => setIsCreateModalOpen(false)}>Close</button>
+              <button className="delete-button" onClick={() => setIsCreateModalOpen(false)}>Close</button>
             </form>
             
           </div>

@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./view_activities.css"; // Import CSS file for component-specific styles
+import "./activity_table.css";
+import * as XLSX from "xlsx"; // Import xlsx library for Excel operations
+import jsPDF from "jspdf";
+import "jspdf-autotable";
 
 interface TrackableActivity {
   _id: string;
@@ -12,6 +15,7 @@ interface TrackableActivity {
 
 interface Activity {
   _id: string;
+  fullName: string;
   userID: string;
   trackableActivitiesHistory: TrackableActivity[];
   untrackableActivitiesHistory?: Array<any>;
@@ -57,8 +61,13 @@ const ViewActivities: React.FC = () => {
     const end = new Date(endTime);
     const duration = Math.abs(end.getTime() - start.getTime()) / 1000;
     const minutes = Math.floor(duration / 60);
-    const seconds = duration % 60;
+    const seconds = (duration % 60).toFixed(0);
     return `${minutes}m ${seconds}s`;
+  };
+
+  const formatDateTime = (dateTime: string) => {
+    const date = new Date(dateTime);
+    return date.toLocaleString();
   };
 
   const filteredActivities = activities.filter(
@@ -67,11 +76,64 @@ const ViewActivities: React.FC = () => {
       activity._id.includes(searchQuery)
   );
 
+  const handleExportToExcel = () => {
+    // Convert users data to Excel format
+    const ws = XLSX.utils.json_to_sheet(activities);
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, "Activities");
+
+    // Save Excel file
+    XLSX.writeFile(wb, "Activities.xlsx");
+
+    // Optionally, you can add feedback to the user
+    console.log("Activities exported to Excel");
+  };
+
+  const handleExportToPDF = () => {
+    // Initialize PDF document
+    const doc = new jsPDF();
+
+    // Define columns for PDF table
+    const columns = [
+      "Full Name",
+      "Email",
+      "User Type",
+      "Is Active",
+      "Created At",
+      "Updated At",
+    ];
+
+    // Map users data to rows array
+    const rows = activities.map((activities) => [
+      activities._id,
+      activities.fullName,
+      activities. trackableActivitiesHistory,
+      activities.untrackableActivitiesHistory,
+      activities.createdAt,
+      activities.updatedAt,
+    ]);
+
+    // Add table to PDF document using autoTable plugin
+    (doc as any).autoTable({ head: [columns], body: rows });
+
+    // Save PDF file
+    doc.save("activities.pdf");
+
+    // Optionally, you can add feedback to the user
+    console.log("Activities exported to PDF");
+  };
+
   return (
     <div className="simple-component-container">
       <div className="header-container">
         <h2 className="component-title">Activity List</h2>
       </div>
+      <button className="export-excel-button" onClick={handleExportToExcel}>
+        Export to Excel
+      </button>
+      <button className="export-pdf-button" onClick={handleExportToPDF}>
+        Export to PDF
+      </button>
       <div className="search-container">
         <input
           type="text"
@@ -82,10 +144,11 @@ const ViewActivities: React.FC = () => {
         />
       </div>
       <div className="table-container">
+        <div className="table-scroll">
         <table className="activity-table">
           <thead>
             <tr>
-                <th>User ID</th>
+              <th>Name</th>
               <th>Activity Name</th>
               <th>Duration</th>
               <th>Is Active</th>
@@ -98,15 +161,20 @@ const ViewActivities: React.FC = () => {
             {filteredActivities.map((activity) => (
               <React.Fragment key={activity._id}>
                 {activity.trackableActivitiesHistory.map((trackableActivity) => (
-                  <tr key={trackableActivity._id}>  
-                    <td>{activity.userID}</td>
+                  <tr key={trackableActivity._id}>
+                    <td>{activity.fullName}</td>
                     <td>{trackableActivity.activityName}</td>
                     <td>{calculateDuration(trackableActivity.startTime, trackableActivity.endTime)}</td>
                     <td>{activity.isActive ? "Yes" : "No"}</td>
-                    <td>{activity.createdAt}</td>
-                    <td>{activity.updatedAt}</td>
+                    <td>{formatDateTime(activity.createdAt)}</td>
+                    <td>{formatDateTime(activity.updatedAt)}</td>
                     <td>
-                      <button onClick={() => setSelectedActivity(activity)}>View</button>
+                      <button
+                        className="view-button"
+                        onClick={() => setSelectedActivity(activity)}
+                      >
+                        <img src={`/view.svg`} alt="Modify" />
+                      </button>
                     </td>
                   </tr>
                 ))}
@@ -114,29 +182,29 @@ const ViewActivities: React.FC = () => {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
 
       {selectedActivity && (
         <div className="modal">
           <div className="modal-content">
-            <span className="close-button" onClick={() => setSelectedActivity(null)}>
-              &times;
-            </span>
+            <div className="modal-header">
             <h2>Activity Details</h2>
+            <button className="close-modal-button" onClick={() => setSelectedActivity(null)}>X</button>
+            </div>
             <p><strong>Activity ID:</strong> {selectedActivity._id}</p>
-            <p><strong>User ID:</strong> {selectedActivity.userID}</p>
             <p><strong>Is Active:</strong> {selectedActivity.isActive ? "Yes" : "No"}</p>
-            <p><strong>Created At:</strong> {selectedActivity.createdAt}</p>
-            <p><strong>Updated At:</strong> {selectedActivity.updatedAt}</p>
+            <p><strong>Created At:</strong> {formatDateTime(selectedActivity.createdAt)}</p>
+            <p><strong>Updated At:</strong> {formatDateTime(selectedActivity.updatedAt)}</p>
             <h3>Trackable Activities:</h3>
             <ul>
               {selectedActivity.trackableActivitiesHistory.map((trackableActivity) => (
                 <li key={trackableActivity._id}>
                   <p><strong>Activity Name:</strong> {trackableActivity.activityName}</p>
-                  <p><strong>Start Time:</strong> {trackableActivity.startTime}</p>
-                  <p><strong>End Time:</strong> {trackableActivity.endTime}</p>
+                  <p><strong>Start Time:</strong> {formatDateTime(trackableActivity.startTime)}</p>
+                  <p><strong>End Time:</strong> {formatDateTime(trackableActivity.endTime)}</p>
                   <p><strong>Duration:</strong> {calculateDuration(trackableActivity.startTime, trackableActivity.endTime)}</p>
-                  <p><strong>Parameters:</strong> {JSON.stringify(trackableActivity.parameters)}</p>
+                  {/* <p><strong>Parameters:</strong> {JSON.stringify(trackableActivity.parameters)}</p> */}
                 </li>
               ))}
             </ul>
